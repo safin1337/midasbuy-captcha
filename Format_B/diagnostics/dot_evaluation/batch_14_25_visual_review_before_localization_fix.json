@@ -1,0 +1,460 @@
+{
+  "reviewer": "assistant_visual_inspection",
+  "note": "Approximate targets inferred by visually inspecting raw screenshots. Not user-confirmed labels, blind test ground truth, or training data. MISSING means no candidate box center is within 18 pixels of the visually identified prompt target.",
+  "samples": [
+    {
+      "image": "input14.png",
+      "source_sha256": "bd43de663188d3042ae8eb8c4b9f8e628e4e440c4005bd2bde62dcb1562f46ae",
+      "pipeline_order": [
+        "C",
+        "A",
+        "E"
+      ],
+      "visual_target_centers": [
+        [
+          339,
+          159
+        ],
+        [
+          119,
+          113
+        ],
+        [
+          341,
+          333
+        ]
+      ],
+      "visual_candidate_order": [
+        "C",
+        "A",
+        "E"
+      ],
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": []
+    },
+    {
+      "image": "input15.png",
+      "source_sha256": "2cacb3518937cf637cb93797099ae8399a2b14493ab993b48647aa90d8cc3312",
+      "pipeline_order": [
+        "C",
+        "E",
+        "A"
+      ],
+      "visual_target_centers": [
+        [
+          404,
+          127
+        ],
+        [
+          405,
+          349
+        ],
+        [
+          139,
+          128
+        ]
+      ],
+      "visual_candidate_order": [
+        "B",
+        "E",
+        "A"
+      ],
+      "visually_consistent_positions": [
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [
+        1
+      ],
+      "confident_wrong_positions": [],
+      "review_positions": [
+        1
+      ]
+    },
+    {
+      "image": "input16.png",
+      "source_sha256": "5748a5497ff03e3f0d9409919d6e93330ef5bbe1db65f6b055f5fc5be64552ac",
+      "pipeline_order": [
+        "A",
+        "E",
+        "C"
+      ],
+      "visual_target_centers": [
+        [
+          49,
+          216
+        ],
+        [
+          272,
+          349
+        ],
+        [
+          183,
+          261
+        ]
+      ],
+      "visual_candidate_order": [
+        "A",
+        "E",
+        "C"
+      ],
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": [
+        2
+      ]
+    },
+    {
+      "image": "input17.png",
+      "source_sha256": "c339a3c4dc8a458cb48ff3800793dbb28deaf25008c0a58d507deb80f64c7993",
+      "pipeline_order": [
+        "C",
+        "D",
+        "A"
+      ],
+      "visual_target_centers": [
+        [
+          315,
+          129
+        ],
+        [
+          315,
+          215
+        ],
+        [
+          182,
+          129
+        ]
+      ],
+      "visual_candidate_order": [
+        "MISSING",
+        "D",
+        "A"
+      ],
+      "visually_consistent_positions": [
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [
+        1
+      ],
+      "confident_wrong_positions": [],
+      "review_positions": [
+        1,
+        2
+      ]
+    },
+    {
+      "image": "input18.png",
+      "source_sha256": "271c34d2709de29de592ea370b6765c857c42922d0b6eef8aa10572ba6f4718b",
+      "pipeline_order": [
+        "E",
+        "D",
+        "C"
+      ],
+      "visual_target_centers": [
+        [
+          318,
+          351
+        ],
+        [
+          315,
+          306
+        ],
+        [
+          316,
+          260
+        ]
+      ],
+      "visual_candidate_order": [
+        "E",
+        "D",
+        "C"
+      ],
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": []
+    },
+    {
+      "image": "input19.png",
+      "source_sha256": "8049761a0309ee27499e0dbb23b2b31b2ca83f88f3670190537018cd85475f8c",
+      "pipeline_order": [
+        "D",
+        "C",
+        "A"
+      ],
+      "visual_target_centers": [
+        [
+          228,
+          260
+        ],
+        [
+          139,
+          128
+        ],
+        [
+          272,
+          306
+        ]
+      ],
+      "visual_candidate_order": [
+        "D",
+        "A",
+        "MISSING"
+      ],
+      "visually_consistent_positions": [
+        1
+      ],
+      "suspected_wrong_positions": [
+        2,
+        3
+      ],
+      "confident_wrong_positions": [],
+      "review_positions": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "image": "input20.png",
+      "source_sha256": "c80add0d9b0d49cd01582941dad89bdedc63f668b424093d102276ba591e08b3",
+      "pipeline_order": [
+        "B",
+        "C",
+        "E"
+      ],
+      "visual_target_centers": [
+        [
+          139,
+          216
+        ],
+        [
+          273,
+          216
+        ],
+        [
+          139,
+          349
+        ]
+      ],
+      "visual_candidate_order": [
+        "B",
+        "C",
+        "E"
+      ],
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": []
+    },
+    {
+      "image": "input21.png",
+      "source_sha256": "fb9cf58f96e548eff850bb7e32cbb9e57e2f01871e2083035c0de927b1984de8",
+      "pipeline_order": [
+        "A",
+        "D",
+        "C"
+      ],
+      "visual_target_centers": [
+        [
+          49,
+          129
+        ],
+        [
+          49,
+          174
+        ],
+        [
+          360,
+          172
+        ]
+      ],
+      "visual_candidate_order": [
+        "A",
+        "D",
+        "C"
+      ],
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": []
+    },
+    {
+      "image": "input22.png",
+      "source_sha256": "3dcb9e96fce64b6e278b1aeeefc6fd7a79350bb186f6f31e2da1bc9f494ac8bc",
+      "pipeline_order": [
+        "C",
+        "B",
+        "A"
+      ],
+      "visual_target_centers": [
+        [
+          362,
+          216
+        ],
+        [
+          361,
+          129
+        ],
+        [
+          139,
+          129
+        ]
+      ],
+      "visual_candidate_order": [
+        "C",
+        "B",
+        "A"
+      ],
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": [
+        2,
+        3
+      ]
+    },
+    {
+      "image": "input23.png",
+      "source_sha256": "6b3587b580a6b96b85ded7ab4d3228a8c37c2bd6b90d1781b71f18c1597d03c7",
+      "pipeline_order": [
+        "E",
+        "D",
+        "C"
+      ],
+      "visual_target_centers": [
+        [
+          95,
+          305
+        ],
+        [
+          272,
+          260
+        ],
+        [
+          95,
+          260
+        ]
+      ],
+      "visual_candidate_order": [
+        "E",
+        "D",
+        "C"
+      ],
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": [
+        1
+      ]
+    },
+    {
+      "image": "input24.png",
+      "source_sha256": "e0614a5a5d0c486504df5d5dde8a981bde1bb2be3abe70d64047fa71c7b9b3f8",
+      "pipeline_order": [
+        "D",
+        "E",
+        "C"
+      ],
+      "visual_target_centers": [
+        [
+          316,
+          349
+        ],
+        [
+          95,
+          349
+        ],
+        [
+          272,
+          305
+        ]
+      ],
+      "visual_candidate_order": [
+        "D",
+        "E",
+        "C"
+      ],
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": []
+    },
+    {
+      "image": "input25.png",
+      "source_sha256": "7ac3cecf59a3e863259baef049955ed1eeaf71e78b5e23f35979311be79112c8",
+      "pipeline_order": [
+        "C",
+        "B",
+        "E"
+      ],
+      "visual_target_centers": [
+        [
+          138,
+          302
+        ],
+        [
+          94,
+          168
+        ],
+        [
+          229,
+          346
+        ]
+      ],
+      "visual_candidate_order": [
+        "C",
+        "B",
+        "E"
+      ],
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": [
+        2,
+        3
+      ]
+    }
+  ]
+}

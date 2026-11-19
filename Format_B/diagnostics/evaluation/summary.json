@@ -1,0 +1,389 @@
+{
+  "note": "Manually reviewed development samples only; no unseen test accuracy established.",
+  "correct_targets": 24,
+  "total_targets": 30,
+  "correct_images": 4,
+  "total_images": 10,
+  "samples": [
+    {
+      "image": "input.png",
+      "expected": [
+        [
+          315,
+          124
+        ],
+        [
+          139,
+          301
+        ],
+        [
+          357,
+          171
+        ]
+      ],
+      "actual": [
+        [
+          315,
+          124
+        ],
+        [
+          139,
+          301
+        ],
+        [
+          357,
+          171
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "all_correct": true,
+      "review_status": "review_required"
+    },
+    {
+      "image": "input2.png",
+      "expected": [
+        [
+          395,
+          208
+        ],
+        [
+          395,
+          119
+        ],
+        [
+          129,
+          341
+        ]
+      ],
+      "actual": [
+        [
+          393,
+          209
+        ],
+        [
+          395,
+          119
+        ],
+        [
+          130,
+          341
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "all_correct": true,
+      "review_status": "proposed_matches"
+    },
+    {
+      "image": "input3.png",
+      "expected": [
+        [
+          128,
+          291
+        ],
+        [
+          394,
+          250
+        ],
+        [
+          84,
+          203
+        ]
+      ],
+      "actual": [
+        [
+          128,
+          291
+        ],
+        [
+          393,
+          248
+        ],
+        [
+          394,
+          159
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        false
+      ],
+      "all_correct": false,
+      "review_status": "review_required"
+    },
+    {
+      "image": "input4.png",
+      "expected": [
+        [
+          83,
+          298
+        ],
+        [
+          306,
+          120
+        ],
+        [
+          85,
+          119
+        ]
+      ],
+      "actual": [
+        [
+          83,
+          298
+        ],
+        [
+          306,
+          120
+        ],
+        [
+          129,
+          297
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        false
+      ],
+      "all_correct": false,
+      "review_status": "review_required"
+    },
+    {
+      "image": "input5.png",
+      "expected": [
+        [
+          342,
+          248
+        ],
+        [
+          120,
+          337
+        ],
+        [
+          385,
+          117
+        ]
+      ],
+      "actual": [
+        [
+          342,
+          249
+        ],
+        [
+          209,
+          293
+        ],
+        [
+          385,
+          117
+        ]
+      ],
+      "correct": [
+        true,
+        false,
+        true
+      ],
+      "all_correct": false,
+      "review_status": "review_required"
+    },
+    {
+      "image": "input6.png",
+      "expected": [
+        [
+          168,
+          158
+        ],
+        [
+          300,
+          250
+        ],
+        [
+          300,
+          157
+        ]
+      ],
+      "actual": [
+        [
+          168,
+          158
+        ],
+        [
+          300,
+          250
+        ],
+        [
+          300,
+          159
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "all_correct": true,
+      "review_status": "review_required"
+    },
+    {
+      "image": "input7.png",
+      "expected": [
+        [
+          214,
+          120
+        ],
+        [
+          394,
+          250
+        ],
+        [
+          129,
+          339
+        ]
+      ],
+      "actual": [
+        [
+          215,
+          119
+        ],
+        [
+          394,
+          250
+        ],
+        [
+          229,
+          386
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        false
+      ],
+      "all_correct": false,
+      "review_status": "review_required"
+    },
+    {
+      "image": "input8.png",
+      "expected": [
+        [
+          170,
+          117
+        ],
+        [
+          38,
+          210
+        ],
+        [
+          392,
+          117
+        ]
+      ],
+      "actual": [
+        [
+          170,
+          117
+        ],
+        [
+          139,
+          229
+        ],
+        [
+          392,
+          117
+        ]
+      ],
+      "correct": [
+        true,
+        false,
+        true
+      ],
+      "all_correct": false,
+      "review_status": "review_required"
+    },
+    {
+      "image": "input9.png",
+      "expected": [
+        [
+          262,
+          119
+        ],
+        [
+          85,
+          254
+        ],
+        [
+          85,
+          163
+        ]
+      ],
+      "actual": [
+        [
+          262,
+          119
+        ],
+        [
+          85,
+          254
+        ],
+        [
+          85,
+          164
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "all_correct": true,
+      "review_status": "review_required"
+    },
+    {
+      "image": "input10.png",
+      "expected": [
+        [
+          121,
+          184
+        ],
+        [
+          163,
+          359
+        ],
+        [
+          427,
+          273
+        ]
+      ],
+      "actual": [
+        [
+          121,
+          184
+        ],
+        [
+          163,
+          359
+        ],
+        [
+          406,
+          273
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        false
+      ],
+      "all_correct": false,
+      "review_status": "review_required"
+    }
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "status": "review_required",
+  "score_note": "Shape similarity only; not a calibrated probability. Human review is required before use.",
+  "assignment_margin": 0.0057,
+  "references": [
+    {
+      "order": 1,
+      "box": [
+        236,
+        58,
+        33,
+        28
+      ],
+      "relative_box": [
+        -186,
+        28,
+        33,
+        28
+      ]
+    },
+    {
+      "order": 2,
+      "box": [
+        269,
+        58,
+        33,
+        28
+      ],
+      "relative_box": [
+        -153,
+        28,
+        33,
+        28
+      ]
+    },
+    {
+      "order": 3,
+      "box": [
+        302,
+        58,
+        30,
+        28
+      ],
+      "relative_box": [
+        -120,
+        28,
+        30,
+        28
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "T01",
+      "box": [
+        372,
+        137,
+        45,
+        44
+      ],
+      "relative_box": [
+        -50,
+        107,
+        45,
+        44
+      ]
+    },
+    {
+      "id": "T02",
+      "box": [
+        407,
+        157,
+        35,
+        22
+      ],
+      "relative_box": [
+        -15,
+        127,
+        35,
+        22
+      ]
+    },
+    {
+      "id": "T03",
+      "box": [
+        46,
+        184,
+        19,
+        26
+      ],
+      "relative_box": [
+        -376,
+        154,
+        19,
+        26
+      ]
+    },
+    {
+      "id": "T04",
+      "box": [
+        65,
+        184,
+        39,
+        39
+      ],
+      "relative_box": [
+        -357,
+        154,
+        39,
+        39
+      ]
+    },
+    {
+      "id": "T05",
+      "box": [
+        367,
+        188,
+        64,
+        20
+      ],
+      "relative_box": [
+        -55,
+        158,
+        64,
+        20
+      ]
+    },
+    {
+      "id": "T06",
+      "box": [
+        405,
+        222,
+        37,
+        29
+      ],
+      "relative_box": [
+        -17,
+        192,
+        37,
+        29
+      ]
+    },
+    {
+      "id": "T07",
+      "box": [
+        373,
+        229,
+        40,
+        39
+      ],
+      "relative_box": [
+        -49,
+        199,
+        40,
+        39
+      ]
+    },
+    {
+      "id": "T08",
+      "box": [
+        109,
+        272,
+        38,
+        39
+      ],
+      "relative_box": [
+        -313,
+        242,
+        38,
+        39
+      ]
+    },
+    {
+      "id": "T09",
+      "box": [
+        113,
+        279,
+        31,
+        29
+      ],
+      "relative_box": [
+        -309,
+        249,
+        31,
+        29
+      ]
+    },
+    {
+      "id": "T10",
+      "box": [
+        79,
+        281,
+        32,
+        22
+      ],
+      "relative_box": [
+        -343,
+        251,
+        32,
+        22
+      ]
+    },
+    {
+      "id": "T11",
+      "box": [
+        115,
+        285,
+        27,
+        21
+      ],
+      "relative_box": [
+        -307,
+        255,
+        27,
+        21
+      ]
+    },
+    {
+      "id": "T12",
+      "box": [
+        148,
+        290,
+        29,
+        19
+      ],
+      "relative_box": [
+        -274,
+        260,
+        29,
+        19
+      ]
+    },
+    {
+      "id": "T13",
+      "box": [
+        111,
+        318,
+        36,
+        36
+      ],
+      "relative_box": [
+        -311,
+        288,
+        36,
+        36
+      ]
+    },
+    {
+      "id": "T14",
+      "box": [
+        17,
+        323,
+        64,
+        22
+      ],
+      "relative_box": [
+        -405,
+        293,
+        64,
+        22
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "order": 1,
+      "candidate": "T08",
+      "box": [
+        109,
+        272,
+        38,
+        39
+      ],
+      "center": [
+        128,
+        291
+      ],
+      "match_score": 0.6671,
+      "rotation_degrees": 130,
+      "relative_center": [
+        -294,
+        261
+      ],
+      "relative_box": [
+        -313,
+        242,
+        38,
+        39
+      ]
+    },
+    {
+      "order": 2,
+      "candidate": "T07",
+      "box": [
+        373,
+        229,
+        40,
+        39
+      ],
+      "center": [
+        393,
+        248
+      ],
+      "match_score": 0.926,
+      "rotation_degrees": -10,
+      "relative_center": [
+        -29,
+        218
+      ],
+      "relative_box": [
+        -49,
+        199,
+        40,
+        39
+      ]
+    },
+    {
+      "order": 3,
+      "candidate": "T04",
+      "box": [
+        65,
+        184,
+        39,
+        39
+      ],
+      "center": [
+        84,
+        203
+      ],
+      "match_score": 0.8672,
+      "rotation_degrees": 0,
+      "relative_center": [
+        -338,
+        173
+      ],
+      "relative_box": [
+        -357,
+        154,
+        39,
+        39
+      ]
+    }
+  ],
+  "score_matrix": [
+    [
+      0.6355,
+      0.6501,
+      0.6363,
+      0.5643,
+      0.2965,
+      0.6283,
+      0.667,
+      0.6671,
+      0.595,
+      0.5556,
+      0.4805,
+      0.3803,
+      0.4677,
+      0.3825
+    ],
+    [
+      0.7587,
+      0.6324,
+      0.6619,
+      0.7397,
+      0.3124,
+      0.6639,
+      0.926,
+      0.8366,
+      0.6771,
+      0.6132,
+      0.547,
+      0.4547,
+      0.587,
+      0.4149
+    ],
+    [
+      0.7121,
+      0.6103,
+      0.6507,
+      0.8672,
+      0.3134,
+      0.6156,
+      0.7444,
+      0.8018,
+      0.6921,
+      0.5605,
+      0.5295,
+      0.4051,
+      0.6798,
+      0.4049
+    ]
+  ],
+  "source": "D:\\Projects\\midasbuy-captcha\\Format_B\\input3.png",
+  "coordinate_system": "relative_center and relative_box use the CAPTCHA close X as (0,0); center and box retain original screenshot pixels",
+  "anchor": {
+    "type": "captcha_close_x_center",
+    "center": [
+      422,
+      30
+    ],
+    "radius": 12.9,
+    "scale": 1.0,
+    "header_offset": [
+      -405,
+      -19,
+      425,
+      80
+    ]
+  },
+  "reference_box": [
+    236,
+    58,
+    96,
+    28
+  ],
+  "scene_box": [
+    17,
+    91,
+    425,
+    304
+  ],
+  "relative_reference_box": [
+    -186,
+    28,
+    96,
+    28
+  ],
+  "relative_scene_box": [
+    -405,
+    61,
+    425,
+    304
+  ]
+}

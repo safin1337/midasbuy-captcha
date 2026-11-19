@@ -1,0 +1,1355 @@
+[
+  {
+    "image": "input15.png",
+    "scene": [
+      28,
+      103,
+      425,
+      304
+    ],
+    "anchor": [
+      434,
+      42
+    ],
+    "intended_center": [
+      404,
+      127
+    ],
+    "exported_B": {
+      "id": "B",
+      "box": [
+        395,
+        110,
+        38,
+        38
+      ],
+      "center": [
+        414,
+        129
+      ],
+      "objectness": 0.8089,
+      "mask_variants": 14,
+      "appearance": {
+        "flatness": 0.6839,
+        "local_contrast": 1.0,
+        "thin_strokes": 1.0
+      },
+      "template_similarity": 0.6644
+    },
+    "selected_source": {
+      "box": [
+        401,
+        110,
+        26,
+        38
+      ],
+      "band": [
+        0,
+        10,
+        100,
+        255,
+        145,
+        255,
+        true
+      ],
+      "mask_variant": "raw",
+      "search_score": null,
+      "quality": 0.899801445245856,
+      "objectness": 0.8088894658453144,
+      "template_similarity": 0.664375306104382,
+      "support": 14
+    },
+    "selected_variant_boxes": [
+      {
+        "box": [
+          401,
+          111,
+          26,
+          36
+        ],
+        "band": [
+          0,
+          10,
+          140,
+          255,
+          205,
+          255,
+          true
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": 0.9057423937050104,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          401,
+          110,
+          26,
+          38
+        ],
+        "band": [
+          0,
+          10,
+          100,
+          255,
+          145,
+          255,
+          true
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": 0.899801445245856,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          401,
+          111,
+          26,
+          36
+        ],
+        "band": [
+          0,
+          10,
+          140,
+          255,
+          205,
+          255,
+          false
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": 0.8860346797928376,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          401,
+          109,
+          26,
+          39
+        ],
+        "band": [
+          0,
+          10,
+          100,
+          255,
+          145,
+          255,
+          false
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": 0.8741156400981255,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          401,
+          122,
+          26,
+          26
+        ],
+        "band": [
+          0,
+          12,
+          100,
+          255,
+          35,
+          245,
+          true
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": 0.8533507049532475,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          401,
+          111,
+          26,
+          36
+        ],
+        "band": [
+          0,
+          10,
+          140,
+          255,
+          205,
+          255,
+          false
+        ],
+        "mask_variant": "repaired",
+        "search_score": null,
+        "quality": 0.8399626061626646,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          401,
+          111,
+          26,
+          36
+        ],
+        "band": [
+          0,
+          10,
+          140,
+          255,
+          205,
+          255,
+          true
+        ],
+        "mask_variant": "repaired",
+        "search_score": null,
+        "quality": 0.8391243387784948,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          401,
+          122,
+          26,
+          26
+        ],
+        "band": [
+          0,
+          12,
+          100,
+          255,
+          35,
+          245,
+          false
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": 0.835001516659456,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          401,
+          110,
+          26,
+          38
+        ],
+        "band": [
+          0,
+          10,
+          100,
+          255,
+          145,
+          255,
+          true
+        ],
+        "mask_variant": "repaired",
+        "search_score": null,
+        "quality": 0.829757428779242,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          401,
+          109,
+          26,
+          39
+        ],
+        "band": [
+          0,
+          10,
+          100,
+          255,
+          145,
+          255,
+          false
+        ],
+        "mask_variant": "repaired",
+        "search_score": null,
+        "quality": 0.8267614970404944,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          401,
+          122,
+          26,
+          26
+        ],
+        "band": [
+          0,
+          12,
+          100,
+          255,
+          35,
+          245,
+          false
+        ],
+        "mask_variant": "repaired",
+        "search_score": null,
+        "quality": 0.7637390147246089,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          401,
+          122,
+          26,
+          26
+        ],
+        "band": [
+          0,
+          12,
+          100,
+          255,
+          35,
+          245,
+          true
+        ],
+        "mask_variant": "repaired",
+        "search_score": null,
+        "quality": 0.7635898477970755,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          404,
+          116,
+          20,
+          26
+        ],
+        "band": [
+          18,
+          40,
+          110,
+          255,
+          35,
+          255,
+          false
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": 0.6799515225011576,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          404,
+          116,
+          20,
+          26
+        ],
+        "band": [
+          18,
+          40,
+          110,
+          255,
+          35,
+          255,
+          false
+        ],
+        "mask_variant": "repaired",
+        "search_score": null,
+        "quality": 0.6016392717676299,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      }
+    ],
+    "nearest_ranked_groups": [
+      {
+        "box": [
+          383,
+          105,
+          35,
+          26
+        ],
+        "band": [
+          176,
+          179,
+          100,
+          255,
+          145,
+          255,
+          true
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": 0.8943690830065147,
+        "objectness": 0.7605934104618083,
+        "template_similarity": 0.5618795050204496,
+        "support": 20,
+        "distance_to_intended": 9.66
+      },
+      {
+        "box": [
+          401,
+          110,
+          26,
+          38
+        ],
+        "band": [
+          0,
+          10,
+          100,
+          255,
+          145,
+          255,
+          true
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": 0.899801445245856,
+        "objectness": 0.8088894658453144,
+        "template_similarity": 0.664375306104382,
+        "support": 14,
+        "distance_to_intended": 10.2
+      },
+      {
+        "box": [
+          354,
+          105,
+          29,
+          21
+        ],
+        "band": [
+          88,
+          98,
+          100,
+          255,
+          145,
+          255,
+          false
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": 0.7210549472633687,
+        "objectness": 0.6015213221847245,
+        "template_similarity": 0.5605483613712114,
+        "support": 2,
+        "distance_to_intended": 37.32
+      },
+      {
+        "box": [
+          389,
+          147,
+          26,
+          64
+        ],
+        "band": [
+          32,
+          42,
+          140,
+          255,
+          205,
+          255,
+          false
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": 0.5743911730284895,
+        "objectness": 0.5550196307709638,
+        "template_similarity": 0.5875790686605247,
+        "support": 2,
+        "distance_to_intended": 52.04
+      },
+      {
+        "box": [
+          363,
+          168,
+          23,
+          20
+        ],
+        "band": [
+          40,
+          80,
+          105,
+          255,
+          35,
+          175,
+          false
+        ],
+        "mask_variant": "repaired",
+        "search_score": null,
+        "quality": 0.6073899720877519,
+        "objectness": 0.6649554821429762,
+        "template_similarity": 0.7396712754893497,
+        "support": 4,
+        "distance_to_intended": 58.92
+      },
+      {
+        "box": [
+          347,
+          158,
+          23,
+          38
+        ],
+        "band": [
+          18,
+          40,
+          110,
+          255,
+          35,
+          255,
+          true
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": 0.7661169010684488,
+        "objectness": 0.6536865797201596,
+        "template_similarity": 0.573538666566916,
+        "support": 4,
+        "distance_to_intended": 67.6
+      }
+    ],
+    "nearest_raw_proposals": [
+      {
+        "box": [
+          383,
+          105,
+          39,
+          26
+        ],
+        "band": [
+          125,
+          179,
+          65,
+          255,
+          35,
+          245,
+          false
+        ],
+        "mask_variant": "repaired",
+        "search_score": null,
+        "quality": null,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null,
+        "distance_to_intended": 9.12
+      },
+      {
+        "box": [
+          383,
+          105,
+          39,
+          26
+        ],
+        "band": [
+          125,
+          179,
+          65,
+          255,
+          35,
+          245,
+          false
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": null,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null,
+        "distance_to_intended": 9.12
+      },
+      {
+        "box": [
+          383,
+          105,
+          39,
+          26
+        ],
+        "band": [
+          125,
+          179,
+          65,
+          255,
+          35,
+          245,
+          true
+        ],
+        "mask_variant": "repaired",
+        "search_score": null,
+        "quality": null,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null,
+        "distance_to_intended": 9.12
+      },
+      {
+        "box": [
+          383,
+          105,
+          39,
+          26
+        ],
+        "band": [
+          125,
+          179,
+          65,
+          255,
+          35,
+          245,
+          true
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": null,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null,
+        "distance_to_intended": 9.12
+      },
+      {
+        "box": [
+          384,
+          105,
+          34,
+          26
+        ],
+        "band": [
+          176,
+          179,
+          140,
+          255,
+          205,
+          255,
+          false
+        ],
+        "mask_variant": "repaired",
+        "search_score": null,
+        "quality": null,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null,
+        "distance_to_intended": 9.49
+      },
+      {
+        "box": [
+          384,
+          105,
+          34,
+          26
+        ],
+        "band": [
+          176,
+          179,
+          140,
+          255,
+          205,
+          255,
+          false
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": null,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null,
+        "distance_to_intended": 9.49
+      }
+    ]
+  },
+  {
+    "image": "input17.png",
+    "scene": [
+      28,
+      103,
+      425,
+      304
+    ],
+    "anchor": [
+      434,
+      42
+    ],
+    "intended_center": [
+      315,
+      129
+    ],
+    "exported_B": {
+      "id": "B",
+      "box": [
+        261,
+        130,
+        35,
+        35
+      ],
+      "center": [
+        278,
+        148
+      ],
+      "objectness": 0.7825,
+      "mask_variants": 15,
+      "appearance": {
+        "flatness": 0.6901,
+        "local_contrast": 0.2305,
+        "thin_strokes": 0.0826
+      },
+      "template_similarity": 0.7992
+    },
+    "selected_source": {
+      "box": [
+        264,
+        128,
+        33,
+        34
+      ],
+      "band": null,
+      "mask_variant": "outline_search",
+      "search_score": 0.7268381714820862,
+      "quality": 0.432122751313558,
+      "objectness": 0.7824731502899559,
+      "template_similarity": 0.7991645550322949,
+      "support": 15
+    },
+    "selected_variant_boxes": [
+      {
+        "box": [
+          263,
+          148,
+          26,
+          22
+        ],
+        "band": [
+          0,
+          179,
+          0,
+          255,
+          0,
+          100,
+          true
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": 0.8040289502904511,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          263,
+          148,
+          26,
+          22
+        ],
+        "band": [
+          0,
+          179,
+          0,
+          255,
+          0,
+          100,
+          true
+        ],
+        "mask_variant": "repaired",
+        "search_score": null,
+        "quality": 0.6880128461534295,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          272,
+          142,
+          23,
+          22
+        ],
+        "band": [
+          72,
+          86,
+          45,
+          255,
+          15,
+          85,
+          false
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": 0.5972162284380734,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          272,
+          142,
+          23,
+          22
+        ],
+        "band": [
+          72,
+          86,
+          45,
+          255,
+          15,
+          85,
+          false
+        ],
+        "mask_variant": "repaired",
+        "search_score": null,
+        "quality": 0.5729964888090989,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          265,
+          129,
+          27,
+          33
+        ],
+        "band": [
+          0,
+          179,
+          0,
+          50,
+          0,
+          75,
+          false
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": 0.5217901207940336,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          265,
+          129,
+          27,
+          33
+        ],
+        "band": [
+          0,
+          179,
+          0,
+          50,
+          0,
+          105,
+          false
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": 0.5215336507862702,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          265,
+          129,
+          27,
+          33
+        ],
+        "band": [
+          0,
+          179,
+          0,
+          50,
+          0,
+          75,
+          false
+        ],
+        "mask_variant": "repaired",
+        "search_score": null,
+        "quality": 0.4776471209130928,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          265,
+          129,
+          27,
+          33
+        ],
+        "band": [
+          0,
+          179,
+          0,
+          50,
+          0,
+          105,
+          false
+        ],
+        "mask_variant": "repaired",
+        "search_score": null,
+        "quality": 0.4660357953806864,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          264,
+          129,
+          31,
+          37
+        ],
+        "band": [
+          0,
+          179,
+          0,
+          100,
+          0,
+          115,
+          false
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": 0.44652684564336076,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          264,
+          129,
+          31,
+          37
+        ],
+        "band": [
+          0,
+          179,
+          0,
+          100,
+          0,
+          115,
+          false
+        ],
+        "mask_variant": "repaired",
+        "search_score": null,
+        "quality": 0.4445580447195069,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          264,
+          129,
+          29,
+          37
+        ],
+        "band": [
+          0,
+          179,
+          0,
+          75,
+          0,
+          105,
+          false
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": 0.44262386795060193,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          264,
+          129,
+          29,
+          34
+        ],
+        "band": [
+          0,
+          179,
+          0,
+          75,
+          0,
+          75,
+          false
+        ],
+        "mask_variant": "repaired",
+        "search_score": null,
+        "quality": 0.4422525774788064,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          264,
+          129,
+          29,
+          37
+        ],
+        "band": [
+          0,
+          179,
+          0,
+          75,
+          0,
+          105,
+          false
+        ],
+        "mask_variant": "repaired",
+        "search_score": null,
+        "quality": 0.4415174062418359,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          264,
+          129,
+          29,
+          34
+        ],
+        "band": [
+          0,
+          179,
+          0,
+          75,
+          0,
+          75,
+          false
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": 0.4358514941961911,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      },
+      {
+        "box": [
+          264,
+          128,
+          33,
+          34
+        ],
+        "band": null,
+        "mask_variant": "outline_search",
+        "search_score": 0.7268381714820862,
+        "quality": 0.432122751313558,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null
+      }
+    ],
+    "nearest_ranked_groups": [
+      {
+        "box": [
+          299,
+          121,
+          30,
+          24
+        ],
+        "band": [
+          80,
+          92,
+          55,
+          255,
+          35,
+          190,
+          false
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": 0.609922593660533,
+        "objectness": 0.635990966790394,
+        "template_similarity": 0.6730544666411394,
+        "support": 4,
+        "distance_to_intended": 4.12
+      },
+      {
+        "box": [
+          313,
+          109,
+          20,
+          20
+        ],
+        "band": [
+          15,
+          60,
+          15,
+          130,
+          180,
+          255,
+          false
+        ],
+        "mask_variant": "repaired",
+        "search_score": null,
+        "quality": 0.7545717856083429,
+        "objectness": 0.616815133343287,
+        "template_similarity": 0.5647418631947064,
+        "support": 2,
+        "distance_to_intended": 12.81
+      },
+      {
+        "box": [
+          264,
+          128,
+          33,
+          34
+        ],
+        "band": null,
+        "mask_variant": "outline_search",
+        "search_score": 0.7268381714820862,
+        "quality": 0.432122751313558,
+        "objectness": 0.7824731502899559,
+        "template_similarity": 0.7991645550322949,
+        "support": 15,
+        "distance_to_intended": 38.03
+      },
+      {
+        "box": [
+          322,
+          144,
+          33,
+          36
+        ],
+        "band": [
+          0,
+          179,
+          0,
+          255,
+          0,
+          50,
+          true
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": 0.8733874254886632,
+        "objectness": 0.6393841509141117,
+        "template_similarity": 0.31117595715254764,
+        "support": 14,
+        "distance_to_intended": 40.51
+      },
+      {
+        "box": [
+          263,
+          105,
+          25,
+          29
+        ],
+        "band": [
+          18,
+          40,
+          110,
+          255,
+          35,
+          255,
+          true
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": 0.6965834118116079,
+        "objectness": 0.7318251020089861,
+        "template_similarity": 0.7119363214970869,
+        "support": 10,
+        "distance_to_intended": 40.63
+      },
+      {
+        "box": [
+          345,
+          105,
+          43,
+          32
+        ],
+        "band": [
+          15,
+          60,
+          15,
+          130,
+          180,
+          255,
+          false
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": 0.8275177206725483,
+        "objectness": 0.6788806040147719,
+        "template_similarity": 0.5025963431579749,
+        "support": 8,
+        "distance_to_intended": 52.12
+      }
+    ],
+    "nearest_raw_proposals": [
+      {
+        "box": [
+          299,
+          121,
+          30,
+          24
+        ],
+        "band": [
+          80,
+          92,
+          55,
+          255,
+          35,
+          190,
+          false
+        ],
+        "mask_variant": "repaired",
+        "search_score": null,
+        "quality": null,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null,
+        "distance_to_intended": 4.12
+      },
+      {
+        "box": [
+          299,
+          121,
+          30,
+          24
+        ],
+        "band": [
+          80,
+          92,
+          55,
+          255,
+          35,
+          190,
+          false
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": null,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null,
+        "distance_to_intended": 4.12
+      },
+      {
+        "box": [
+          299,
+          122,
+          30,
+          23
+        ],
+        "band": [
+          84,
+          98,
+          45,
+          255,
+          15,
+          130,
+          false
+        ],
+        "mask_variant": "repaired",
+        "search_score": null,
+        "quality": null,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null,
+        "distance_to_intended": 4.61
+      },
+      {
+        "box": [
+          299,
+          122,
+          30,
+          23
+        ],
+        "band": [
+          84,
+          98,
+          45,
+          255,
+          15,
+          130,
+          false
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": null,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null,
+        "distance_to_intended": 4.61
+      },
+      {
+        "box": [
+          313,
+          109,
+          20,
+          20
+        ],
+        "band": [
+          15,
+          60,
+          15,
+          130,
+          180,
+          255,
+          false
+        ],
+        "mask_variant": "repaired",
+        "search_score": null,
+        "quality": null,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null,
+        "distance_to_intended": 12.81
+      },
+      {
+        "box": [
+          313,
+          109,
+          20,
+          20
+        ],
+        "band": [
+          15,
+          60,
+          15,
+          130,
+          180,
+          255,
+          false
+        ],
+        "mask_variant": "raw",
+        "search_score": null,
+        "quality": null,
+        "objectness": null,
+        "template_similarity": null,
+        "support": null,
+        "distance_to_intended": 12.81
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Captcha Data Extraction",
+  "version": "1.0.7",
+  "description": "Collect ten manually framed CAPTCHA screenshots into a selected local dataset folder.",
+  "minimum_chrome_version": "125",
+  "permissions": ["activeTab", "scripting", "storage", "debugger"],
+  "action": {"default_title": "Captcha Data Extraction"},
+  "background": {"service_worker": "background.js"}
+}

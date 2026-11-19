@@ -1,0 +1,179 @@
+{
+  "note": "Offline matcher proposals. Confidence is uncalibrated and does not establish correctness on new samples.",
+  "start": 15,
+  "end": 17,
+  "samples": [
+    {
+      "image": "input15.png",
+      "status": "review_required",
+      "candidate_count": 5,
+      "candidate_order": [
+        "B",
+        "E",
+        "A"
+      ],
+      "confident_positions": [
+        2,
+        3
+      ],
+      "review_positions": [
+        1
+      ],
+      "matches": [
+        {
+          "order": 1,
+          "candidate": "B",
+          "center": [
+            414,
+            129
+          ],
+          "match_score": 0.8288,
+          "decision": "review_required",
+          "review_reasons": [
+            "ambiguous_reference_family"
+          ]
+        },
+        {
+          "order": 2,
+          "candidate": "E",
+          "center": [
+            405,
+            349
+          ],
+          "match_score": 0.8116,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 3,
+          "candidate": "A",
+          "center": [
+            139,
+            128
+          ],
+          "match_score": 0.9033,
+          "decision": "proposed",
+          "review_reasons": []
+        }
+      ],
+      "elapsed_seconds": 18.78
+    },
+    {
+      "image": "input16.png",
+      "status": "review_required",
+      "candidate_count": 5,
+      "candidate_order": [
+        "A",
+        "E",
+        "C"
+      ],
+      "confident_positions": [
+        1,
+        3
+      ],
+      "review_positions": [
+        2
+      ],
+      "matches": [
+        {
+          "order": 1,
+          "candidate": "A",
+          "center": [
+            50,
+            217
+          ],
+          "match_score": 0.8578,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 2,
+          "candidate": "E",
+          "center": [
+            272,
+            349
+          ],
+          "match_score": 0.7967,
+          "decision": "review_required",
+          "review_reasons": [
+            "ambiguous_reference_family"
+          ]
+        },
+        {
+          "order": 3,
+          "candidate": "C",
+          "center": [
+            184,
+            261
+          ],
+          "match_score": 0.8591,
+          "decision": "proposed",
+          "review_reasons": []
+        }
+      ],
+      "elapsed_seconds": 20.75
+    },
+    {
+      "image": "input17.png",
+      "status": "review_required",
+      "candidate_count": 5,
+      "candidate_order": [
+        "A",
+        "D",
+        "B"
+      ],
+      "confident_positions": [
+        1
+      ],
+      "review_positions": [
+        2,
+        3
+      ],
+      "matches": [
+        {
+          "order": 1,
+          "candidate": "A",
+          "center": [
+            316,
+            127
+          ],
+          "match_score": 0.8986,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 2,
+          "candidate": "D",
+          "center": [
+            316,
+            214
+          ],
+          "match_score": 0.7773,
+          "decision": "review_required",
+          "review_reasons": [
+            "ambiguous_reference_family",
+            "close_or_better_alternative",
+            "ambiguous_assignment"
+          ]
+        },
+        {
+          "order": 3,
+          "candidate": "B",
+          "center": [
+            181,
+            138
+          ],
+          "match_score": 0.7131,
+          "decision": "review_required",
+          "review_reasons": [
+            "close_or_better_alternative"
+          ]
+        }
+      ],
+      "elapsed_seconds": 19.03
+    }
+  ],
+  "processed_images": 3,
+  "failed_images": 0,
+  "review_matches": 4
+}

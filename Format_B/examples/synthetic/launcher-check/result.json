@@ -1,0 +1,168 @@
+{
+  "status": "proposed_matches",
+  "score_note": "Shape similarity only; not a calibrated probability. Human review is required before use.",
+  "assignment_margin": 0.0819,
+  "references": [
+    {
+      "order": 1,
+      "box": [
+        238,
+        57,
+        29,
+        23
+      ]
+    },
+    {
+      "order": 2,
+      "box": [
+        267,
+        57,
+        29,
+        23
+      ]
+    },
+    {
+      "order": 3,
+      "box": [
+        296,
+        57,
+        29,
+        23
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "A",
+      "box": [
+        192,
+        93,
+        44,
+        44
+      ]
+    },
+    {
+      "id": "B",
+      "box": [
+        234,
+        95,
+        45,
+        44
+      ]
+    },
+    {
+      "id": "C",
+      "box": [
+        105,
+        136,
+        40,
+        45
+      ]
+    },
+    {
+      "id": "D",
+      "box": [
+        335,
+        183,
+        23,
+        39
+      ]
+    },
+    {
+      "id": "E",
+      "box": [
+        108,
+        275,
+        34,
+        36
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "order": 1,
+      "candidate": "A",
+      "box": [
+        192,
+        93,
+        44,
+        44
+      ],
+      "center": [
+        214,
+        115
+      ],
+      "match_score": 0.9128,
+      "rotation_degrees": 10
+    },
+    {
+      "order": 2,
+      "candidate": "C",
+      "box": [
+        105,
+        136,
+        40,
+        45
+      ],
+      "center": [
+        125,
+        158
+      ],
+      "match_score": 0.9266,
+      "rotation_degrees": 170
+    },
+    {
+      "order": 3,
+      "candidate": "B",
+      "box": [
+        234,
+        95,
+        45,
+        44
+      ],
+      "center": [
+        256,
+        117
+      ],
+      "match_score": 0.8804,
+      "rotation_degrees": 20
+    }
+  ],
+  "score_matrix": [
+    [
+      0.9128,
+      0.7767,
+      0.7533,
+      0.5072,
+      0.4603
+    ],
+    [
+      0.7881,
+      0.7022,
+      0.9266,
+      0.5813,
+      0.4312
+    ],
+    [
+      0.7708,
+      0.8804,
+      0.7697,
+      0.5945,
+      0.5186
+    ]
+  ],
+  "source": "D:\\Projects\\midasbuy-captcha\\examples\\synthetic\\case-0.png",
+  "coordinate_system": "Pixels from the top-left of the original image",
+  "reference_box": [
+    238,
+    57,
+    87,
+    23
+  ],
+  "scene_box": [
+    15,
+    89,
+    422,
+    304
+  ]
+}

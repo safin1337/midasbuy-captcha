@@ -1,0 +1,1479 @@
+{
+  "correct_objects": 125,
+  "total_objects": 125,
+  "complete_images": 25,
+  "total_images": 25,
+  "checked_images": 25,
+  "unlabelled_images": [],
+  "note": "Earlier reviewed centers and newer assistant visual annotations are reported in separate groups; one-to-one matching within 18 pixels. These are development regressions, not blind production accuracy. Images are evaluated without adding them to the template library.",
+  "samples": [
+    {
+      "image": "input.png",
+      "expected": [
+        [
+          315,
+          124
+        ],
+        [
+          139,
+          301
+        ],
+        [
+          357,
+          171
+        ],
+        [
+          315,
+          168
+        ],
+        [
+          357,
+          351
+        ]
+      ],
+      "actual": [
+        [
+          316,
+          124
+        ],
+        [
+          316,
+          168
+        ],
+        [
+          357,
+          172
+        ],
+        [
+          139,
+          302
+        ],
+        [
+          360,
+          351
+        ]
+      ],
+      "correct_objects": 5,
+      "distances": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        3.0
+      ],
+      "status": "candidates_proposed",
+      "internal_hypotheses": 446,
+      "validation_group": "development"
+    },
+    {
+      "image": "input2.png",
+      "expected": [
+        [
+          395,
+          208
+        ],
+        [
+          395,
+          119
+        ],
+        [
+          129,
+          341
+        ],
+        [
+          41,
+          119
+        ],
+        [
+          395,
+          166
+        ]
+      ],
+      "actual": [
+        [
+          42,
+          120
+        ],
+        [
+          396,
+          120
+        ],
+        [
+          396,
+          168
+        ],
+        [
+          395,
+          208
+        ],
+        [
+          130,
+          341
+        ]
+      ],
+      "correct_objects": 5,
+      "distances": [
+        0.0,
+        1.4142135623730951,
+        1.0,
+        1.4142135623730951,
+        2.23606797749979
+      ],
+      "status": "candidates_proposed",
+      "internal_hypotheses": 543,
+      "validation_group": "development"
+    },
+    {
+      "image": "input3.png",
+      "expected": [
+        [
+          128,
+          291
+        ],
+        [
+          394,
+          250
+        ],
+        [
+          84,
+          203
+        ],
+        [
+          394,
+          159
+        ],
+        [
+          128,
+          336
+        ]
+      ],
+      "actual": [
+        [
+          395,
+          159
+        ],
+        [
+          84,
+          204
+        ],
+        [
+          393,
+          248
+        ],
+        [
+          128,
+          292
+        ],
+        [
+          129,
+          336
+        ]
+      ],
+      "correct_objects": 5,
+      "distances": [
+        1.0,
+        2.23606797749979,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "status": "candidates_proposed",
+      "internal_hypotheses": 200,
+      "validation_group": "development"
+    },
+    {
+      "image": "input4.png",
+      "expected": [
+        [
+          83,
+          298
+        ],
+        [
+          306,
+          120
+        ],
+        [
+          85,
+          119
+        ],
+        [
+          129,
+          297
+        ],
+        [
+          351,
+          254
+        ]
+      ],
+      "actual": [
+        [
+          86,
+          119
+        ],
+        [
+          306,
+          120
+        ],
+        [
+          351,
+          259
+        ],
+        [
+          84,
+          299
+        ],
+        [
+          129,
+          298
+        ]
+      ],
+      "correct_objects": 5,
+      "distances": [
+        1.4142135623730951,
+        0.0,
+        1.0,
+        1.0,
+        5.0
+      ],
+      "status": "candidates_proposed",
+      "internal_hypotheses": 714,
+      "validation_group": "development"
+    },
+    {
+      "image": "input5.png",
+      "expected": [
+        [
+          342,
+          248
+        ],
+        [
+          120,
+          337
+        ],
+        [
+          385,
+          117
+        ],
+        [
+          209,
+          293
+        ],
+        [
+          119,
+          246
+        ]
+      ],
+      "actual": [
+        [
+          385,
+          117
+        ],
+        [
+          120,
+          248
+        ],
+        [
+          343,
+          249
+        ],
+        [
+          208,
+          291
+        ],
+        [
+          121,
+          336
+        ]
+      ],
+      "correct_objects": 5,
+      "distances": [
+        1.4142135623730951,
+        1.4142135623730951,
+        0.0,
+        2.23606797749979,
+        2.23606797749979
+      ],
+      "status": "candidates_proposed",
+      "internal_hypotheses": 289,
+      "validation_group": "development"
+    },
+    {
+      "image": "input6.png",
+      "expected": [
+        [
+          168,
+          158
+        ],
+        [
+          300,
+          250
+        ],
+        [
+          300,
+          157
+        ],
+        [
+          35,
+          291
+        ],
+        [
+          213,
+          291
+        ]
+      ],
+      "actual": [
+        [
+          169,
+          158
+        ],
+        [
+          302,
+          158
+        ],
+        [
+          300,
+          250
+        ],
+        [
+          36,
+          292
+        ],
+        [
+          214,
+          292
+        ]
+      ],
+      "correct_objects": 5,
+      "distances": [
+        1.0,
+        0.0,
+        2.23606797749979,
+        1.4142135623730951,
+        1.4142135623730951
+      ],
+      "status": "candidates_proposed",
+      "internal_hypotheses": 581,
+      "validation_group": "development"
+    },
+    {
+      "image": "input7.png",
+      "expected": [
+        [
+          214,
+          120
+        ],
+        [
+          394,
+          250
+        ],
+        [
+          129,
+          339
+        ],
+        [
+          129,
+          294
+        ],
+        [
+          40,
+          158
+        ]
+      ],
+      "actual": [
+        [
+          216,
+          120
+        ],
+        [
+          40,
+          159
+        ],
+        [
+          394,
+          250
+        ],
+        [
+          128,
+          296
+        ],
+        [
+          129,
+          339
+        ]
+      ],
+      "correct_objects": 5,
+      "distances": [
+        2.0,
+        0.0,
+        0.0,
+        2.23606797749979,
+        1.0
+      ],
+      "status": "candidates_proposed",
+      "internal_hypotheses": 298,
+      "validation_group": "development"
+    },
+    {
+      "image": "input8.png",
+      "expected": [
+        [
+          170,
+          117
+        ],
+        [
+          38,
+          210
+        ],
+        [
+          392,
+          117
+        ],
+        [
+          255,
+          160
+        ],
+        [
+          35,
+          338
+        ]
+      ],
+      "actual": [
+        [
+          171,
+          116
+        ],
+        [
+          392,
+          117
+        ],
+        [
+          255,
+          161
+        ],
+        [
+          38,
+          206
+        ],
+        [
+          37,
+          336
+        ]
+      ],
+      "correct_objects": 5,
+      "distances": [
+        1.4142135623730951,
+        4.0,
+        0.0,
+        1.0,
+        2.8284271247461903
+      ],
+      "status": "candidates_proposed",
+      "internal_hypotheses": 628,
+      "validation_group": "development"
+    },
+    {
+      "image": "input9.png",
+      "expected": [
+        [
+          262,
+          119
+        ],
+        [
+          85,
+          254
+        ],
+        [
+          85,
+          163
+        ],
+        [
+          395,
+          163
+        ],
+        [
+          175,
+          344
+        ]
+      ],
+      "actual": [
+        [
+          262,
+          120
+        ],
+        [
+          86,
+          164
+        ],
+        [
+          395,
+          164
+        ],
+        [
+          86,
+          254
+        ],
+        [
+          174,
+          342
+        ]
+      ],
+      "correct_objects": 5,
+      "distances": [
+        1.0,
+        1.0,
+        1.4142135623730951,
+        1.0,
+        2.23606797749979
+      ],
+      "status": "candidates_proposed",
+      "internal_hypotheses": 616,
+      "validation_group": "development"
+    },
+    {
+      "image": "input10.png",
+      "expected": [
+        [
+          121,
+          184
+        ],
+        [
+          163,
+          359
+        ],
+        [
+          427,
+          273
+        ],
+        [
+          119,
+          138
+        ],
+        [
+          250,
+          225
+        ]
+      ],
+      "actual": [
+        [
+          119,
+          138
+        ],
+        [
+          122,
+          184
+        ],
+        [
+          252,
+          226
+        ],
+        [
+          426,
+          274
+        ],
+        [
+          164,
+          359
+        ]
+      ],
+      "correct_objects": 5,
+      "distances": [
+        1.0,
+        1.0,
+        1.4142135623730951,
+        0.0,
+        2.23606797749979
+      ],
+      "status": "candidates_proposed",
+      "internal_hypotheses": 445,
+      "validation_group": "development"
+    },
+    {
+      "image": "input11.png",
+      "expected": [
+        [
+          174,
+          162
+        ],
+        [
+          263,
+          208
+        ],
+        [
+          306,
+          249
+        ],
+        [
+          85,
+          250
+        ],
+        [
+          129,
+          339
+        ]
+      ],
+      "actual": [
+        [
+          176,
+          162
+        ],
+        [
+          264,
+          210
+        ],
+        [
+          86,
+          250
+        ],
+        [
+          308,
+          252
+        ],
+        [
+          129,
+          341
+        ]
+      ],
+      "correct_objects": 5,
+      "distances": [
+        2.0,
+        2.23606797749979,
+        3.605551275463989,
+        1.0,
+        2.0
+      ],
+      "status": "candidates_proposed",
+      "internal_hypotheses": 470,
+      "validation_group": "new_sample"
+    },
+    {
+      "image": "input12.png",
+      "expected": [
+        [
+          416,
+          219
+        ],
+        [
+          194,
+          263
+        ],
+        [
+          326,
+          266
+        ],
+        [
+          327,
+          307
+        ],
+        [
+          371,
+          307
+        ]
+      ],
+      "actual": [
+        [
+          416,
+          219
+        ],
+        [
+          195,
+          263
+        ],
+        [
+          328,
+          263
+        ],
+        [
+          328,
+          308
+        ],
+        [
+          372,
+          308
+        ]
+      ],
+      "correct_objects": 5,
+      "distances": [
+        0.0,
+        1.0,
+        3.605551275463989,
+        1.4142135623730951,
+        1.4142135623730951
+      ],
+      "status": "candidates_proposed",
+      "internal_hypotheses": 392,
+      "validation_group": "new_sample"
+    },
+    {
+      "image": "input13.png",
+      "expected": [
+        [
+          35,
+          164
+        ],
+        [
+          303,
+          118
+        ],
+        [
+          348,
+          164
+        ],
+        [
+          305,
+          300
+        ],
+        [
+          392,
+          341
+        ]
+      ],
+      "actual": [
+        [
+          304,
+          118
+        ],
+        [
+          36,
+          164
+        ],
+        [
+          348,
+          164
+        ],
+        [
+          306,
+          300
+        ],
+        [
+          393,
+          344
+        ]
+      ],
+      "correct_objects": 5,
+      "distances": [
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        3.1622776601683795
+      ],
+      "status": "candidates_proposed",
+      "internal_hypotheses": 297,
+      "validation_group": "new_sample"
+    },
+    {
+      "image": "input14.png",
+      "expected": [
+        [
+          119,
+          113
+        ],
+        [
+          294,
+          111
+        ],
+        [
+          338,
+          159
+        ],
+        [
+          163,
+          287
+        ],
+        [
+          340,
+          334
+        ]
+      ],
+      "actual": [
+        [
+          119,
+          114
+        ],
+        [
+          297,
+          112
+        ],
+        [
+          339,
+          160
+        ],
+        [
+          164,
+          287
+        ],
+        [
+          341,
+          334
+        ]
+      ],
+      "correct_objects": 5,
+      "distances": [
+        1.0,
+        3.1622776601683795,
+        1.4142135623730951,
+        1.0,
+        1.0
+      ],
+      "status": "candidates_proposed",
+      "internal_hypotheses": 495,
+      "validation_group": "assistant_visual"
+    },
+    {
+      "image": "input15.png",
+      "expected": [
+        [
+          139,
+          128
+        ],
+        [
+          404,
+          127
+        ],
+        [
+          315,
+          306
+        ],
+        [
+          183,
+          348
+        ],
+        [
+          405,
+          349
+        ]
+      ],
+      "actual": [
+        [
+          140,
+          128
+        ],
+        [
+          405,
+          128
+        ],
+        [
+          316,
+          304
+        ],
+        [
+          184,
+          349
+        ],
+        [
+          405,
+          348
+        ]
+      ],
+      "correct_objects": 5,
+      "distances": [
+        1.0,
+        1.4142135623730951,
+        2.23606797749979,
+        1.4142135623730951,
+        1.0
+      ],
+      "status": "candidates_proposed",
+      "internal_hypotheses": 408,
+      "validation_group": "assistant_visual"
+    },
+    {
+      "image": "input16.png",
+      "expected": [
+        [
+          49,
+          216
+        ],
+        [
+          95,
+          261
+        ],
+        [
+          183,
+          261
+        ],
+        [
+          139,
+          306
+        ],
+        [
+          272,
+          349
+        ]
+      ],
+      "actual": [
+        [
+          50,
+          217
+        ],
+        [
+          95,
+          260
+        ],
+        [
+          184,
+          262
+        ],
+        [
+          140,
+          311
+        ],
+        [
+          272,
+          349
+        ]
+      ],
+      "correct_objects": 5,
+      "distances": [
+        1.4142135623730951,
+        1.0,
+        1.4142135623730951,
+        5.0990195135927845,
+        0.0
+      ],
+      "status": "candidates_proposed",
+      "internal_hypotheses": 677,
+      "validation_group": "assistant_visual"
+    },
+    {
+      "image": "input17.png",
+      "expected": [
+        [
+          182,
+          129
+        ],
+        [
+          315,
+          129
+        ],
+        [
+          227,
+          215
+        ],
+        [
+          315,
+          215
+        ],
+        [
+          139,
+          349
+        ]
+      ],
+      "actual": [
+        [
+          182,
+          129
+        ],
+        [
+          317,
+          128
+        ],
+        [
+          228,
+          216
+        ],
+        [
+          316,
+          214
+        ],
+        [
+          139,
+          348
+        ]
+      ],
+      "correct_objects": 5,
+      "distances": [
+        0.0,
+        2.23606797749979,
+        1.4142135623730951,
+        1.4142135623730951,
+        1.0
+      ],
+      "status": "candidates_proposed",
+      "internal_hypotheses": 515,
+      "validation_group": "assistant_visual"
+    },
+    {
+      "image": "input18.png",
+      "expected": [
+        [
+          49,
+          216
+        ],
+        [
+          227,
+          172
+        ],
+        [
+          316,
+          260
+        ],
+        [
+          315,
+          306
+        ],
+        [
+          318,
+          351
+        ]
+      ],
+      "actual": [
+        [
+          228,
+          176
+        ],
+        [
+          50,
+          215
+        ],
+        [
+          317,
+          260
+        ],
+        [
+          316,
+          306
+        ],
+        [
+          318,
+          352
+        ]
+      ],
+      "correct_objects": 5,
+      "distances": [
+        1.4142135623730951,
+        4.123105625617661,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "status": "candidates_proposed",
+      "internal_hypotheses": 285,
+      "validation_group": "assistant_visual"
+    },
+    {
+      "image": "input19.png",
+      "expected": [
+        [
+          139,
+          128
+        ],
+        [
+          360,
+          128
+        ],
+        [
+          183,
+          215
+        ],
+        [
+          228,
+          260
+        ],
+        [
+          272,
+          306
+        ]
+      ],
+      "actual": [
+        [
+          140,
+          128
+        ],
+        [
+          361,
+          127
+        ],
+        [
+          182,
+          216
+        ],
+        [
+          228,
+          260
+        ],
+        [
+          272,
+          304
+        ]
+      ],
+      "correct_objects": 5,
+      "distances": [
+        1.0,
+        1.4142135623730951,
+        1.4142135623730951,
+        0.0,
+        2.0
+      ],
+      "status": "candidates_proposed",
+      "internal_hypotheses": 365,
+      "validation_group": "assistant_visual"
+    },
+    {
+      "image": "input20.png",
+      "expected": [
+        [
+          49,
+          127
+        ],
+        [
+          139,
+          216
+        ],
+        [
+          273,
+          216
+        ],
+        [
+          49,
+          260
+        ],
+        [
+          139,
+          349
+        ]
+      ],
+      "actual": [
+        [
+          48,
+          127
+        ],
+        [
+          140,
+          216
+        ],
+        [
+          275,
+          222
+        ],
+        [
+          51,
+          260
+        ],
+        [
+          140,
+          349
+        ]
+      ],
+      "correct_objects": 5,
+      "distances": [
+        1.0,
+        1.0,
+        6.324555320336759,
+        2.0,
+        1.0
+      ],
+      "status": "candidates_proposed",
+      "internal_hypotheses": 294,
+      "validation_group": "assistant_visual"
+    },
+    {
+      "image": "input21.png",
+      "expected": [
+        [
+          49,
+          129
+        ],
+        [
+          272,
+          129
+        ],
+        [
+          49,
+          174
+        ],
+        [
+          360,
+          172
+        ],
+        [
+          95,
+          306
+        ]
+      ],
+      "actual": [
+        [
+          53,
+          129
+        ],
+        [
+          272,
+          130
+        ],
+        [
+          52,
+          174
+        ],
+        [
+          361,
+          171
+        ],
+        [
+          95,
+          309
+        ]
+      ],
+      "correct_objects": 5,
+      "distances": [
+        4.0,
+        1.0,
+        3.0,
+        1.4142135623730951,
+        3.0
+      ],
+      "status": "candidates_proposed",
+      "internal_hypotheses": 503,
+      "validation_group": "assistant_visual"
+    },
+    {
+      "image": "input22.png",
+      "expected": [
+        [
+          139,
+          129
+        ],
+        [
+          361,
+          129
+        ],
+        [
+          362,
+          216
+        ],
+        [
+          315,
+          260
+        ],
+        [
+          94,
+          349
+        ]
+      ],
+      "actual": [
+        [
+          140,
+          127
+        ],
+        [
+          361,
+          127
+        ],
+        [
+          361,
+          216
+        ],
+        [
+          316,
+          260
+        ],
+        [
+          96,
+          349
+        ]
+      ],
+      "correct_objects": 5,
+      "distances": [
+        2.23606797749979,
+        2.0,
+        1.0,
+        1.0,
+        2.0
+      ],
+      "status": "candidates_proposed",
+      "internal_hypotheses": 465,
+      "validation_group": "assistant_visual"
+    },
+    {
+      "image": "input23.png",
+      "expected": [
+        [
+          227,
+          128
+        ],
+        [
+          94,
+          216
+        ],
+        [
+          94,
+          260
+        ],
+        [
+          272,
+          260
+        ],
+        [
+          94,
+          306
+        ]
+      ],
+      "actual": [
+        [
+          228,
+          126
+        ],
+        [
+          94,
+          216
+        ],
+        [
+          96,
+          260
+        ],
+        [
+          274,
+          260
+        ],
+        [
+          96,
+          304
+        ]
+      ],
+      "correct_objects": 5,
+      "distances": [
+        2.23606797749979,
+        0.0,
+        2.0,
+        2.0,
+        2.8284271247461903
+      ],
+      "status": "candidates_proposed",
+      "internal_hypotheses": 409,
+      "validation_group": "assistant_visual"
+    },
+    {
+      "image": "input24.png",
+      "expected": [
+        [
+          94,
+          216
+        ],
+        [
+          94,
+          261
+        ],
+        [
+          272,
+          305
+        ],
+        [
+          94,
+          349
+        ],
+        [
+          316,
+          349
+        ]
+      ],
+      "actual": [
+        [
+          96,
+          216
+        ],
+        [
+          96,
+          262
+        ],
+        [
+          272,
+          303
+        ],
+        [
+          95,
+          350
+        ],
+        [
+          316,
+          348
+        ]
+      ],
+      "correct_objects": 5,
+      "distances": [
+        2.0,
+        2.23606797749979,
+        2.0,
+        1.4142135623730951,
+        1.0
+      ],
+      "status": "candidates_proposed",
+      "internal_hypotheses": 555,
+      "validation_group": "assistant_visual"
+    },
+    {
+      "image": "input25.png",
+      "expected": [
+        [
+          358,
+          124
+        ],
+        [
+          94,
+          168
+        ],
+        [
+          138,
+          302
+        ],
+        [
+          268,
+          302
+        ],
+        [
+          229,
+          346
+        ]
+      ],
+      "actual": [
+        [
+          360,
+          124
+        ],
+        [
+          94,
+          168
+        ],
+        [
+          136,
+          303
+        ],
+        [
+          268,
+          300
+        ],
+        [
+          228,
+          346
+        ]
+      ],
+      "correct_objects": 5,
+      "distances": [
+        2.0,
+        0.0,
+        2.23606797749979,
+        2.0,
+        1.0
+      ],
+      "status": "candidates_proposed",
+      "internal_hypotheses": 270,
+      "validation_group": "assistant_visual"
+    }
+  ],
+  "development": {
+    "correct_objects": 50,
+    "total_objects": 50,
+    "complete_images": 10,
+    "total_images": 10
+  },
+  "new_sample": {
+    "correct_objects": 15,
+    "total_objects": 15,
+    "complete_images": 3,
+    "total_images": 3
+  },
+  "assistant_visual": {
+    "correct_objects": 60,
+    "total_objects": 60,
+    "complete_images": 12,
+    "total_images": 12
+  }
+}

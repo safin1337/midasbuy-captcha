@@ -1,0 +1,460 @@
+{
+  "note": "Manually reviewed development samples only; no unseen test accuracy established.",
+  "correct_targets": 30,
+  "total_targets": 30,
+  "correct_images": 10,
+  "total_images": 10,
+  "samples": [
+    {
+      "image": "input.png",
+      "expected": [
+        [
+          315,
+          124
+        ],
+        [
+          139,
+          301
+        ],
+        [
+          357,
+          171
+        ]
+      ],
+      "actual": [
+        [
+          315,
+          124
+        ],
+        [
+          139,
+          301
+        ],
+        [
+          357,
+          171
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "all_correct": true,
+      "review_status": "proposed_matches",
+      "resolved_orders": [
+        1,
+        2,
+        3
+      ],
+      "unresolved_orders": []
+    },
+    {
+      "image": "input2.png",
+      "expected": [
+        [
+          395,
+          208
+        ],
+        [
+          395,
+          119
+        ],
+        [
+          129,
+          341
+        ]
+      ],
+      "actual": [
+        [
+          393,
+          209
+        ],
+        [
+          395,
+          119
+        ],
+        [
+          130,
+          341
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "all_correct": true,
+      "review_status": "review_required",
+      "resolved_orders": [
+        1
+      ],
+      "unresolved_orders": [
+        2,
+        3
+      ]
+    },
+    {
+      "image": "input3.png",
+      "expected": [
+        [
+          128,
+          291
+        ],
+        [
+          394,
+          250
+        ],
+        [
+          84,
+          203
+        ]
+      ],
+      "actual": [
+        [
+          128,
+          291
+        ],
+        [
+          393,
+          248
+        ],
+        [
+          84,
+          203
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "all_correct": true,
+      "review_status": "review_required",
+      "resolved_orders": [
+        1,
+        2
+      ],
+      "unresolved_orders": [
+        3
+      ]
+    },
+    {
+      "image": "input4.png",
+      "expected": [
+        [
+          83,
+          298
+        ],
+        [
+          306,
+          120
+        ],
+        [
+          85,
+          119
+        ]
+      ],
+      "actual": [
+        [
+          83,
+          299
+        ],
+        [
+          306,
+          120
+        ],
+        [
+          85,
+          119
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "all_correct": true,
+      "review_status": "review_required",
+      "resolved_orders": [
+        1,
+        2
+      ],
+      "unresolved_orders": [
+        3
+      ]
+    },
+    {
+      "image": "input5.png",
+      "expected": [
+        [
+          342,
+          248
+        ],
+        [
+          120,
+          337
+        ],
+        [
+          385,
+          117
+        ]
+      ],
+      "actual": [
+        [
+          342,
+          249
+        ],
+        [
+          120,
+          336
+        ],
+        [
+          385,
+          116
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "all_correct": true,
+      "review_status": "proposed_matches",
+      "resolved_orders": [
+        1,
+        2,
+        3
+      ],
+      "unresolved_orders": []
+    },
+    {
+      "image": "input6.png",
+      "expected": [
+        [
+          168,
+          158
+        ],
+        [
+          300,
+          250
+        ],
+        [
+          300,
+          157
+        ]
+      ],
+      "actual": [
+        [
+          168,
+          158
+        ],
+        [
+          300,
+          250
+        ],
+        [
+          302,
+          158
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "all_correct": true,
+      "review_status": "review_required",
+      "resolved_orders": [
+        1,
+        2
+      ],
+      "unresolved_orders": [
+        3
+      ]
+    },
+    {
+      "image": "input7.png",
+      "expected": [
+        [
+          214,
+          120
+        ],
+        [
+          394,
+          250
+        ],
+        [
+          129,
+          339
+        ]
+      ],
+      "actual": [
+        [
+          215,
+          119
+        ],
+        [
+          394,
+          250
+        ],
+        [
+          129,
+          339
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "all_correct": true,
+      "review_status": "review_required",
+      "resolved_orders": [
+        1,
+        2
+      ],
+      "unresolved_orders": [
+        3
+      ]
+    },
+    {
+      "image": "input8.png",
+      "expected": [
+        [
+          170,
+          117
+        ],
+        [
+          38,
+          210
+        ],
+        [
+          392,
+          117
+        ]
+      ],
+      "actual": [
+        [
+          171,
+          117
+        ],
+        [
+          38,
+          206
+        ],
+        [
+          392,
+          117
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "all_correct": true,
+      "review_status": "review_required",
+      "resolved_orders": [
+        2
+      ],
+      "unresolved_orders": [
+        1,
+        3
+      ]
+    },
+    {
+      "image": "input9.png",
+      "expected": [
+        [
+          262,
+          119
+        ],
+        [
+          85,
+          254
+        ],
+        [
+          85,
+          163
+        ]
+      ],
+      "actual": [
+        [
+          262,
+          119
+        ],
+        [
+          85,
+          254
+        ],
+        [
+          85,
+          164
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "all_correct": true,
+      "review_status": "review_required",
+      "resolved_orders": [
+        1,
+        2
+      ],
+      "unresolved_orders": [
+        3
+      ]
+    },
+    {
+      "image": "input10.png",
+      "expected": [
+        [
+          121,
+          184
+        ],
+        [
+          163,
+          359
+        ],
+        [
+          427,
+          273
+        ]
+      ],
+      "actual": [
+        [
+          121,
+          184
+        ],
+        [
+          163,
+          359
+        ],
+        [
+          426,
+          274
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "all_correct": true,
+      "review_status": "review_required",
+      "resolved_orders": [
+        1
+      ],
+      "unresolved_orders": [
+        2,
+        3
+      ]
+    }
+  ],
+  "resolved_proposals": 19,
+  "review_required_proposals": 11,
+  "validation_note": "These are manually reviewed development samples used during implementation. Current-image templates are excluded, but this is not unseen production accuracy. Correct proposed coordinates do not override an abstention decision."
+}

@@ -1,0 +1,902 @@
+{
+  "version": 1,
+  "note": "Supervised development library from manually reviewed local examples; detection excludes the current image hash by default.",
+  "templates": [
+    {
+      "class": "document",
+      "kind": "reference",
+      "source": "390aef871307b4597ac0051e6264b2d867a6631b56a7997d3a38cd803395b083",
+      "image": "input.png"
+    },
+    {
+      "class": "document",
+      "kind": "target",
+      "source": "390aef871307b4597ac0051e6264b2d867a6631b56a7997d3a38cd803395b083",
+      "image": "input.png"
+    },
+    {
+      "class": "document",
+      "kind": "target",
+      "source": "390aef871307b4597ac0051e6264b2d867a6631b56a7997d3a38cd803395b083",
+      "image": "input.png"
+    },
+    {
+      "class": "grid",
+      "kind": "reference",
+      "source": "390aef871307b4597ac0051e6264b2d867a6631b56a7997d3a38cd803395b083",
+      "image": "input.png"
+    },
+    {
+      "class": "grid",
+      "kind": "target",
+      "source": "390aef871307b4597ac0051e6264b2d867a6631b56a7997d3a38cd803395b083",
+      "image": "input.png"
+    },
+    {
+      "class": "tiered_gate",
+      "kind": "reference",
+      "source": "390aef871307b4597ac0051e6264b2d867a6631b56a7997d3a38cd803395b083",
+      "image": "input.png"
+    },
+    {
+      "class": "tiered_gate",
+      "kind": "target",
+      "source": "390aef871307b4597ac0051e6264b2d867a6631b56a7997d3a38cd803395b083",
+      "image": "input.png"
+    },
+    {
+      "class": "tiered_gate",
+      "kind": "target",
+      "source": "390aef871307b4597ac0051e6264b2d867a6631b56a7997d3a38cd803395b083",
+      "image": "input.png"
+    },
+    {
+      "class": "twin_towers",
+      "kind": "target",
+      "source": "390aef871307b4597ac0051e6264b2d867a6631b56a7997d3a38cd803395b083",
+      "image": "input.png"
+    },
+    {
+      "class": "twin_towers",
+      "kind": "target",
+      "source": "390aef871307b4597ac0051e6264b2d867a6631b56a7997d3a38cd803395b083",
+      "image": "input.png"
+    },
+    {
+      "class": "corner_building",
+      "kind": "target",
+      "source": "390aef871307b4597ac0051e6264b2d867a6631b56a7997d3a38cd803395b083",
+      "image": "input.png"
+    },
+    {
+      "class": "corner_building",
+      "kind": "target",
+      "source": "390aef871307b4597ac0051e6264b2d867a6631b56a7997d3a38cd803395b083",
+      "image": "input.png"
+    },
+    {
+      "class": "window_buildings",
+      "kind": "reference",
+      "source": "3cf917058228446ffa16f777539da78e61e5a6c84dd1f49eab23b26696b81fde",
+      "image": "input2.png"
+    },
+    {
+      "class": "window_buildings",
+      "kind": "target",
+      "source": "3cf917058228446ffa16f777539da78e61e5a6c84dd1f49eab23b26696b81fde",
+      "image": "input2.png"
+    },
+    {
+      "class": "window_buildings",
+      "kind": "target",
+      "source": "3cf917058228446ffa16f777539da78e61e5a6c84dd1f49eab23b26696b81fde",
+      "image": "input2.png"
+    },
+    {
+      "class": "medical_box",
+      "kind": "reference",
+      "source": "3cf917058228446ffa16f777539da78e61e5a6c84dd1f49eab23b26696b81fde",
+      "image": "input2.png"
+    },
+    {
+      "class": "medical_box",
+      "kind": "target",
+      "source": "3cf917058228446ffa16f777539da78e61e5a6c84dd1f49eab23b26696b81fde",
+      "image": "input2.png"
+    },
+    {
+      "class": "medical_box",
+      "kind": "target",
+      "source": "3cf917058228446ffa16f777539da78e61e5a6c84dd1f49eab23b26696b81fde",
+      "image": "input2.png"
+    },
+    {
+      "class": "castle",
+      "kind": "reference",
+      "source": "3cf917058228446ffa16f777539da78e61e5a6c84dd1f49eab23b26696b81fde",
+      "image": "input2.png"
+    },
+    {
+      "class": "castle",
+      "kind": "target",
+      "source": "3cf917058228446ffa16f777539da78e61e5a6c84dd1f49eab23b26696b81fde",
+      "image": "input2.png"
+    },
+    {
+      "class": "empty_buildings",
+      "kind": "target",
+      "source": "3cf917058228446ffa16f777539da78e61e5a6c84dd1f49eab23b26696b81fde",
+      "image": "input2.png"
+    },
+    {
+      "class": "empty_buildings",
+      "kind": "target",
+      "source": "3cf917058228446ffa16f777539da78e61e5a6c84dd1f49eab23b26696b81fde",
+      "image": "input2.png"
+    },
+    {
+      "class": "twin_towers",
+      "kind": "target",
+      "source": "3cf917058228446ffa16f777539da78e61e5a6c84dd1f49eab23b26696b81fde",
+      "image": "input2.png"
+    },
+    {
+      "class": "single_gate",
+      "kind": "reference",
+      "source": "2d98e03ae498194a0531fdcb5f7767af8c4b94d36bc1559e3ea85292f18d73b0",
+      "image": "input3.png"
+    },
+    {
+      "class": "single_gate",
+      "kind": "target",
+      "source": "2d98e03ae498194a0531fdcb5f7767af8c4b94d36bc1559e3ea85292f18d73b0",
+      "image": "input3.png"
+    },
+    {
+      "class": "single_gate",
+      "kind": "target",
+      "source": "2d98e03ae498194a0531fdcb5f7767af8c4b94d36bc1559e3ea85292f18d73b0",
+      "image": "input3.png"
+    },
+    {
+      "class": "tiered_gate",
+      "kind": "reference",
+      "source": "2d98e03ae498194a0531fdcb5f7767af8c4b94d36bc1559e3ea85292f18d73b0",
+      "image": "input3.png"
+    },
+    {
+      "class": "tiered_gate",
+      "kind": "target",
+      "source": "2d98e03ae498194a0531fdcb5f7767af8c4b94d36bc1559e3ea85292f18d73b0",
+      "image": "input3.png"
+    },
+    {
+      "class": "castle",
+      "kind": "reference",
+      "source": "2d98e03ae498194a0531fdcb5f7767af8c4b94d36bc1559e3ea85292f18d73b0",
+      "image": "input3.png"
+    },
+    {
+      "class": "castle",
+      "kind": "target",
+      "source": "2d98e03ae498194a0531fdcb5f7767af8c4b94d36bc1559e3ea85292f18d73b0",
+      "image": "input3.png"
+    },
+    {
+      "class": "castle",
+      "kind": "target",
+      "source": "2d98e03ae498194a0531fdcb5f7767af8c4b94d36bc1559e3ea85292f18d73b0",
+      "image": "input3.png"
+    },
+    {
+      "class": "empty_buildings",
+      "kind": "target",
+      "source": "2d98e03ae498194a0531fdcb5f7767af8c4b94d36bc1559e3ea85292f18d73b0",
+      "image": "input3.png"
+    },
+    {
+      "class": "empty_buildings",
+      "kind": "target",
+      "source": "2d98e03ae498194a0531fdcb5f7767af8c4b94d36bc1559e3ea85292f18d73b0",
+      "image": "input3.png"
+    },
+    {
+      "class": "twin_towers",
+      "kind": "target",
+      "source": "2d98e03ae498194a0531fdcb5f7767af8c4b94d36bc1559e3ea85292f18d73b0",
+      "image": "input3.png"
+    },
+    {
+      "class": "twin_towers",
+      "kind": "target",
+      "source": "2d98e03ae498194a0531fdcb5f7767af8c4b94d36bc1559e3ea85292f18d73b0",
+      "image": "input3.png"
+    },
+    {
+      "class": "single_gate",
+      "kind": "reference",
+      "source": "72a4e6d002f4ae7326348e0a8641851a89dd50655fc7518cd6824e2f16b7135b",
+      "image": "input4.png"
+    },
+    {
+      "class": "single_gate",
+      "kind": "target",
+      "source": "72a4e6d002f4ae7326348e0a8641851a89dd50655fc7518cd6824e2f16b7135b",
+      "image": "input4.png"
+    },
+    {
+      "class": "single_gate",
+      "kind": "target",
+      "source": "72a4e6d002f4ae7326348e0a8641851a89dd50655fc7518cd6824e2f16b7135b",
+      "image": "input4.png"
+    },
+    {
+      "class": "window_buildings",
+      "kind": "reference",
+      "source": "72a4e6d002f4ae7326348e0a8641851a89dd50655fc7518cd6824e2f16b7135b",
+      "image": "input4.png"
+    },
+    {
+      "class": "window_buildings",
+      "kind": "target",
+      "source": "72a4e6d002f4ae7326348e0a8641851a89dd50655fc7518cd6824e2f16b7135b",
+      "image": "input4.png"
+    },
+    {
+      "class": "window_buildings",
+      "kind": "target",
+      "source": "72a4e6d002f4ae7326348e0a8641851a89dd50655fc7518cd6824e2f16b7135b",
+      "image": "input4.png"
+    },
+    {
+      "class": "calendar",
+      "kind": "reference",
+      "source": "72a4e6d002f4ae7326348e0a8641851a89dd50655fc7518cd6824e2f16b7135b",
+      "image": "input4.png"
+    },
+    {
+      "class": "calendar",
+      "kind": "target",
+      "source": "72a4e6d002f4ae7326348e0a8641851a89dd50655fc7518cd6824e2f16b7135b",
+      "image": "input4.png"
+    },
+    {
+      "class": "calendar",
+      "kind": "target",
+      "source": "72a4e6d002f4ae7326348e0a8641851a89dd50655fc7518cd6824e2f16b7135b",
+      "image": "input4.png"
+    },
+    {
+      "class": "empty_buildings",
+      "kind": "target",
+      "source": "72a4e6d002f4ae7326348e0a8641851a89dd50655fc7518cd6824e2f16b7135b",
+      "image": "input4.png"
+    },
+    {
+      "class": "corner_building",
+      "kind": "target",
+      "source": "72a4e6d002f4ae7326348e0a8641851a89dd50655fc7518cd6824e2f16b7135b",
+      "image": "input4.png"
+    },
+    {
+      "class": "corner_building",
+      "kind": "target",
+      "source": "72a4e6d002f4ae7326348e0a8641851a89dd50655fc7518cd6824e2f16b7135b",
+      "image": "input4.png"
+    },
+    {
+      "class": "single_gate",
+      "kind": "reference",
+      "source": "4241b6c54545e63d584014dfea3ab9c7537075ce24fa9cb82d684eb120744db8",
+      "image": "input5.png"
+    },
+    {
+      "class": "single_gate",
+      "kind": "target",
+      "source": "4241b6c54545e63d584014dfea3ab9c7537075ce24fa9cb82d684eb120744db8",
+      "image": "input5.png"
+    },
+    {
+      "class": "grid",
+      "kind": "reference",
+      "source": "4241b6c54545e63d584014dfea3ab9c7537075ce24fa9cb82d684eb120744db8",
+      "image": "input5.png"
+    },
+    {
+      "class": "grid",
+      "kind": "target",
+      "source": "4241b6c54545e63d584014dfea3ab9c7537075ce24fa9cb82d684eb120744db8",
+      "image": "input5.png"
+    },
+    {
+      "class": "grid",
+      "kind": "target",
+      "source": "4241b6c54545e63d584014dfea3ab9c7537075ce24fa9cb82d684eb120744db8",
+      "image": "input5.png"
+    },
+    {
+      "class": "tiered_gate",
+      "kind": "reference",
+      "source": "4241b6c54545e63d584014dfea3ab9c7537075ce24fa9cb82d684eb120744db8",
+      "image": "input5.png"
+    },
+    {
+      "class": "tiered_gate",
+      "kind": "target",
+      "source": "4241b6c54545e63d584014dfea3ab9c7537075ce24fa9cb82d684eb120744db8",
+      "image": "input5.png"
+    },
+    {
+      "class": "tiered_gate",
+      "kind": "target",
+      "source": "4241b6c54545e63d584014dfea3ab9c7537075ce24fa9cb82d684eb120744db8",
+      "image": "input5.png"
+    },
+    {
+      "class": "empty_buildings",
+      "kind": "target",
+      "source": "4241b6c54545e63d584014dfea3ab9c7537075ce24fa9cb82d684eb120744db8",
+      "image": "input5.png"
+    },
+    {
+      "class": "medical_box",
+      "kind": "target",
+      "source": "4241b6c54545e63d584014dfea3ab9c7537075ce24fa9cb82d684eb120744db8",
+      "image": "input5.png"
+    },
+    {
+      "class": "window_buildings",
+      "kind": "reference",
+      "source": "f4a64bc2bfb15fe353f857fab313e961e24e943c1088d0e1462c9c2b687da10f",
+      "image": "input6.png"
+    },
+    {
+      "class": "window_buildings",
+      "kind": "target",
+      "source": "f4a64bc2bfb15fe353f857fab313e961e24e943c1088d0e1462c9c2b687da10f",
+      "image": "input6.png"
+    },
+    {
+      "class": "window_buildings",
+      "kind": "target",
+      "source": "f4a64bc2bfb15fe353f857fab313e961e24e943c1088d0e1462c9c2b687da10f",
+      "image": "input6.png"
+    },
+    {
+      "class": "tiered_gate",
+      "kind": "reference",
+      "source": "f4a64bc2bfb15fe353f857fab313e961e24e943c1088d0e1462c9c2b687da10f",
+      "image": "input6.png"
+    },
+    {
+      "class": "tiered_gate",
+      "kind": "target",
+      "source": "f4a64bc2bfb15fe353f857fab313e961e24e943c1088d0e1462c9c2b687da10f",
+      "image": "input6.png"
+    },
+    {
+      "class": "tiered_gate",
+      "kind": "target",
+      "source": "f4a64bc2bfb15fe353f857fab313e961e24e943c1088d0e1462c9c2b687da10f",
+      "image": "input6.png"
+    },
+    {
+      "class": "castle",
+      "kind": "reference",
+      "source": "f4a64bc2bfb15fe353f857fab313e961e24e943c1088d0e1462c9c2b687da10f",
+      "image": "input6.png"
+    },
+    {
+      "class": "castle",
+      "kind": "target",
+      "source": "f4a64bc2bfb15fe353f857fab313e961e24e943c1088d0e1462c9c2b687da10f",
+      "image": "input6.png"
+    },
+    {
+      "class": "castle",
+      "kind": "target",
+      "source": "f4a64bc2bfb15fe353f857fab313e961e24e943c1088d0e1462c9c2b687da10f",
+      "image": "input6.png"
+    },
+    {
+      "class": "empty_buildings",
+      "kind": "target",
+      "source": "f4a64bc2bfb15fe353f857fab313e961e24e943c1088d0e1462c9c2b687da10f",
+      "image": "input6.png"
+    },
+    {
+      "class": "empty_buildings",
+      "kind": "target",
+      "source": "f4a64bc2bfb15fe353f857fab313e961e24e943c1088d0e1462c9c2b687da10f",
+      "image": "input6.png"
+    },
+    {
+      "class": "twin_towers",
+      "kind": "target",
+      "source": "f4a64bc2bfb15fe353f857fab313e961e24e943c1088d0e1462c9c2b687da10f",
+      "image": "input6.png"
+    },
+    {
+      "class": "single_gate",
+      "kind": "reference",
+      "source": "7c6078a22b5446b76ce78b1b6062fe9e8c23d570d580a4fdb4fdeed93254d391",
+      "image": "input7.png"
+    },
+    {
+      "class": "single_gate",
+      "kind": "target",
+      "source": "7c6078a22b5446b76ce78b1b6062fe9e8c23d570d580a4fdb4fdeed93254d391",
+      "image": "input7.png"
+    },
+    {
+      "class": "single_gate",
+      "kind": "target",
+      "source": "7c6078a22b5446b76ce78b1b6062fe9e8c23d570d580a4fdb4fdeed93254d391",
+      "image": "input7.png"
+    },
+    {
+      "class": "tiered_gate",
+      "kind": "reference",
+      "source": "7c6078a22b5446b76ce78b1b6062fe9e8c23d570d580a4fdb4fdeed93254d391",
+      "image": "input7.png"
+    },
+    {
+      "class": "tiered_gate",
+      "kind": "target",
+      "source": "7c6078a22b5446b76ce78b1b6062fe9e8c23d570d580a4fdb4fdeed93254d391",
+      "image": "input7.png"
+    },
+    {
+      "class": "tiered_gate",
+      "kind": "target",
+      "source": "7c6078a22b5446b76ce78b1b6062fe9e8c23d570d580a4fdb4fdeed93254d391",
+      "image": "input7.png"
+    },
+    {
+      "class": "document",
+      "kind": "reference",
+      "source": "7c6078a22b5446b76ce78b1b6062fe9e8c23d570d580a4fdb4fdeed93254d391",
+      "image": "input7.png"
+    },
+    {
+      "class": "document",
+      "kind": "target",
+      "source": "7c6078a22b5446b76ce78b1b6062fe9e8c23d570d580a4fdb4fdeed93254d391",
+      "image": "input7.png"
+    },
+    {
+      "class": "document",
+      "kind": "target",
+      "source": "7c6078a22b5446b76ce78b1b6062fe9e8c23d570d580a4fdb4fdeed93254d391",
+      "image": "input7.png"
+    },
+    {
+      "class": "corner_building",
+      "kind": "target",
+      "source": "7c6078a22b5446b76ce78b1b6062fe9e8c23d570d580a4fdb4fdeed93254d391",
+      "image": "input7.png"
+    },
+    {
+      "class": "corner_building",
+      "kind": "target",
+      "source": "7c6078a22b5446b76ce78b1b6062fe9e8c23d570d580a4fdb4fdeed93254d391",
+      "image": "input7.png"
+    },
+    {
+      "class": "loops",
+      "kind": "target",
+      "source": "7c6078a22b5446b76ce78b1b6062fe9e8c23d570d580a4fdb4fdeed93254d391",
+      "image": "input7.png"
+    },
+    {
+      "class": "loops",
+      "kind": "target",
+      "source": "7c6078a22b5446b76ce78b1b6062fe9e8c23d570d580a4fdb4fdeed93254d391",
+      "image": "input7.png"
+    },
+    {
+      "class": "calendar",
+      "kind": "reference",
+      "source": "46eb0ca050d01fc4bf1a2c934906700d4dd298efd43f1468819ef5f1e5fdda29",
+      "image": "input8.png"
+    },
+    {
+      "class": "calendar",
+      "kind": "target",
+      "source": "46eb0ca050d01fc4bf1a2c934906700d4dd298efd43f1468819ef5f1e5fdda29",
+      "image": "input8.png"
+    },
+    {
+      "class": "calendar",
+      "kind": "target",
+      "source": "46eb0ca050d01fc4bf1a2c934906700d4dd298efd43f1468819ef5f1e5fdda29",
+      "image": "input8.png"
+    },
+    {
+      "class": "tiered_gate",
+      "kind": "reference",
+      "source": "46eb0ca050d01fc4bf1a2c934906700d4dd298efd43f1468819ef5f1e5fdda29",
+      "image": "input8.png"
+    },
+    {
+      "class": "tiered_gate",
+      "kind": "target",
+      "source": "46eb0ca050d01fc4bf1a2c934906700d4dd298efd43f1468819ef5f1e5fdda29",
+      "image": "input8.png"
+    },
+    {
+      "class": "tiered_gate",
+      "kind": "target",
+      "source": "46eb0ca050d01fc4bf1a2c934906700d4dd298efd43f1468819ef5f1e5fdda29",
+      "image": "input8.png"
+    },
+    {
+      "class": "medical_box",
+      "kind": "reference",
+      "source": "46eb0ca050d01fc4bf1a2c934906700d4dd298efd43f1468819ef5f1e5fdda29",
+      "image": "input8.png"
+    },
+    {
+      "class": "medical_box",
+      "kind": "target",
+      "source": "46eb0ca050d01fc4bf1a2c934906700d4dd298efd43f1468819ef5f1e5fdda29",
+      "image": "input8.png"
+    },
+    {
+      "class": "medical_box",
+      "kind": "target",
+      "source": "46eb0ca050d01fc4bf1a2c934906700d4dd298efd43f1468819ef5f1e5fdda29",
+      "image": "input8.png"
+    },
+    {
+      "class": "corner_building",
+      "kind": "target",
+      "source": "46eb0ca050d01fc4bf1a2c934906700d4dd298efd43f1468819ef5f1e5fdda29",
+      "image": "input8.png"
+    },
+    {
+      "class": "corner_building",
+      "kind": "target",
+      "source": "46eb0ca050d01fc4bf1a2c934906700d4dd298efd43f1468819ef5f1e5fdda29",
+      "image": "input8.png"
+    },
+    {
+      "class": "document",
+      "kind": "reference",
+      "source": "b8a3cd5ff8a6390a3dd7dc2759c62984abe02ba21e201fcd651cbcfc3c4bc73d",
+      "image": "input9.png"
+    },
+    {
+      "class": "document",
+      "kind": "target",
+      "source": "b8a3cd5ff8a6390a3dd7dc2759c62984abe02ba21e201fcd651cbcfc3c4bc73d",
+      "image": "input9.png"
+    },
+    {
+      "class": "document",
+      "kind": "target",
+      "source": "b8a3cd5ff8a6390a3dd7dc2759c62984abe02ba21e201fcd651cbcfc3c4bc73d",
+      "image": "input9.png"
+    },
+    {
+      "class": "window_buildings",
+      "kind": "reference",
+      "source": "b8a3cd5ff8a6390a3dd7dc2759c62984abe02ba21e201fcd651cbcfc3c4bc73d",
+      "image": "input9.png"
+    },
+    {
+      "class": "window_buildings",
+      "kind": "target",
+      "source": "b8a3cd5ff8a6390a3dd7dc2759c62984abe02ba21e201fcd651cbcfc3c4bc73d",
+      "image": "input9.png"
+    },
+    {
+      "class": "calendar",
+      "kind": "reference",
+      "source": "b8a3cd5ff8a6390a3dd7dc2759c62984abe02ba21e201fcd651cbcfc3c4bc73d",
+      "image": "input9.png"
+    },
+    {
+      "class": "calendar",
+      "kind": "target",
+      "source": "b8a3cd5ff8a6390a3dd7dc2759c62984abe02ba21e201fcd651cbcfc3c4bc73d",
+      "image": "input9.png"
+    },
+    {
+      "class": "calendar",
+      "kind": "target",
+      "source": "b8a3cd5ff8a6390a3dd7dc2759c62984abe02ba21e201fcd651cbcfc3c4bc73d",
+      "image": "input9.png"
+    },
+    {
+      "class": "twin_towers",
+      "kind": "target",
+      "source": "b8a3cd5ff8a6390a3dd7dc2759c62984abe02ba21e201fcd651cbcfc3c4bc73d",
+      "image": "input9.png"
+    },
+    {
+      "class": "twin_towers",
+      "kind": "target",
+      "source": "b8a3cd5ff8a6390a3dd7dc2759c62984abe02ba21e201fcd651cbcfc3c4bc73d",
+      "image": "input9.png"
+    },
+    {
+      "class": "twin_towers",
+      "kind": "target",
+      "source": "b8a3cd5ff8a6390a3dd7dc2759c62984abe02ba21e201fcd651cbcfc3c4bc73d",
+      "image": "input9.png"
+    },
+    {
+      "class": "single_gate",
+      "kind": "reference",
+      "source": "41dc770d2ac9f468ed1cdb1ff93b37c451ddf47e20bd5b69e4b435dbedb93ee9",
+      "image": "input10.png"
+    },
+    {
+      "class": "single_gate",
+      "kind": "target",
+      "source": "41dc770d2ac9f468ed1cdb1ff93b37c451ddf47e20bd5b69e4b435dbedb93ee9",
+      "image": "input10.png"
+    },
+    {
+      "class": "single_gate",
+      "kind": "target",
+      "source": "41dc770d2ac9f468ed1cdb1ff93b37c451ddf47e20bd5b69e4b435dbedb93ee9",
+      "image": "input10.png"
+    },
+    {
+      "class": "document",
+      "kind": "reference",
+      "source": "41dc770d2ac9f468ed1cdb1ff93b37c451ddf47e20bd5b69e4b435dbedb93ee9",
+      "image": "input10.png"
+    },
+    {
+      "class": "document",
+      "kind": "target",
+      "source": "41dc770d2ac9f468ed1cdb1ff93b37c451ddf47e20bd5b69e4b435dbedb93ee9",
+      "image": "input10.png"
+    },
+    {
+      "class": "tiered_gate",
+      "kind": "reference",
+      "source": "41dc770d2ac9f468ed1cdb1ff93b37c451ddf47e20bd5b69e4b435dbedb93ee9",
+      "image": "input10.png"
+    },
+    {
+      "class": "tiered_gate",
+      "kind": "target",
+      "source": "41dc770d2ac9f468ed1cdb1ff93b37c451ddf47e20bd5b69e4b435dbedb93ee9",
+      "image": "input10.png"
+    },
+    {
+      "class": "tiered_gate",
+      "kind": "target",
+      "source": "41dc770d2ac9f468ed1cdb1ff93b37c451ddf47e20bd5b69e4b435dbedb93ee9",
+      "image": "input10.png"
+    },
+    {
+      "class": "empty_buildings",
+      "kind": "target",
+      "source": "41dc770d2ac9f468ed1cdb1ff93b37c451ddf47e20bd5b69e4b435dbedb93ee9",
+      "image": "input10.png"
+    },
+    {
+      "class": "empty_buildings",
+      "kind": "target",
+      "source": "41dc770d2ac9f468ed1cdb1ff93b37c451ddf47e20bd5b69e4b435dbedb93ee9",
+      "image": "input10.png"
+    }
+  ],
+  "annotations": {
+    "input.png": {
+      "classes": [
+        "document",
+        "grid",
+        "tiered_gate"
+      ],
+      "centers": [
+        [
+          315,
+          124
+        ],
+        [
+          139,
+          301
+        ],
+        [
+          357,
+          171
+        ]
+      ]
+    },
+    "input2.png": {
+      "classes": [
+        "window_buildings",
+        "medical_box",
+        "castle"
+      ],
+      "centers": [
+        [
+          395,
+          208
+        ],
+        [
+          395,
+          119
+        ],
+        [
+          129,
+          341
+        ]
+      ]
+    },
+    "input3.png": {
+      "classes": [
+        "single_gate",
+        "tiered_gate",
+        "castle"
+      ],
+      "centers": [
+        [
+          128,
+          291
+        ],
+        [
+          394,
+          250
+        ],
+        [
+          84,
+          203
+        ]
+      ]
+    },
+    "input4.png": {
+      "classes": [
+        "single_gate",
+        "window_buildings",
+        "calendar"
+      ],
+      "centers": [
+        [
+          83,
+          298
+        ],
+        [
+          306,
+          120
+        ],
+        [
+          85,
+          119
+        ]
+      ]
+    },
+    "input5.png": {
+      "classes": [
+        "single_gate",
+        "grid",
+        "tiered_gate"
+      ],
+      "centers": [
+        [
+          342,
+          248
+        ],
+        [
+          120,
+          337
+        ],
+        [
+          385,
+          117
+        ]
+      ]
+    },
+    "input6.png": {
+      "classes": [
+        "window_buildings",
+        "tiered_gate",
+        "castle"
+      ],
+      "centers": [
+        [
+          168,
+          158
+        ],
+        [
+          300,
+          250
+        ],
+        [
+          300,
+          157
+        ]
+      ]
+    },
+    "input7.png": {
+      "classes": [
+        "single_gate",
+        "tiered_gate",
+        "document"
+      ],
+      "centers": [
+        [
+          214,
+          120
+        ],
+        [
+          394,
+          250
+        ],
+        [
+          129,
+          339
+        ]
+      ]
+    },
+    "input8.png": {
+      "classes": [
+        "calendar",
+        "tiered_gate",
+        "medical_box"
+      ],
+      "centers": [
+        [
+          170,
+          117
+        ],
+        [
+          38,
+          210
+        ],
+        [
+          392,
+          117
+        ]
+      ]
+    },
+    "input9.png": {
+      "classes": [
+        "document",
+        "window_buildings",
+        "calendar"
+      ],
+      "centers": [
+        [
+          262,
+          119
+        ],
+        [
+          85,
+          254
+        ],
+        [
+          85,
+          163
+        ]
+      ]
+    },
+    "input10.png": {
+      "classes": [
+        "single_gate",
+        "document",
+        "tiered_gate"
+      ],
+      "centers": [
+        [
+          121,
+          184
+        ],
+        [
+          163,
+          359
+        ],
+        [
+          427,
+          273
+        ]
+      ]
+    }
+  }
+}

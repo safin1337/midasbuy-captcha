@@ -1,0 +1,1481 @@
+{
+  "status": "review_required",
+  "decision_thresholds": {
+    "shape_similarity": 0.68,
+    "family_similarity": 0.8,
+    "family_margin": 0.08,
+    "target_margin": 0.035,
+    "assignment_margin": 0.035
+  },
+  "score_note": "Uncalibrated shape/template similarity. Resolved matches are matcher proposals, not website verification.",
+  "assignment_margin": 0.0434,
+  "unresolved_orders": [
+    1,
+    2,
+    3
+  ],
+  "resolved_matches": [],
+  "references": [
+    {
+      "order": 1,
+      "box": [
+        237,
+        57,
+        29,
+        23
+      ],
+      "relative_box": [
+        -180,
+        28,
+        29,
+        23
+      ]
+    },
+    {
+      "order": 2,
+      "box": [
+        266,
+        57,
+        28,
+        23
+      ],
+      "relative_box": [
+        -151,
+        28,
+        28,
+        23
+      ]
+    },
+    {
+      "order": 3,
+      "box": [
+        294,
+        57,
+        29,
+        23
+      ],
+      "relative_box": [
+        -123,
+        28,
+        29,
+        23
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "T01",
+      "box": [
+        190,
+        91,
+        47,
+        47
+      ],
+      "relative_box": [
+        -227,
+        62,
+        47,
+        47
+      ]
+    },
+    {
+      "id": "T02",
+      "box": [
+        190,
+        91,
+        47,
+        47
+      ],
+      "relative_box": [
+        -227,
+        62,
+        47,
+        47
+      ]
+    },
+    {
+      "id": "T03",
+      "box": [
+        127,
+        92,
+        45,
+        26
+      ],
+      "relative_box": [
+        -290,
+        63,
+        45,
+        26
+      ]
+    },
+    {
+      "id": "T04",
+      "box": [
+        127,
+        92,
+        45,
+        26
+      ],
+      "relative_box": [
+        -290,
+        63,
+        45,
+        26
+      ]
+    },
+    {
+      "id": "T05",
+      "box": [
+        232,
+        95,
+        46,
+        44
+      ],
+      "relative_box": [
+        -185,
+        66,
+        46,
+        44
+      ]
+    },
+    {
+      "id": "T06",
+      "box": [
+        232,
+        95,
+        46,
+        44
+      ],
+      "relative_box": [
+        -185,
+        66,
+        46,
+        44
+      ]
+    },
+    {
+      "id": "T07",
+      "box": [
+        232,
+        96,
+        21,
+        39
+      ],
+      "relative_box": [
+        -185,
+        67,
+        21,
+        39
+      ]
+    },
+    {
+      "id": "T08",
+      "box": [
+        232,
+        96,
+        21,
+        39
+      ],
+      "relative_box": [
+        -185,
+        67,
+        21,
+        39
+      ]
+    },
+    {
+      "id": "T09",
+      "box": [
+        254,
+        98,
+        24,
+        41
+      ],
+      "relative_box": [
+        -163,
+        69,
+        24,
+        41
+      ]
+    },
+    {
+      "id": "T10",
+      "box": [
+        254,
+        98,
+        24,
+        41
+      ],
+      "relative_box": [
+        -163,
+        69,
+        24,
+        41
+      ]
+    },
+    {
+      "id": "T11",
+      "box": [
+        195,
+        101,
+        34,
+        33
+      ],
+      "relative_box": [
+        -222,
+        72,
+        34,
+        33
+      ]
+    },
+    {
+      "id": "T12",
+      "box": [
+        195,
+        101,
+        34,
+        33
+      ],
+      "relative_box": [
+        -222,
+        72,
+        34,
+        33
+      ]
+    },
+    {
+      "id": "T13",
+      "box": [
+        195,
+        101,
+        34,
+        32
+      ],
+      "relative_box": [
+        -222,
+        72,
+        34,
+        32
+      ]
+    },
+    {
+      "id": "T14",
+      "box": [
+        195,
+        101,
+        34,
+        32
+      ],
+      "relative_box": [
+        -222,
+        72,
+        34,
+        32
+      ]
+    },
+    {
+      "id": "T15",
+      "box": [
+        15,
+        124,
+        42,
+        33
+      ],
+      "relative_box": [
+        -402,
+        95,
+        42,
+        33
+      ]
+    },
+    {
+      "id": "T16",
+      "box": [
+        15,
+        124,
+        42,
+        33
+      ],
+      "relative_box": [
+        -402,
+        95,
+        42,
+        33
+      ]
+    },
+    {
+      "id": "T17",
+      "box": [
+        344,
+        124,
+        90,
+        36
+      ],
+      "relative_box": [
+        -73,
+        95,
+        90,
+        36
+      ]
+    },
+    {
+      "id": "T18",
+      "box": [
+        344,
+        124,
+        90,
+        36
+      ],
+      "relative_box": [
+        -73,
+        95,
+        90,
+        36
+      ]
+    },
+    {
+      "id": "T19",
+      "box": [
+        156,
+        125,
+        89,
+        35
+      ],
+      "relative_box": [
+        -261,
+        96,
+        89,
+        35
+      ]
+    },
+    {
+      "id": "T20",
+      "box": [
+        156,
+        125,
+        89,
+        35
+      ],
+      "relative_box": [
+        -261,
+        96,
+        89,
+        35
+      ]
+    },
+    {
+      "id": "T21",
+      "box": [
+        101,
+        135,
+        47,
+        47
+      ],
+      "relative_box": [
+        -316,
+        106,
+        47,
+        47
+      ]
+    },
+    {
+      "id": "T22",
+      "box": [
+        101,
+        135,
+        47,
+        47
+      ],
+      "relative_box": [
+        -316,
+        106,
+        47,
+        47
+      ]
+    },
+    {
+      "id": "T23",
+      "box": [
+        247,
+        161,
+        44,
+        26
+      ],
+      "relative_box": [
+        -170,
+        132,
+        44,
+        26
+      ]
+    },
+    {
+      "id": "T24",
+      "box": [
+        247,
+        161,
+        44,
+        26
+      ],
+      "relative_box": [
+        -170,
+        132,
+        44,
+        26
+      ]
+    },
+    {
+      "id": "T25",
+      "box": [
+        40,
+        167,
+        44,
+        26
+      ],
+      "relative_box": [
+        -377,
+        138,
+        44,
+        26
+      ]
+    },
+    {
+      "id": "T26",
+      "box": [
+        40,
+        167,
+        44,
+        26
+      ],
+      "relative_box": [
+        -377,
+        138,
+        44,
+        26
+      ]
+    },
+    {
+      "id": "T27",
+      "box": [
+        331,
+        182,
+        30,
+        41
+      ],
+      "relative_box": [
+        -86,
+        153,
+        30,
+        41
+      ]
+    },
+    {
+      "id": "T28",
+      "box": [
+        331,
+        182,
+        30,
+        41
+      ],
+      "relative_box": [
+        -86,
+        153,
+        30,
+        41
+      ]
+    },
+    {
+      "id": "T29",
+      "box": [
+        86,
+        193,
+        90,
+        36
+      ],
+      "relative_box": [
+        -331,
+        164,
+        90,
+        36
+      ]
+    },
+    {
+      "id": "T30",
+      "box": [
+        86,
+        193,
+        90,
+        36
+      ],
+      "relative_box": [
+        -331,
+        164,
+        90,
+        36
+      ]
+    },
+    {
+      "id": "T31",
+      "box": [
+        275,
+        193,
+        67,
+        36
+      ],
+      "relative_box": [
+        -142,
+        164,
+        67,
+        36
+      ]
+    },
+    {
+      "id": "T32",
+      "box": [
+        275,
+        193,
+        67,
+        36
+      ],
+      "relative_box": [
+        -142,
+        164,
+        67,
+        36
+      ]
+    },
+    {
+      "id": "T33",
+      "box": [
+        366,
+        230,
+        45,
+        26
+      ],
+      "relative_box": [
+        -51,
+        201,
+        45,
+        26
+      ]
+    },
+    {
+      "id": "T34",
+      "box": [
+        366,
+        230,
+        45,
+        26
+      ],
+      "relative_box": [
+        -51,
+        201,
+        45,
+        26
+      ]
+    },
+    {
+      "id": "T35",
+      "box": [
+        159,
+        236,
+        45,
+        26
+      ],
+      "relative_box": [
+        -258,
+        207,
+        45,
+        26
+      ]
+    },
+    {
+      "id": "T36",
+      "box": [
+        159,
+        236,
+        45,
+        26
+      ],
+      "relative_box": [
+        -258,
+        207,
+        45,
+        26
+      ]
+    },
+    {
+      "id": "T37",
+      "box": [
+        17,
+        263,
+        90,
+        36
+      ],
+      "relative_box": [
+        -400,
+        234,
+        90,
+        36
+      ]
+    },
+    {
+      "id": "T38",
+      "box": [
+        17,
+        263,
+        90,
+        36
+      ],
+      "relative_box": [
+        -400,
+        234,
+        90,
+        36
+      ]
+    },
+    {
+      "id": "T39",
+      "box": [
+        206,
+        263,
+        90,
+        36
+      ],
+      "relative_box": [
+        -211,
+        234,
+        90,
+        36
+      ]
+    },
+    {
+      "id": "T40",
+      "box": [
+        206,
+        263,
+        90,
+        36
+      ],
+      "relative_box": [
+        -211,
+        234,
+        90,
+        36
+      ]
+    },
+    {
+      "id": "T41",
+      "box": [
+        394,
+        265,
+        43,
+        34
+      ],
+      "relative_box": [
+        -23,
+        236,
+        43,
+        34
+      ]
+    },
+    {
+      "id": "T42",
+      "box": [
+        394,
+        265,
+        43,
+        34
+      ],
+      "relative_box": [
+        -23,
+        236,
+        43,
+        34
+      ]
+    },
+    {
+      "id": "T43",
+      "box": [
+        104,
+        278,
+        43,
+        38
+      ],
+      "relative_box": [
+        -313,
+        249,
+        43,
+        38
+      ]
+    },
+    {
+      "id": "T44",
+      "box": [
+        104,
+        278,
+        43,
+        38
+      ],
+      "relative_box": [
+        -313,
+        249,
+        43,
+        38
+      ]
+    },
+    {
+      "id": "T45",
+      "box": [
+        104,
+        278,
+        43,
+        38
+      ],
+      "relative_box": [
+        -313,
+        249,
+        43,
+        38
+      ]
+    },
+    {
+      "id": "T46",
+      "box": [
+        104,
+        278,
+        43,
+        38
+      ],
+      "relative_box": [
+        -313,
+        249,
+        43,
+        38
+      ]
+    },
+    {
+      "id": "T47",
+      "box": [
+        115,
+        288,
+        28,
+        22
+      ],
+      "relative_box": [
+        -302,
+        259,
+        28,
+        22
+      ]
+    },
+    {
+      "id": "T48",
+      "box": [
+        115,
+        288,
+        28,
+        22
+      ],
+      "relative_box": [
+        -302,
+        259,
+        28,
+        22
+      ]
+    },
+    {
+      "id": "T49",
+      "box": [
+        279,
+        305,
+        44,
+        26
+      ],
+      "relative_box": [
+        -138,
+        276,
+        44,
+        26
+      ]
+    },
+    {
+      "id": "T50",
+      "box": [
+        279,
+        305,
+        44,
+        26
+      ],
+      "relative_box": [
+        -138,
+        276,
+        44,
+        26
+      ]
+    },
+    {
+      "id": "T51",
+      "box": [
+        15,
+        332,
+        23,
+        27
+      ],
+      "relative_box": [
+        -402,
+        303,
+        23,
+        27
+      ]
+    },
+    {
+      "id": "T52",
+      "box": [
+        15,
+        332,
+        23,
+        27
+      ],
+      "relative_box": [
+        -402,
+        303,
+        23,
+        27
+      ]
+    },
+    {
+      "id": "T53",
+      "box": [
+        137,
+        332,
+        89,
+        36
+      ],
+      "relative_box": [
+        -280,
+        303,
+        89,
+        36
+      ]
+    },
+    {
+      "id": "T54",
+      "box": [
+        137,
+        332,
+        89,
+        36
+      ],
+      "relative_box": [
+        -280,
+        303,
+        89,
+        36
+      ]
+    },
+    {
+      "id": "T55",
+      "box": [
+        325,
+        332,
+        90,
+        36
+      ],
+      "relative_box": [
+        -92,
+        303,
+        90,
+        36
+      ]
+    },
+    {
+      "id": "T56",
+      "box": [
+        325,
+        332,
+        90,
+        36
+      ],
+      "relative_box": [
+        -92,
+        303,
+        90,
+        36
+      ]
+    },
+    {
+      "id": "T57",
+      "box": [
+        359,
+        347,
+        78,
+        44
+      ],
+      "relative_box": [
+        -58,
+        318,
+        78,
+        44
+      ]
+    },
+    {
+      "id": "T58",
+      "box": [
+        359,
+        347,
+        78,
+        44
+      ],
+      "relative_box": [
+        -58,
+        318,
+        78,
+        44
+      ]
+    },
+    {
+      "id": "T59",
+      "box": [
+        26,
+        369,
+        48,
+        22
+      ],
+      "relative_box": [
+        -391,
+        340,
+        48,
+        22
+      ]
+    },
+    {
+      "id": "T60",
+      "box": [
+        26,
+        369,
+        48,
+        22
+      ],
+      "relative_box": [
+        -391,
+        340,
+        48,
+        22
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "order": 1,
+      "candidate": "T06",
+      "box": [
+        232,
+        95,
+        46,
+        44
+      ],
+      "center": [
+        255,
+        117
+      ],
+      "match_score": 0.8555,
+      "mask_variant": "raw",
+      "decision": "review_required",
+      "review_reasons": [
+        "ambiguous_reference_family"
+      ],
+      "target_margin": 0.0739,
+      "rotation_degrees": -20,
+      "reference_classification": {
+        "class": "calendar",
+        "similarity": 0.7532,
+        "margin": 0.017,
+        "possible_families": [
+          "calendar",
+          "medical_box",
+          "document",
+          "castle",
+          "window_buildings"
+        ],
+        "verified": false,
+        "mode": "direct_shape_review_only"
+      },
+      "semantic_family": null,
+      "reference_structure": {
+        "enclosed_regions": 2,
+        "opening_area_fraction": 0.1914,
+        "opening_areas": [
+          394,
+          390
+        ]
+      },
+      "target_structure": {
+        "enclosed_regions": 2,
+        "opening_area_fraction": 0.1306,
+        "opening_areas": [
+          268,
+          267
+        ]
+      },
+      "alternatives": [
+        {
+          "candidate": "T06",
+          "center": [
+            255,
+            117
+          ],
+          "match_score": 0.8555,
+          "selected": true
+        },
+        {
+          "candidate": "T02",
+          "center": [
+            213,
+            114
+          ],
+          "match_score": 0.7816,
+          "selected": false
+        },
+        {
+          "candidate": "T51",
+          "center": [
+            26,
+            345
+          ],
+          "match_score": 0.7253,
+          "selected": false
+        }
+      ],
+      "relative_center": [
+        -162,
+        88
+      ],
+      "relative_box": [
+        -185,
+        66,
+        46,
+        44
+      ]
+    },
+    {
+      "order": 2,
+      "candidate": "T02",
+      "box": [
+        190,
+        91,
+        47,
+        47
+      ],
+      "center": [
+        213,
+        114
+      ],
+      "match_score": 0.9551,
+      "mask_variant": "raw",
+      "decision": "review_required",
+      "review_reasons": [
+        "ambiguous_reference_family"
+      ],
+      "target_margin": 0.2213,
+      "rotation_degrees": -35,
+      "reference_classification": {
+        "class": "medical_box",
+        "similarity": 0.9044,
+        "margin": 0.0258,
+        "possible_families": [
+          "medical_box",
+          "calendar"
+        ],
+        "verified": false,
+        "mode": "direct_shape_review_only"
+      },
+      "semantic_family": null,
+      "reference_structure": {
+        "enclosed_regions": 2,
+        "opening_area_fraction": 0.3054,
+        "opening_areas": [
+          1046,
+          205
+        ]
+      },
+      "target_structure": {
+        "enclosed_regions": 2,
+        "opening_area_fraction": 0.1677,
+        "opening_areas": [
+          577,
+          110
+        ]
+      },
+      "alternatives": [
+        {
+          "candidate": "T02",
+          "center": [
+            213,
+            114
+          ],
+          "match_score": 0.9551,
+          "selected": true
+        },
+        {
+          "candidate": "T22",
+          "center": [
+            124,
+            158
+          ],
+          "match_score": 0.7337,
+          "selected": false
+        },
+        {
+          "candidate": "T06",
+          "center": [
+            255,
+            117
+          ],
+          "match_score": 0.704,
+          "selected": false
+        }
+      ],
+      "relative_center": [
+        -204,
+        85
+      ],
+      "relative_box": [
+        -227,
+        62,
+        47,
+        47
+      ]
+    },
+    {
+      "order": 3,
+      "candidate": "T22",
+      "box": [
+        101,
+        135,
+        47,
+        47
+      ],
+      "center": [
+        124,
+        158
+      ],
+      "match_score": 0.9069,
+      "mask_variant": "raw",
+      "decision": "review_required",
+      "review_reasons": [
+        "ambiguous_reference_family"
+      ],
+      "target_margin": 0.1363,
+      "rotation_degrees": 30,
+      "reference_classification": {
+        "class": "calendar",
+        "similarity": 0.7007,
+        "margin": 0.0418,
+        "possible_families": [
+          "calendar",
+          "document",
+          "window_buildings",
+          "medical_box",
+          "tiered_gate"
+        ],
+        "verified": false,
+        "mode": "direct_shape_review_only"
+      },
+      "semantic_family": null,
+      "reference_structure": {
+        "enclosed_regions": 4,
+        "opening_area_fraction": 0.2656,
+        "opening_areas": [
+          288,
+          288,
+          288,
+          224
+        ]
+      },
+      "target_structure": {
+        "enclosed_regions": 4,
+        "opening_area_fraction": 0.1697,
+        "opening_areas": [
+          189,
+          180,
+          173,
+          153
+        ]
+      },
+      "alternatives": [
+        {
+          "candidate": "T22",
+          "center": [
+            124,
+            158
+          ],
+          "match_score": 0.9069,
+          "selected": true
+        },
+        {
+          "candidate": "T01",
+          "center": [
+            213,
+            114
+          ],
+          "match_score": 0.7706,
+          "selected": false
+        },
+        {
+          "candidate": "T06",
+          "center": [
+            255,
+            117
+          ],
+          "match_score": 0.6786,
+          "selected": false
+        }
+      ],
+      "relative_center": [
+        -293,
+        129
+      ],
+      "relative_box": [
+        -316,
+        106,
+        47,
+        47
+      ]
+    }
+  ],
+  "score_matrix": [
+    [
+      0.7617,
+      0.7816,
+      0.5972,
+      0.6106,
+      0.7853,
+      0.8555,
+      0.4783,
+      0.4975,
+      0.5422,
+      0.5189,
+      0.667,
+      0.6702,
+      0.6726,
+      0.6754,
+      0.7095,
+      0.6984,
+      0.4917,
+      0.4845,
+      0.4821,
+      0.4887,
+      0.6886,
+      0.6941,
+      0.6075,
+      0.6122,
+      0.6127,
+      0.6184,
+      0.6296,
+      0.6401,
+      0.4947,
+      0.4866,
+      0.5779,
+      0.586,
+      0.596,
+      0.6117,
+      0.5992,
+      0.6213,
+      0.4972,
+      0.4876,
+      0.4971,
+      0.4884,
+      0.6533,
+      0.6649,
+      0.62,
+      0.6081,
+      0.5695,
+      0.5558,
+      0.6574,
+      0.6371,
+      0.6143,
+      0.619,
+      0.7253,
+      0.7163,
+      0.4983,
+      0.5061,
+      0.4969,
+      0.4874,
+      0.4303,
+      0.4473,
+      0.5151,
+      0.5461
+    ],
+    [
+      0.9268,
+      0.9551,
+      0.512,
+      0.5244,
+      0.6437,
+      0.704,
+      0.3909,
+      0.4306,
+      0.4914,
+      0.4959,
+      0.6211,
+      0.6232,
+      0.6181,
+      0.6074,
+      0.6296,
+      0.622,
+      0.4264,
+      0.4257,
+      0.4175,
+      0.4222,
+      0.7289,
+      0.7337,
+      0.523,
+      0.525,
+      0.5395,
+      0.5444,
+      0.5993,
+      0.5913,
+      0.4286,
+      0.426,
+      0.4972,
+      0.5058,
+      0.51,
+      0.5228,
+      0.5144,
+      0.5393,
+      0.4331,
+      0.4271,
+      0.4353,
+      0.429,
+      0.57,
+      0.5837,
+      0.6963,
+      0.6922,
+      0.5597,
+      0.5548,
+      0.5922,
+      0.5828,
+      0.5366,
+      0.5386,
+      0.6199,
+      0.6117,
+      0.4367,
+      0.4464,
+      0.4326,
+      0.427,
+      0.3918,
+      0.4056,
+      0.4546,
+      0.4709
+    ],
+    [
+      0.7706,
+      0.7698,
+      0.5349,
+      0.5495,
+      0.644,
+      0.6786,
+      0.3947,
+      0.417,
+      0.447,
+      0.4518,
+      0.6313,
+      0.6309,
+      0.6446,
+      0.6476,
+      0.6207,
+      0.6105,
+      0.4246,
+      0.4228,
+      0.4264,
+      0.4301,
+      0.9052,
+      0.9069,
+      0.5475,
+      0.5535,
+      0.5618,
+      0.5584,
+      0.6232,
+      0.623,
+      0.428,
+      0.4246,
+      0.5112,
+      0.5176,
+      0.5353,
+      0.5508,
+      0.5427,
+      0.5617,
+      0.4318,
+      0.4226,
+      0.4332,
+      0.4238,
+      0.5824,
+      0.5934,
+      0.6149,
+      0.6268,
+      0.5245,
+      0.5389,
+      0.6123,
+      0.6063,
+      0.5623,
+      0.5581,
+      0.6296,
+      0.6241,
+      0.4311,
+      0.4422,
+      0.4303,
+      0.4225,
+      0.3932,
+      0.4043,
+      0.4464,
+      0.4689
+    ]
+  ],
+  "library": {
+    "enabled": true,
+    "templates_used": 114,
+    "excluded_current_image_hash": "742804fdcca42f9c6711a8dcb9b7279851b35b9a3380aecf95b8b1ebce53229c",
+    "validation_note": "Current source image templates are excluded; this is not unseen production accuracy."
+  },
+  "source": "D:\\Projects\\midasbuy-captcha\\Format_B\\examples\\synthetic\\case-1.png",
+  "coordinate_system": "relative_center and relative_box use the CAPTCHA close X as (0,0); center and box retain original screenshot pixels",
+  "anchor": {
+    "type": "captcha_close_x_center",
+    "center": [
+      417,
+      29
+    ],
+    "radius": 12.37,
+    "scale": 0.9929,
+    "header_offset": [
+      -402,
+      -19,
+      422,
+      79
+    ]
+  },
+  "reference_box": [
+    237,
+    57,
+    86,
+    23
+  ],
+  "scene_box": [
+    15,
+    89,
+    422,
+    302
+  ],
+  "relative_reference_box": [
+    -180,
+    28,
+    86,
+    23
+  ],
+  "relative_scene_box": [
+    -402,
+    60,
+    422,
+    302
+  ]
+}

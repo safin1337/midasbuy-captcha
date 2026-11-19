@@ -1,0 +1,551 @@
+{
+  "correct_targets": 75,
+  "total_targets": 75,
+  "unchanged_localizations": true,
+  "incorrect_confident_targets": 0,
+  "skipped_unlabelled_images": [
+    "input26.png",
+    "input27.png",
+    "input28.png",
+    "input29.png",
+    "input30.png",
+    "input31.png",
+    "input32.png",
+    "input33.png",
+    "input34.png",
+    "input35.png"
+  ],
+  "note": "User-reviewed development regressions; not unseen accuracy. Isolated runtime; primary source unchanged.",
+  "samples": [
+    {
+      "image": "input.png",
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "order": [
+        "A",
+        "D",
+        "C"
+      ],
+      "unchanged_candidate_boxes": true,
+      "incorrect_confident_positions": [],
+      "review_positions": [],
+      "recovery": []
+    },
+    {
+      "image": "input10.png",
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "order": [
+        "B",
+        "E",
+        "D"
+      ],
+      "unchanged_candidate_boxes": true,
+      "incorrect_confident_positions": [],
+      "review_positions": [
+        1,
+        2
+      ],
+      "recovery": []
+    },
+    {
+      "image": "input11.png",
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "order": [
+        "C",
+        "E",
+        "D"
+      ],
+      "unchanged_candidate_boxes": true,
+      "incorrect_confident_positions": [],
+      "review_positions": [
+        3
+      ],
+      "recovery": []
+    },
+    {
+      "image": "input12.png",
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "order": [
+        "C",
+        "E",
+        "A"
+      ],
+      "unchanged_candidate_boxes": true,
+      "incorrect_confident_positions": [],
+      "review_positions": [
+        2,
+        3
+      ],
+      "recovery": []
+    },
+    {
+      "image": "input13.png",
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "order": [
+        "E",
+        "C",
+        "D"
+      ],
+      "unchanged_candidate_boxes": true,
+      "incorrect_confident_positions": [],
+      "review_positions": [],
+      "recovery": []
+    },
+    {
+      "image": "input14.png",
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "order": [
+        "C",
+        "A",
+        "E"
+      ],
+      "unchanged_candidate_boxes": true,
+      "incorrect_confident_positions": [],
+      "review_positions": [],
+      "recovery": []
+    },
+    {
+      "image": "input15.png",
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "order": [
+        "B",
+        "E",
+        "A"
+      ],
+      "unchanged_candidate_boxes": true,
+      "incorrect_confident_positions": [],
+      "review_positions": [
+        1
+      ],
+      "recovery": []
+    },
+    {
+      "image": "input16.png",
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "order": [
+        "A",
+        "E",
+        "C"
+      ],
+      "unchanged_candidate_boxes": true,
+      "incorrect_confident_positions": [],
+      "review_positions": [
+        2
+      ],
+      "recovery": []
+    },
+    {
+      "image": "input17.png",
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "order": [
+        "B",
+        "D",
+        "A"
+      ],
+      "unchanged_candidate_boxes": true,
+      "incorrect_confident_positions": [],
+      "review_positions": [
+        2,
+        3
+      ],
+      "recovery": []
+    },
+    {
+      "image": "input18.png",
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "order": [
+        "E",
+        "D",
+        "C"
+      ],
+      "unchanged_candidate_boxes": true,
+      "incorrect_confident_positions": [],
+      "review_positions": [],
+      "recovery": []
+    },
+    {
+      "image": "input19.png",
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "order": [
+        "D",
+        "A",
+        "E"
+      ],
+      "unchanged_candidate_boxes": true,
+      "incorrect_confident_positions": [],
+      "review_positions": [
+        1,
+        2
+      ],
+      "recovery": [
+        {
+          "order": 2,
+          "candidate": "A",
+          "before": 0.647,
+          "after": 0.7138,
+          "band": [
+            30,
+            80,
+            50,
+            255,
+            35,
+            200,
+            false
+          ]
+        },
+        {
+          "order": 2,
+          "candidate": "C",
+          "before": 0.6845,
+          "after": 0.6981,
+          "band": [
+            30,
+            80,
+            50,
+            255,
+            35,
+            200,
+            false
+          ]
+        }
+      ]
+    },
+    {
+      "image": "input2.png",
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "order": [
+        "D",
+        "B",
+        "E"
+      ],
+      "unchanged_candidate_boxes": true,
+      "incorrect_confident_positions": [],
+      "review_positions": [
+        2,
+        3
+      ],
+      "recovery": []
+    },
+    {
+      "image": "input20.png",
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "order": [
+        "B",
+        "C",
+        "E"
+      ],
+      "unchanged_candidate_boxes": true,
+      "incorrect_confident_positions": [],
+      "review_positions": [],
+      "recovery": []
+    },
+    {
+      "image": "input21.png",
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "order": [
+        "A",
+        "C",
+        "D"
+      ],
+      "unchanged_candidate_boxes": true,
+      "incorrect_confident_positions": [],
+      "review_positions": [],
+      "recovery": []
+    },
+    {
+      "image": "input22.png",
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "order": [
+        "C",
+        "B",
+        "A"
+      ],
+      "unchanged_candidate_boxes": true,
+      "incorrect_confident_positions": [],
+      "review_positions": [
+        2,
+        3
+      ],
+      "recovery": []
+    },
+    {
+      "image": "input23.png",
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "order": [
+        "E",
+        "D",
+        "C"
+      ],
+      "unchanged_candidate_boxes": true,
+      "incorrect_confident_positions": [],
+      "review_positions": [
+        1
+      ],
+      "recovery": []
+    },
+    {
+      "image": "input24.png",
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "order": [
+        "E",
+        "D",
+        "C"
+      ],
+      "unchanged_candidate_boxes": true,
+      "incorrect_confident_positions": [],
+      "review_positions": [],
+      "recovery": []
+    },
+    {
+      "image": "input25.png",
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "order": [
+        "C",
+        "B",
+        "E"
+      ],
+      "unchanged_candidate_boxes": true,
+      "incorrect_confident_positions": [],
+      "review_positions": [
+        2,
+        3
+      ],
+      "recovery": []
+    },
+    {
+      "image": "input3.png",
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "order": [
+        "D",
+        "C",
+        "B"
+      ],
+      "unchanged_candidate_boxes": true,
+      "incorrect_confident_positions": [],
+      "review_positions": [
+        3
+      ],
+      "recovery": []
+    },
+    {
+      "image": "input4.png",
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "order": [
+        "D",
+        "B",
+        "A"
+      ],
+      "unchanged_candidate_boxes": true,
+      "incorrect_confident_positions": [],
+      "review_positions": [
+        3
+      ],
+      "recovery": []
+    },
+    {
+      "image": "input5.png",
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "order": [
+        "C",
+        "E",
+        "A"
+      ],
+      "unchanged_candidate_boxes": true,
+      "incorrect_confident_positions": [],
+      "review_positions": [],
+      "recovery": []
+    },
+    {
+      "image": "input6.png",
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "order": [
+        "A",
+        "C",
+        "B"
+      ],
+      "unchanged_candidate_boxes": true,
+      "incorrect_confident_positions": [],
+      "review_positions": [
+        3
+      ],
+      "recovery": []
+    },
+    {
+      "image": "input7.png",
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "order": [
+        "A",
+        "C",
+        "E"
+      ],
+      "unchanged_candidate_boxes": true,
+      "incorrect_confident_positions": [],
+      "review_positions": [
+        3
+      ],
+      "recovery": [
+        {
+          "order": 3,
+          "candidate": "A",
+          "before": 0.5861,
+          "after": 0.5943,
+          "band": [
+            60,
+            110,
+            35,
+            255,
+            155,
+            255,
+            false
+          ]
+        }
+      ]
+    },
+    {
+      "image": "input8.png",
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "order": [
+        "A",
+        "D",
+        "B"
+      ],
+      "unchanged_candidate_boxes": true,
+      "incorrect_confident_positions": [],
+      "review_positions": [
+        1,
+        3
+      ],
+      "recovery": [
+        {
+          "order": 1,
+          "candidate": "A",
+          "before": 0.736,
+          "after": 0.7634,
+          "band": [
+            150,
+            170,
+            45,
+            255,
+            145,
+            255,
+            false
+          ]
+        }
+      ]
+    },
+    {
+      "image": "input9.png",
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "order": [
+        "A",
+        "D",
+        "B"
+      ],
+      "unchanged_candidate_boxes": true,
+      "incorrect_confident_positions": [],
+      "review_positions": [
+        3
+      ],
+      "recovery": []
+    }
+  ]
+}

@@ -1,0 +1,1590 @@
+{
+  "status": "review_required",
+  "decision_thresholds": {
+    "shape_similarity": 0.68,
+    "family_similarity": 0.8,
+    "family_margin": 0.08,
+    "target_margin": 0.035,
+    "assignment_margin": 0.035
+  },
+  "score_note": "Uncalibrated shape/template similarity. Resolved matches are matcher proposals, not website verification.",
+  "assignment_margin": 0.0686,
+  "unresolved_orders": [
+    1,
+    2,
+    3
+  ],
+  "resolved_matches": [],
+  "references": [
+    {
+      "order": 1,
+      "box": [
+        238,
+        57,
+        29,
+        23
+      ],
+      "relative_box": [
+        -179,
+        28,
+        29,
+        23
+      ]
+    },
+    {
+      "order": 2,
+      "box": [
+        267,
+        57,
+        29,
+        23
+      ],
+      "relative_box": [
+        -150,
+        28,
+        29,
+        23
+      ]
+    },
+    {
+      "order": 3,
+      "box": [
+        296,
+        57,
+        29,
+        23
+      ],
+      "relative_box": [
+        -121,
+        28,
+        29,
+        23
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "T01",
+      "box": [
+        127,
+        92,
+        45,
+        26
+      ],
+      "relative_box": [
+        -290,
+        63,
+        45,
+        26
+      ]
+    },
+    {
+      "id": "T02",
+      "box": [
+        127,
+        92,
+        45,
+        26
+      ],
+      "relative_box": [
+        -290,
+        63,
+        45,
+        26
+      ]
+    },
+    {
+      "id": "T03",
+      "box": [
+        192,
+        93,
+        44,
+        44
+      ],
+      "relative_box": [
+        -225,
+        64,
+        44,
+        44
+      ]
+    },
+    {
+      "id": "T04",
+      "box": [
+        192,
+        93,
+        44,
+        44
+      ],
+      "relative_box": [
+        -225,
+        64,
+        44,
+        44
+      ]
+    },
+    {
+      "id": "T05",
+      "box": [
+        234,
+        95,
+        45,
+        44
+      ],
+      "relative_box": [
+        -183,
+        66,
+        45,
+        44
+      ]
+    },
+    {
+      "id": "T06",
+      "box": [
+        234,
+        95,
+        45,
+        44
+      ],
+      "relative_box": [
+        -183,
+        66,
+        45,
+        44
+      ]
+    },
+    {
+      "id": "T07",
+      "box": [
+        258,
+        95,
+        21,
+        35
+      ],
+      "relative_box": [
+        -159,
+        66,
+        21,
+        35
+      ]
+    },
+    {
+      "id": "T08",
+      "box": [
+        258,
+        95,
+        21,
+        35
+      ],
+      "relative_box": [
+        -159,
+        66,
+        21,
+        35
+      ]
+    },
+    {
+      "id": "T09",
+      "box": [
+        234,
+        100,
+        25,
+        39
+      ],
+      "relative_box": [
+        -183,
+        71,
+        25,
+        39
+      ]
+    },
+    {
+      "id": "T10",
+      "box": [
+        234,
+        100,
+        25,
+        39
+      ],
+      "relative_box": [
+        -183,
+        71,
+        25,
+        39
+      ]
+    },
+    {
+      "id": "T11",
+      "box": [
+        256,
+        100,
+        21,
+        27
+      ],
+      "relative_box": [
+        -161,
+        71,
+        21,
+        27
+      ]
+    },
+    {
+      "id": "T12",
+      "box": [
+        256,
+        100,
+        21,
+        27
+      ],
+      "relative_box": [
+        -161,
+        71,
+        21,
+        27
+      ]
+    },
+    {
+      "id": "T13",
+      "box": [
+        199,
+        104,
+        32,
+        28
+      ],
+      "relative_box": [
+        -218,
+        75,
+        32,
+        28
+      ]
+    },
+    {
+      "id": "T14",
+      "box": [
+        199,
+        104,
+        32,
+        28
+      ],
+      "relative_box": [
+        -218,
+        75,
+        32,
+        28
+      ]
+    },
+    {
+      "id": "T15",
+      "box": [
+        238,
+        105,
+        19,
+        32
+      ],
+      "relative_box": [
+        -179,
+        76,
+        19,
+        32
+      ]
+    },
+    {
+      "id": "T16",
+      "box": [
+        238,
+        105,
+        19,
+        32
+      ],
+      "relative_box": [
+        -179,
+        76,
+        19,
+        32
+      ]
+    },
+    {
+      "id": "T17",
+      "box": [
+        238,
+        105,
+        19,
+        29
+      ],
+      "relative_box": [
+        -179,
+        76,
+        19,
+        29
+      ]
+    },
+    {
+      "id": "T18",
+      "box": [
+        238,
+        105,
+        19,
+        29
+      ],
+      "relative_box": [
+        -179,
+        76,
+        19,
+        29
+      ]
+    },
+    {
+      "id": "T19",
+      "box": [
+        15,
+        124,
+        42,
+        33
+      ],
+      "relative_box": [
+        -402,
+        95,
+        42,
+        33
+      ]
+    },
+    {
+      "id": "T20",
+      "box": [
+        15,
+        124,
+        42,
+        33
+      ],
+      "relative_box": [
+        -402,
+        95,
+        42,
+        33
+      ]
+    },
+    {
+      "id": "T21",
+      "box": [
+        344,
+        124,
+        90,
+        36
+      ],
+      "relative_box": [
+        -73,
+        95,
+        90,
+        36
+      ]
+    },
+    {
+      "id": "T22",
+      "box": [
+        344,
+        124,
+        90,
+        36
+      ],
+      "relative_box": [
+        -73,
+        95,
+        90,
+        36
+      ]
+    },
+    {
+      "id": "T23",
+      "box": [
+        156,
+        127,
+        89,
+        33
+      ],
+      "relative_box": [
+        -261,
+        98,
+        89,
+        33
+      ]
+    },
+    {
+      "id": "T24",
+      "box": [
+        156,
+        127,
+        89,
+        33
+      ],
+      "relative_box": [
+        -261,
+        98,
+        89,
+        33
+      ]
+    },
+    {
+      "id": "T25",
+      "box": [
+        105,
+        136,
+        40,
+        45
+      ],
+      "relative_box": [
+        -312,
+        107,
+        40,
+        45
+      ]
+    },
+    {
+      "id": "T26",
+      "box": [
+        105,
+        136,
+        40,
+        45
+      ],
+      "relative_box": [
+        -312,
+        107,
+        40,
+        45
+      ]
+    },
+    {
+      "id": "T27",
+      "box": [
+        247,
+        161,
+        44,
+        26
+      ],
+      "relative_box": [
+        -170,
+        132,
+        44,
+        26
+      ]
+    },
+    {
+      "id": "T28",
+      "box": [
+        247,
+        161,
+        44,
+        26
+      ],
+      "relative_box": [
+        -170,
+        132,
+        44,
+        26
+      ]
+    },
+    {
+      "id": "T29",
+      "box": [
+        40,
+        167,
+        44,
+        26
+      ],
+      "relative_box": [
+        -377,
+        138,
+        44,
+        26
+      ]
+    },
+    {
+      "id": "T30",
+      "box": [
+        40,
+        167,
+        44,
+        26
+      ],
+      "relative_box": [
+        -377,
+        138,
+        44,
+        26
+      ]
+    },
+    {
+      "id": "T31",
+      "box": [
+        335,
+        183,
+        23,
+        39
+      ],
+      "relative_box": [
+        -82,
+        154,
+        23,
+        39
+      ]
+    },
+    {
+      "id": "T32",
+      "box": [
+        335,
+        183,
+        23,
+        39
+      ],
+      "relative_box": [
+        -82,
+        154,
+        23,
+        39
+      ]
+    },
+    {
+      "id": "T33",
+      "box": [
+        86,
+        193,
+        90,
+        36
+      ],
+      "relative_box": [
+        -331,
+        164,
+        90,
+        36
+      ]
+    },
+    {
+      "id": "T34",
+      "box": [
+        86,
+        193,
+        90,
+        36
+      ],
+      "relative_box": [
+        -331,
+        164,
+        90,
+        36
+      ]
+    },
+    {
+      "id": "T35",
+      "box": [
+        275,
+        193,
+        66,
+        36
+      ],
+      "relative_box": [
+        -142,
+        164,
+        66,
+        36
+      ]
+    },
+    {
+      "id": "T36",
+      "box": [
+        275,
+        193,
+        66,
+        36
+      ],
+      "relative_box": [
+        -142,
+        164,
+        66,
+        36
+      ]
+    },
+    {
+      "id": "T37",
+      "box": [
+        335,
+        198,
+        23,
+        24
+      ],
+      "relative_box": [
+        -82,
+        169,
+        23,
+        24
+      ]
+    },
+    {
+      "id": "T38",
+      "box": [
+        335,
+        198,
+        23,
+        24
+      ],
+      "relative_box": [
+        -82,
+        169,
+        23,
+        24
+      ]
+    },
+    {
+      "id": "T39",
+      "box": [
+        366,
+        230,
+        45,
+        26
+      ],
+      "relative_box": [
+        -51,
+        201,
+        45,
+        26
+      ]
+    },
+    {
+      "id": "T40",
+      "box": [
+        366,
+        230,
+        45,
+        26
+      ],
+      "relative_box": [
+        -51,
+        201,
+        45,
+        26
+      ]
+    },
+    {
+      "id": "T41",
+      "box": [
+        159,
+        236,
+        45,
+        26
+      ],
+      "relative_box": [
+        -258,
+        207,
+        45,
+        26
+      ]
+    },
+    {
+      "id": "T42",
+      "box": [
+        159,
+        236,
+        45,
+        26
+      ],
+      "relative_box": [
+        -258,
+        207,
+        45,
+        26
+      ]
+    },
+    {
+      "id": "T43",
+      "box": [
+        17,
+        263,
+        90,
+        36
+      ],
+      "relative_box": [
+        -400,
+        234,
+        90,
+        36
+      ]
+    },
+    {
+      "id": "T44",
+      "box": [
+        17,
+        263,
+        90,
+        36
+      ],
+      "relative_box": [
+        -400,
+        234,
+        90,
+        36
+      ]
+    },
+    {
+      "id": "T45",
+      "box": [
+        206,
+        263,
+        90,
+        36
+      ],
+      "relative_box": [
+        -211,
+        234,
+        90,
+        36
+      ]
+    },
+    {
+      "id": "T46",
+      "box": [
+        206,
+        263,
+        90,
+        36
+      ],
+      "relative_box": [
+        -211,
+        234,
+        90,
+        36
+      ]
+    },
+    {
+      "id": "T47",
+      "box": [
+        394,
+        265,
+        43,
+        34
+      ],
+      "relative_box": [
+        -23,
+        236,
+        43,
+        34
+      ]
+    },
+    {
+      "id": "T48",
+      "box": [
+        394,
+        265,
+        43,
+        34
+      ],
+      "relative_box": [
+        -23,
+        236,
+        43,
+        34
+      ]
+    },
+    {
+      "id": "T49",
+      "box": [
+        108,
+        275,
+        34,
+        36
+      ],
+      "relative_box": [
+        -309,
+        246,
+        34,
+        36
+      ]
+    },
+    {
+      "id": "T50",
+      "box": [
+        108,
+        275,
+        34,
+        36
+      ],
+      "relative_box": [
+        -309,
+        246,
+        34,
+        36
+      ]
+    },
+    {
+      "id": "T51",
+      "box": [
+        108,
+        275,
+        34,
+        36
+      ],
+      "relative_box": [
+        -309,
+        246,
+        34,
+        36
+      ]
+    },
+    {
+      "id": "T52",
+      "box": [
+        108,
+        275,
+        34,
+        36
+      ],
+      "relative_box": [
+        -309,
+        246,
+        34,
+        36
+      ]
+    },
+    {
+      "id": "T53",
+      "box": [
+        111,
+        286,
+        28,
+        22
+      ],
+      "relative_box": [
+        -306,
+        257,
+        28,
+        22
+      ]
+    },
+    {
+      "id": "T54",
+      "box": [
+        111,
+        286,
+        28,
+        22
+      ],
+      "relative_box": [
+        -306,
+        257,
+        28,
+        22
+      ]
+    },
+    {
+      "id": "T55",
+      "box": [
+        279,
+        305,
+        44,
+        26
+      ],
+      "relative_box": [
+        -138,
+        276,
+        44,
+        26
+      ]
+    },
+    {
+      "id": "T56",
+      "box": [
+        279,
+        305,
+        44,
+        26
+      ],
+      "relative_box": [
+        -138,
+        276,
+        44,
+        26
+      ]
+    },
+    {
+      "id": "T57",
+      "box": [
+        15,
+        332,
+        23,
+        27
+      ],
+      "relative_box": [
+        -402,
+        303,
+        23,
+        27
+      ]
+    },
+    {
+      "id": "T58",
+      "box": [
+        15,
+        332,
+        23,
+        27
+      ],
+      "relative_box": [
+        -402,
+        303,
+        23,
+        27
+      ]
+    },
+    {
+      "id": "T59",
+      "box": [
+        137,
+        332,
+        89,
+        36
+      ],
+      "relative_box": [
+        -280,
+        303,
+        89,
+        36
+      ]
+    },
+    {
+      "id": "T60",
+      "box": [
+        137,
+        332,
+        89,
+        36
+      ],
+      "relative_box": [
+        -280,
+        303,
+        89,
+        36
+      ]
+    },
+    {
+      "id": "T61",
+      "box": [
+        325,
+        332,
+        90,
+        36
+      ],
+      "relative_box": [
+        -92,
+        303,
+        90,
+        36
+      ]
+    },
+    {
+      "id": "T62",
+      "box": [
+        325,
+        332,
+        90,
+        36
+      ],
+      "relative_box": [
+        -92,
+        303,
+        90,
+        36
+      ]
+    },
+    {
+      "id": "T63",
+      "box": [
+        359,
+        347,
+        78,
+        44
+      ],
+      "relative_box": [
+        -58,
+        318,
+        78,
+        44
+      ]
+    },
+    {
+      "id": "T64",
+      "box": [
+        359,
+        347,
+        78,
+        44
+      ],
+      "relative_box": [
+        -58,
+        318,
+        78,
+        44
+      ]
+    },
+    {
+      "id": "T65",
+      "box": [
+        26,
+        369,
+        48,
+        22
+      ],
+      "relative_box": [
+        -391,
+        340,
+        48,
+        22
+      ]
+    },
+    {
+      "id": "T66",
+      "box": [
+        26,
+        369,
+        48,
+        22
+      ],
+      "relative_box": [
+        -391,
+        340,
+        48,
+        22
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "order": 1,
+      "candidate": "T03",
+      "box": [
+        192,
+        93,
+        44,
+        44
+      ],
+      "center": [
+        214,
+        115
+      ],
+      "match_score": 0.9668,
+      "mask_variant": "repaired",
+      "decision": "review_required",
+      "review_reasons": [
+        "ambiguous_reference_family"
+      ],
+      "target_margin": 0.1611,
+      "rotation_degrees": 15,
+      "reference_classification": {
+        "class": "medical_box",
+        "similarity": 0.9044,
+        "margin": 0.0258,
+        "possible_families": [
+          "medical_box",
+          "calendar"
+        ],
+        "verified": false,
+        "mode": "direct_shape_review_only"
+      },
+      "semantic_family": null,
+      "reference_structure": {
+        "enclosed_regions": 2,
+        "opening_area_fraction": 0.3054,
+        "opening_areas": [
+          1046,
+          205
+        ]
+      },
+      "target_structure": {
+        "enclosed_regions": 2,
+        "opening_area_fraction": 0.1768,
+        "opening_areas": [
+          622,
+          102
+        ]
+      },
+      "alternatives": [
+        {
+          "candidate": "T03",
+          "center": [
+            214,
+            115
+          ],
+          "match_score": 0.9668,
+          "selected": true
+        },
+        {
+          "candidate": "T05",
+          "center": [
+            256,
+            117
+          ],
+          "match_score": 0.8057,
+          "selected": false
+        },
+        {
+          "candidate": "T26",
+          "center": [
+            125,
+            158
+          ],
+          "match_score": 0.704,
+          "selected": false
+        }
+      ],
+      "relative_center": [
+        -203,
+        86
+      ],
+      "relative_box": [
+        -225,
+        64,
+        44,
+        44
+      ]
+    },
+    {
+      "order": 2,
+      "candidate": "T25",
+      "box": [
+        105,
+        136,
+        40,
+        45
+      ],
+      "center": [
+        125,
+        158
+      ],
+      "match_score": 0.9471,
+      "mask_variant": "repaired",
+      "decision": "review_required",
+      "review_reasons": [
+        "ambiguous_reference_family"
+      ],
+      "target_margin": 0.1776,
+      "rotation_degrees": -10,
+      "reference_classification": {
+        "class": "calendar",
+        "similarity": 0.7007,
+        "margin": 0.0418,
+        "possible_families": [
+          "calendar",
+          "document",
+          "window_buildings",
+          "medical_box",
+          "tiered_gate"
+        ],
+        "verified": false,
+        "mode": "direct_shape_review_only"
+      },
+      "semantic_family": null,
+      "reference_structure": {
+        "enclosed_regions": 4,
+        "opening_area_fraction": 0.2656,
+        "opening_areas": [
+          288,
+          288,
+          288,
+          224
+        ]
+      },
+      "target_structure": {
+        "enclosed_regions": 4,
+        "opening_area_fraction": 0.1697,
+        "opening_areas": [
+          195,
+          184,
+          163,
+          153
+        ]
+      },
+      "alternatives": [
+        {
+          "candidate": "T25",
+          "center": [
+            125,
+            158
+          ],
+          "match_score": 0.9471,
+          "selected": true
+        },
+        {
+          "candidate": "T03",
+          "center": [
+            214,
+            115
+          ],
+          "match_score": 0.7695,
+          "selected": false
+        },
+        {
+          "candidate": "T05",
+          "center": [
+            256,
+            117
+          ],
+          "match_score": 0.7186,
+          "selected": false
+        }
+      ],
+      "relative_center": [
+        -292,
+        129
+      ],
+      "relative_box": [
+        -312,
+        107,
+        40,
+        45
+      ]
+    },
+    {
+      "order": 3,
+      "candidate": "T05",
+      "box": [
+        234,
+        95,
+        45,
+        44
+      ],
+      "center": [
+        256,
+        117
+      ],
+      "match_score": 0.931,
+      "mask_variant": "repaired",
+      "decision": "review_required",
+      "review_reasons": [
+        "ambiguous_reference_family"
+      ],
+      "target_margin": 0.1513,
+      "rotation_degrees": 20,
+      "reference_classification": {
+        "class": "calendar",
+        "similarity": 0.7532,
+        "margin": 0.017,
+        "possible_families": [
+          "calendar",
+          "medical_box",
+          "document",
+          "castle",
+          "window_buildings"
+        ],
+        "verified": false,
+        "mode": "direct_shape_review_only"
+      },
+      "semantic_family": null,
+      "reference_structure": {
+        "enclosed_regions": 2,
+        "opening_area_fraction": 0.1914,
+        "opening_areas": [
+          394,
+          390
+        ]
+      },
+      "target_structure": {
+        "enclosed_regions": 3,
+        "opening_area_fraction": 0.1208,
+        "opening_areas": [
+          249,
+          201,
+          45
+        ]
+      },
+      "alternatives": [
+        {
+          "candidate": "T05",
+          "center": [
+            256,
+            117
+          ],
+          "match_score": 0.931,
+          "selected": true
+        },
+        {
+          "candidate": "T04",
+          "center": [
+            214,
+            115
+          ],
+          "match_score": 0.7798,
+          "selected": false
+        },
+        {
+          "candidate": "T57",
+          "center": [
+            26,
+            345
+          ],
+          "match_score": 0.7253,
+          "selected": false
+        }
+      ],
+      "relative_center": [
+        -161,
+        88
+      ],
+      "relative_box": [
+        -183,
+        66,
+        45,
+        44
+      ]
+    }
+  ],
+  "score_matrix": [
+    [
+      0.512,
+      0.5244,
+      0.9668,
+      0.9647,
+      0.8057,
+      0.7835,
+      0.4457,
+      0.4537,
+      0.492,
+      0.5013,
+      0.649,
+      0.6507,
+      0.6717,
+      0.6353,
+      0.6087,
+      0.5745,
+      0.368,
+      0.349,
+      0.6296,
+      0.622,
+      0.4264,
+      0.4257,
+      0.4019,
+      0.4117,
+      0.6967,
+      0.704,
+      0.523,
+      0.525,
+      0.5395,
+      0.5444,
+      0.5618,
+      0.5328,
+      0.4286,
+      0.426,
+      0.4963,
+      0.5092,
+      0.6012,
+      0.6065,
+      0.51,
+      0.5228,
+      0.5144,
+      0.5393,
+      0.4331,
+      0.4271,
+      0.4353,
+      0.429,
+      0.57,
+      0.5837,
+      0.5948,
+      0.5701,
+      0.5828,
+      0.5593,
+      0.6227,
+      0.6123,
+      0.5366,
+      0.5386,
+      0.6199,
+      0.6117,
+      0.4367,
+      0.4464,
+      0.4326,
+      0.427,
+      0.3918,
+      0.4056,
+      0.4546,
+      0.4709
+    ],
+    [
+      0.5349,
+      0.5495,
+      0.7695,
+      0.7627,
+      0.7186,
+      0.7018,
+      0.4514,
+      0.4652,
+      0.4842,
+      0.5088,
+      0.6702,
+      0.6637,
+      0.6991,
+      0.7092,
+      0.6068,
+      0.5848,
+      0.3395,
+      0.3396,
+      0.6207,
+      0.6105,
+      0.4246,
+      0.4228,
+      0.4152,
+      0.4228,
+      0.9471,
+      0.9364,
+      0.5475,
+      0.5535,
+      0.5618,
+      0.5584,
+      0.5793,
+      0.5551,
+      0.428,
+      0.4246,
+      0.5078,
+      0.5209,
+      0.5081,
+      0.5287,
+      0.5353,
+      0.5508,
+      0.5427,
+      0.5617,
+      0.4318,
+      0.4226,
+      0.4332,
+      0.4238,
+      0.5824,
+      0.5934,
+      0.4909,
+      0.457,
+      0.4614,
+      0.4487,
+      0.6564,
+      0.6456,
+      0.5623,
+      0.5581,
+      0.6296,
+      0.6241,
+      0.4311,
+      0.4422,
+      0.4303,
+      0.4225,
+      0.3932,
+      0.4043,
+      0.4464,
+      0.4689
+    ],
+    [
+      0.5972,
+      0.6106,
+      0.779,
+      0.7798,
+      0.931,
+      0.9197,
+      0.4882,
+      0.4962,
+      0.5501,
+      0.552,
+      0.6793,
+      0.6617,
+      0.7382,
+      0.7069,
+      0.622,
+      0.6446,
+      0.3605,
+      0.3514,
+      0.7095,
+      0.6984,
+      0.4917,
+      0.4845,
+      0.4756,
+      0.4809,
+      0.6759,
+      0.6873,
+      0.6075,
+      0.6122,
+      0.6127,
+      0.6184,
+      0.6193,
+      0.592,
+      0.4947,
+      0.4866,
+      0.5766,
+      0.5914,
+      0.5463,
+      0.5235,
+      0.596,
+      0.6117,
+      0.5992,
+      0.6213,
+      0.4972,
+      0.4876,
+      0.4971,
+      0.4884,
+      0.6533,
+      0.6649,
+      0.5954,
+      0.5906,
+      0.5948,
+      0.5862,
+      0.6994,
+      0.6865,
+      0.6143,
+      0.619,
+      0.7253,
+      0.7163,
+      0.4983,
+      0.5061,
+      0.4969,
+      0.4874,
+      0.4303,
+      0.4473,
+      0.5151,
+      0.5461
+    ]
+  ],
+  "library": {
+    "enabled": true,
+    "templates_used": 114,
+    "excluded_current_image_hash": "047e5ec8f097b8e18a05af665582e5857ae1c945edd37a55a1b0193479019a2b",
+    "validation_note": "Current source image templates are excluded; this is not unseen production accuracy."
+  },
+  "source": "D:\\Projects\\midasbuy-captcha\\Format_B\\examples\\synthetic\\case-0.png",
+  "coordinate_system": "relative_center and relative_box use the CAPTCHA close X as (0,0); center and box retain original screenshot pixels",
+  "anchor": {
+    "type": "captcha_close_x_center",
+    "center": [
+      417,
+      29
+    ],
+    "radius": 12.37,
+    "scale": 0.9929,
+    "header_offset": [
+      -402,
+      -19,
+      422,
+      79
+    ]
+  },
+  "reference_box": [
+    238,
+    57,
+    87,
+    23
+  ],
+  "scene_box": [
+    15,
+    89,
+    422,
+    302
+  ],
+  "relative_reference_box": [
+    -179,
+    28,
+    87,
+    23
+  ],
+  "relative_scene_box": [
+    -402,
+    60,
+    422,
+    302
+  ]
+}

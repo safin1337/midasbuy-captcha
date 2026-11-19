@@ -1,0 +1,173 @@
+{
+  "reference_2_structure": {
+    "enclosed_regions": 2,
+    "opening_area_fraction": 0.1907,
+    "opening_areas": [
+      400,
+      381
+    ]
+  },
+  "reference_2_classification": {
+    "class": "calendar",
+    "similarity": 0.6859,
+    "margin": 0.0067,
+    "possible_families": [
+      "calendar",
+      "tiered_gate",
+      "document",
+      "window_buildings",
+      "medical_box"
+    ],
+    "verified": false,
+    "mode": "direct_shape_review_only"
+  },
+  "candidate_evidence": [
+    {
+      "id": "A",
+      "score": 0.6470322704391349,
+      "mask_box": [
+        120,
+        108,
+        39,
+        39
+      ],
+      "band": [
+        40,
+        80,
+        105,
+        255,
+        35,
+        175,
+        true
+      ],
+      "mask_variant": "repaired",
+      "structure": {
+        "enclosed_regions": 3,
+        "opening_area_fraction": 0.281,
+        "opening_areas": [
+          583,
+          562,
+          6
+        ]
+      },
+      "all_variant_top_dot_scores": [
+        0.6470322704391349,
+        0.6364833080694386,
+        0.6263080116265791,
+        0.6248989265198194,
+        0.5321166324371592
+      ]
+    },
+    {
+      "id": "B",
+      "score": 0.6533705308060711,
+      "mask_box": [
+        328,
+        105,
+        59,
+        47
+      ],
+      "band": [
+        70,
+        100,
+        90,
+        255,
+        155,
+        255,
+        false
+      ],
+      "mask_variant": "repaired",
+      "structure": {
+        "enclosed_regions": 0,
+        "opening_area_fraction": 0.0,
+        "opening_areas": []
+      }
+    },
+    {
+      "id": "C",
+      "score": 0.6845449764522717,
+      "mask_box": [
+        162,
+        194,
+        39,
+        44
+      ],
+      "band": [
+        40,
+        80,
+        105,
+        255,
+        35,
+        175,
+        false
+      ],
+      "mask_variant": "repaired",
+      "structure": {
+        "enclosed_regions": 2,
+        "opening_area_fraction": 0.1028,
+        "opening_areas": [
+          397,
+          24
+        ]
+      }
+    },
+    {
+      "id": "D",
+      "score": 0.6398329504291806,
+      "mask_box": [
+        206,
+        238,
+        44,
+        45
+      ],
+      "band": [
+        125,
+        179,
+        65,
+        255,
+        35,
+        245,
+        false
+      ],
+      "mask_variant": "repaired",
+      "structure": {
+        "enclosed_regions": 2,
+        "opening_area_fraction": 0.2114,
+        "opening_areas": [
+          704,
+          162
+        ]
+      }
+    },
+    {
+      "id": "E",
+      "score": 0.6951068751853411,
+      "mask_box": [
+        246,
+        283,
+        48,
+        44
+      ],
+      "band": [
+        0,
+        179,
+        0,
+        100,
+        150,
+        255,
+        false
+      ],
+      "mask_variant": "raw",
+      "structure": {
+        "enclosed_regions": 4,
+        "opening_area_fraction": 0.1436,
+        "opening_areas": [
+          433,
+          70,
+          68,
+          17
+        ]
+      }
+    }
+  ]
+}

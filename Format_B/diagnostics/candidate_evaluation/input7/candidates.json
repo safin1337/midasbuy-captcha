@@ -1,0 +1,191 @@
+{
+  "status": "candidates_proposed",
+  "expected_count": 5,
+  "candidate_count": 5,
+  "internal_mask_hypotheses": 298,
+  "internal_spatial_groups": 37,
+  "fifth_to_next_margin": 0.1111,
+  "score_note": "Uncalibrated objectness; count is a format prior, not proof of detection. Instruction/reference glyphs are not used for object locations.",
+  "stage": "physical_candidates",
+  "reference_matching_performed": false,
+  "source": "D:\\Projects\\midasbuy-captcha\\Format_B\\raw_data\\input7.png",
+  "anchor": {
+    "type": "captcha_close_x_center",
+    "center": [
+      422,
+      32
+    ],
+    "radius": 12.9,
+    "scale": 1.0,
+    "header_offset": [
+      -405,
+      -19,
+      425,
+      80
+    ]
+  },
+  "scene_box": [
+    17,
+    93,
+    425,
+    304
+  ],
+  "candidates": [
+    {
+      "id": "A",
+      "box": [
+        194,
+        98,
+        43,
+        43
+      ],
+      "center": [
+        216,
+        120
+      ],
+      "objectness": 0.9282,
+      "mask_variants": 24,
+      "appearance": {
+        "flatness": 0.7239,
+        "local_contrast": 1.0,
+        "thin_strokes": 1.0
+      },
+      "template_similarity": 0.9152,
+      "relative_center": [
+        -206,
+        88
+      ],
+      "relative_box": [
+        -228,
+        66,
+        43,
+        43
+      ]
+    },
+    {
+      "id": "B",
+      "box": [
+        19,
+        138,
+        42,
+        42
+      ],
+      "center": [
+        40,
+        159
+      ],
+      "objectness": 0.8063,
+      "mask_variants": 18,
+      "appearance": {
+        "flatness": 0.5909,
+        "local_contrast": 1.0,
+        "thin_strokes": 1.0
+      },
+      "template_similarity": 0.6794,
+      "relative_center": [
+        -382,
+        127
+      ],
+      "relative_box": [
+        -403,
+        106,
+        42,
+        42
+      ]
+    },
+    {
+      "id": "C",
+      "box": [
+        375,
+        231,
+        39,
+        39
+      ],
+      "center": [
+        394,
+        250
+      ],
+      "objectness": 0.9088,
+      "mask_variants": 26,
+      "appearance": {
+        "flatness": 0.669,
+        "local_contrast": 1.0,
+        "thin_strokes": 1.0
+      },
+      "template_similarity": 0.8925,
+      "relative_center": [
+        -28,
+        218
+      ],
+      "relative_box": [
+        -47,
+        199,
+        39,
+        39
+      ]
+    },
+    {
+      "id": "D",
+      "box": [
+        108,
+        275,
+        41,
+        41
+      ],
+      "center": [
+        128,
+        296
+      ],
+      "objectness": 0.8775,
+      "mask_variants": 24,
+      "appearance": {
+        "flatness": 0.5804,
+        "local_contrast": 1.0,
+        "thin_strokes": 1.0
+      },
+      "template_similarity": 0.8424,
+      "relative_center": [
+        -294,
+        264
+      ],
+      "relative_box": [
+        -314,
+        243,
+        41,
+        41
+      ]
+    },
+    {
+      "id": "E",
+      "box": [
+        106,
+        316,
+        46,
+        46
+      ],
+      "center": [
+        129,
+        339
+      ],
+      "objectness": 0.9117,
+      "mask_variants": 32,
+      "appearance": {
+        "flatness": 0.6327,
+        "local_contrast": 1.0,
+        "thin_strokes": 1.0
+      },
+      "template_similarity": 0.9085,
+      "relative_center": [
+        -293,
+        307
+      ],
+      "relative_box": [
+        -316,
+        284,
+        46,
+        46
+      ]
+    }
+  ],
+  "current_image_templates_excluded": "7c6078a22b5446b76ce78b1b6062fe9e8c23d570d580a4fdb4fdeed93254d391"
+}

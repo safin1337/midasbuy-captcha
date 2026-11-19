@@ -1,0 +1,675 @@
+{
+  "status": "review_required",
+  "score_note": "Stroke and internal-opening similarity only; not a calibrated probability. Human review is required before use.",
+  "assignment_margin": 0.0151,
+  "references": [
+    {
+      "order": 1,
+      "box": [
+        231,
+        59,
+        31,
+        27
+      ],
+      "relative_box": [
+        -183,
+        29,
+        31,
+        27
+      ]
+    },
+    {
+      "order": 2,
+      "box": [
+        262,
+        59,
+        31,
+        27
+      ],
+      "relative_box": [
+        -152,
+        29,
+        31,
+        27
+      ]
+    },
+    {
+      "order": 3,
+      "box": [
+        293,
+        59,
+        31,
+        27
+      ],
+      "relative_box": [
+        -121,
+        29,
+        31,
+        27
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "T01",
+      "box": [
+        365,
+        97,
+        40,
+        40
+      ],
+      "relative_box": [
+        -49,
+        67,
+        40,
+        40
+      ]
+    },
+    {
+      "id": "T02",
+      "box": [
+        148,
+        98,
+        82,
+        53
+      ],
+      "relative_box": [
+        -266,
+        68,
+        82,
+        53
+      ]
+    },
+    {
+      "id": "T03",
+      "box": [
+        364,
+        105,
+        39,
+        33
+      ],
+      "relative_box": [
+        -50,
+        75,
+        39,
+        33
+      ]
+    },
+    {
+      "id": "T04",
+      "box": [
+        284,
+        123,
+        58,
+        24
+      ],
+      "relative_box": [
+        -130,
+        93,
+        58,
+        24
+      ]
+    },
+    {
+      "id": "T05",
+      "box": [
+        246,
+        215,
+        19,
+        65
+      ],
+      "relative_box": [
+        -168,
+        185,
+        19,
+        65
+      ]
+    },
+    {
+      "id": "T06",
+      "box": [
+        324,
+        230,
+        36,
+        38
+      ],
+      "relative_box": [
+        -90,
+        200,
+        36,
+        38
+      ]
+    },
+    {
+      "id": "T07",
+      "box": [
+        328,
+        237,
+        21,
+        19
+      ],
+      "relative_box": [
+        -86,
+        207,
+        21,
+        19
+      ]
+    },
+    {
+      "id": "T08",
+      "box": [
+        95,
+        258,
+        83,
+        49
+      ],
+      "relative_box": [
+        -319,
+        228,
+        83,
+        49
+      ]
+    },
+    {
+      "id": "T09",
+      "box": [
+        395,
+        261,
+        39,
+        28
+      ],
+      "relative_box": [
+        -19,
+        231,
+        39,
+        28
+      ]
+    },
+    {
+      "id": "T10",
+      "box": [
+        292,
+        262,
+        30,
+        31
+      ],
+      "relative_box": [
+        -122,
+        232,
+        30,
+        31
+      ]
+    },
+    {
+      "id": "T11",
+      "box": [
+        328,
+        266,
+        28,
+        30
+      ],
+      "relative_box": [
+        -86,
+        236,
+        28,
+        30
+      ]
+    },
+    {
+      "id": "T12",
+      "box": [
+        91,
+        268,
+        34,
+        27
+      ],
+      "relative_box": [
+        -323,
+        238,
+        34,
+        27
+      ]
+    },
+    {
+      "id": "T13",
+      "box": [
+        187,
+        272,
+        44,
+        43
+      ],
+      "relative_box": [
+        -227,
+        242,
+        44,
+        43
+      ]
+    },
+    {
+      "id": "T14",
+      "box": [
+        235,
+        280,
+        35,
+        43
+      ],
+      "relative_box": [
+        -179,
+        250,
+        35,
+        43
+      ]
+    },
+    {
+      "id": "T15",
+      "box": [
+        270,
+        280,
+        71,
+        47
+      ],
+      "relative_box": [
+        -144,
+        250,
+        71,
+        47
+      ]
+    },
+    {
+      "id": "T16",
+      "box": [
+        175,
+        292,
+        59,
+        45
+      ],
+      "relative_box": [
+        -239,
+        262,
+        59,
+        45
+      ]
+    },
+    {
+      "id": "T17",
+      "box": [
+        97,
+        296,
+        92,
+        37
+      ],
+      "relative_box": [
+        -317,
+        266,
+        92,
+        37
+      ]
+    },
+    {
+      "id": "T18",
+      "box": [
+        249,
+        296,
+        21,
+        26
+      ],
+      "relative_box": [
+        -165,
+        266,
+        21,
+        26
+      ]
+    },
+    {
+      "id": "T19",
+      "box": [
+        242,
+        298,
+        39,
+        35
+      ],
+      "relative_box": [
+        -172,
+        268,
+        39,
+        35
+      ]
+    },
+    {
+      "id": "T20",
+      "box": [
+        109,
+        317,
+        30,
+        21
+      ],
+      "relative_box": [
+        -305,
+        287,
+        30,
+        21
+      ]
+    },
+    {
+      "id": "T21",
+      "box": [
+        409,
+        330,
+        20,
+        23
+      ],
+      "relative_box": [
+        -5,
+        300,
+        20,
+        23
+      ]
+    },
+    {
+      "id": "T22",
+      "box": [
+        283,
+        333,
+        83,
+        38
+      ],
+      "relative_box": [
+        -131,
+        303,
+        83,
+        38
+      ]
+    },
+    {
+      "id": "T23",
+      "box": [
+        384,
+        349,
+        28,
+        22
+      ],
+      "relative_box": [
+        -30,
+        319,
+        28,
+        22
+      ]
+    },
+    {
+      "id": "T24",
+      "box": [
+        154,
+        367,
+        56,
+        22
+      ],
+      "relative_box": [
+        -260,
+        337,
+        56,
+        22
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "order": 1,
+      "candidate": "T16",
+      "box": [
+        175,
+        292,
+        59,
+        45
+      ],
+      "center": [
+        204,
+        314
+      ],
+      "match_score": 0.4485,
+      "rotation_degrees": -165,
+      "reference_structure": {
+        "enclosed_regions": 2,
+        "opening_area_fraction": 0.1831,
+        "opening_areas": [
+          666,
+          84
+        ]
+      },
+      "target_structure": {
+        "enclosed_regions": 2,
+        "opening_area_fraction": 0.0164,
+        "opening_areas": [
+          61,
+          6
+        ]
+      },
+      "relative_center": [
+        -210,
+        284
+      ],
+      "relative_box": [
+        -239,
+        262,
+        59,
+        45
+      ]
+    },
+    {
+      "order": 2,
+      "candidate": "T13",
+      "box": [
+        187,
+        272,
+        44,
+        43
+      ],
+      "center": [
+        209,
+        293
+      ],
+      "match_score": 0.419,
+      "rotation_degrees": 80,
+      "reference_structure": {
+        "enclosed_regions": 7,
+        "opening_area_fraction": 0.209,
+        "opening_areas": [
+          234,
+          115,
+          107,
+          103,
+          99,
+          99,
+          99
+        ]
+      },
+      "target_structure": {
+        "enclosed_regions": 4,
+        "opening_area_fraction": 0.2285,
+        "opening_areas": [
+          569,
+          179,
+          178,
+          10
+        ]
+      },
+      "relative_center": [
+        -205,
+        263
+      ],
+      "relative_box": [
+        -227,
+        242,
+        44,
+        43
+      ]
+    },
+    {
+      "order": 3,
+      "candidate": "T01",
+      "box": [
+        365,
+        97,
+        40,
+        40
+      ],
+      "center": [
+        385,
+        117
+      ],
+      "match_score": 0.7395,
+      "rotation_degrees": -10,
+      "reference_structure": {
+        "enclosed_regions": 4,
+        "opening_area_fraction": 0.1448,
+        "opening_areas": [
+          431,
+          96,
+          38,
+          28
+        ]
+      },
+      "target_structure": {
+        "enclosed_regions": 5,
+        "opening_area_fraction": 0.1204,
+        "opening_areas": [
+          364,
+          70,
+          27,
+          22,
+          10
+        ]
+      },
+      "relative_center": [
+        -29,
+        87
+      ],
+      "relative_box": [
+        -49,
+        67,
+        40,
+        40
+      ]
+    }
+  ],
+  "score_matrix": [
+    [
+      0.5264,
+      0.4031,
+      0.3289,
+      0.1858,
+      0.1463,
+      0.2974,
+      0.2713,
+      0.3102,
+      0.2146,
+      0.2704,
+      0.3217,
+      0.2733,
+      0.4554,
+      0.3284,
+      0.3105,
+      0.4485,
+      0.2111,
+      0.2405,
+      0.3213,
+      0.2652,
+      0.2973,
+      0.2286,
+      0.3443,
+      0.2076
+    ],
+    [
+      0.5231,
+      0.2362,
+      0.1915,
+      0.1154,
+      0.0854,
+      0.1829,
+      0.1452,
+      0.18,
+      0.117,
+      0.161,
+      0.1895,
+      0.1531,
+      0.419,
+      0.1877,
+      0.2326,
+      0.2586,
+      0.1241,
+      0.1323,
+      0.1986,
+      0.1614,
+      0.1766,
+      0.135,
+      0.1937,
+      0.1253
+    ],
+    [
+      0.7395,
+      0.3441,
+      0.2744,
+      0.1527,
+      0.1176,
+      0.2877,
+      0.2165,
+      0.2479,
+      0.189,
+      0.2229,
+      0.2782,
+      0.2254,
+      0.5866,
+      0.2965,
+      0.3485,
+      0.3825,
+      0.165,
+      0.1927,
+      0.2826,
+      0.2188,
+      0.2713,
+      0.1835,
+      0.3094,
+      0.1732
+    ]
+  ],
+  "source": "D:\\Projects\\midasbuy-captcha\\Format_B\\input5.png",
+  "coordinate_system": "relative_center and relative_box use the CAPTCHA close X as (0,0); center and box retain original screenshot pixels",
+  "anchor": {
+    "type": "captcha_close_x_center",
+    "center": [
+      414,
+      30
+    ],
+    "radius": 12.9,
+    "scale": 1.0,
+    "header_offset": [
+      -405,
+      -19,
+      425,
+      80
+    ]
+  },
+  "reference_box": [
+    231,
+    59,
+    93,
+    27
+  ],
+  "scene_box": [
+    9,
+    91,
+    425,
+    304
+  ],
+  "relative_reference_box": [
+    -183,
+    29,
+    93,
+    27
+  ],
+  "relative_scene_box": [
+    -405,
+    61,
+    425,
+    304
+  ]
+}
