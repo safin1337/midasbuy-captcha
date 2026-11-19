@@ -1,6 +1,7 @@
 # Format_B - Click-in-order symbols
 
-Current release: **v1.1.0**. For weak matches with unverified families, a bounded
+Matcher version: **v1.1.0** (included in project release **v1.1.1**).
+For weak matches with unverified families, a bounded
 local color-mask recovery step preserves fine window strokes inside existing boxes.
 It does not move candidates or relax decision thresholds. `result.json` records
 any recovery in `mask_recovery`. The input19 regression now proposes D-A-E and
