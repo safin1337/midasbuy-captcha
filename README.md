@@ -1,17 +1,16 @@
 # Midasbuy CAPTCHA tools
 
-Local screenshot collection and image analysis for two CAPTCHA formats. The project includes a Chrome / Edge capture extension, a click-in-order symbol matcher, reviewed development images, diagnostics, and rollback snapshots.
+Local screenshot collection and image analysis for two CAPTCHA formats. The project includes a Chrome / Edge capture extension, a click-in-order symbol matcher, reviewed development images, and diagnostics.
 
-**Project release: v1.1.1** · [Changelog](CHANGELOG.md) · [GitHub releases](https://github.com/safin1337/midasbuy-captcha/releases)
+**Project release: v1.1.2** · [Changelog](CHANGELOG.md) · [GitHub releases](https://github.com/safin1337/midasbuy-captcha/releases)
 
 | Component | Current state |
 | --- | --- |
 | Capture extension | v1.0.7; ready-to-load build in `captcha-data-extraction/dist` |
 | Format B matcher | v1.1.0; five-candidate localization and three selections in prompt order |
 | Format A | Slider screenshots and examples; no slider detector implemented |
-| Local snapshots | v1.0.0 baseline and v1.1.0 matcher snapshot, with checksum verification |
 
-Project and component versions are separate. v1.1.1 documents the existing tools and packages the current extension; it does not change recognition or capture behavior.
+Project and component versions are separate. v1.1.2 includes capture extension v1.0.7 and matcher v1.1.0.
 
 ## Collect screenshots
 
@@ -70,13 +69,13 @@ See the [Format B guide](Format_B/README.md) for coordinate conventions, evaluat
 
 ## Validation and limits
 
-- The v1.1.0 matcher snapshot records **75/75 correct target proposals on 25 reviewed development images**, with candidate boxes and previously confident selections unchanged. These images were used during development; this is not unseen production accuracy. The input19 recovery still requires review.
+- The v1.1.0 matcher validation records **75/75 correct target proposals on 25 reviewed development images**, with candidate boxes and previously confident selections unchanged. These images were used during development; this is not unseen production accuracy. The input19 recovery still requires review.
 - Extension v1.0.7 passed 15 unit tests, a ten-image local Chromium run with a cross-origin iframe and 125% display scale, folder persistence and direct-save checks, and rendering checks at 390, 460, 1440, and 1728 pixels.
 - The native folder-selection dialog and live Midasbuy compatibility remain unverified. Browser integration uses local fixtures and a stubbed picker with real directory handles.
 - Recognition scores are uncalibrated. Pixel stability cannot distinguish a valid challenge from a provider error graphic. Inspect the preview and review flags.
 - Analysis does not move the mouse or submit CAPTCHA answers. The extension clicks only the marked reload point and saves screenshots.
 
-Detailed evidence: [matcher validation](versions/v1.1.0/validation.json) and [extension verification](captcha-data-extraction/VALIDATION.md).
+Detailed evidence: [matcher validation](Format_B/diagnostics/v1.1.0-validation.json) and [extension verification](captcha-data-extraction/VALIDATION.md).
 
 ## Development checks
 
@@ -107,25 +106,10 @@ Format_B/                 Symbol matcher, datasets, examples, and diagnostics
 captcha-data-extraction/   Extension source, tests, and loadable dist build
 experiments/              Development experiments and comparison results
 inspection/               Browser-inspection evidence
-versions/                 Verified historical matcher snapshots
 detect.ps1                Root launcher forwarding to Format_B
 requirements.txt          Shared Python dependencies
 VERSION                   Current project release
 CHANGELOG.md              Project and component change history
-versioning.py             Snapshot verification and restore utility
 ```
 
-Dependencies, virtual environments, caches, generated `output/` directories, and extension browser profiles are excluded from Git. Reviewed datasets, diagnostics, and historical archives are included.
-
-## Snapshots and rollback
-
-Git release tags capture the whole tracked project. Local ZIP snapshots have a narrower, documented matcher scope; they do not include the extension.
-
-```powershell
-.\.venv\Scripts\python.exe .\versioning.py verify v1.1.0
-
-# Show the restore plan without changing files.
-.\.venv\Scripts\python.exe .\versioning.py restore v1.0.0
-```
-
-Add `--apply` only when ready to overwrite snapshot-listed files. Extra newer files are retained. A restore also resets `VERSION` to the snapshot version. Preserve later labels and results first. See [snapshot history and rollback](versions/README.md).
+Dependencies, virtual environments, caches, generated `output/` directories, and extension browser profiles are excluded from Git. Reviewed datasets and diagnostic reports are included.

@@ -1,6 +1,15 @@
 # Changelog
 
-Dates use Asia/Dhaka time. Project release versions, matcher snapshot versions, and extension versions are tracked separately.
+Dates use Asia/Dhaka time. Project release versions, matcher versions, and extension versions are tracked separately.
+
+## [v1.1.2] - 2026-11-19
+
+### Current features
+
+- Capture extension v1.0.7 with direct folder selection, separate A/B destinations, sequential PNG naming, and ten-image batches.
+- Format B matcher v1.1.0 with five-candidate localization, ordered contour matching, and review flags for uncertain proposals.
+- Matcher validation at `Format_B/diagnostics/v1.1.0-validation.json`, alongside extension verification and setup guides.
+- Refined project documentation and consistent punctuation.
 
 ## [v1.1.1] - 2026-11-19
 
@@ -8,12 +17,12 @@ Documentation and distribution release of the current project. Runtime behavior 
 
 ### Added
 
-- Root changelog covering the current project, historical matcher snapshots, and capture-extension updates.
+- Root changelog covering the current project, matcher history, and capture-extension updates.
 - GitHub release with a standalone unpacked-extension ZIP for capture extension v1.0.7.
 
 ### Changed
 
-- Reorganized the root README around screenshot collection, image analysis, setup, verification, repository structure, and rollback.
+- Reorganized the root README around screenshot collection, image analysis, setup, verification, and repository structure.
 - Documented separate project, matcher, and extension version numbers.
 - Clarified exact output-folder selection, hidden-path display, known validation limits, and the optional browser tools' local Playwright dependency.
 
@@ -28,14 +37,14 @@ Documentation and distribution release of the current project. Runtime behavior 
 
 - Documentation links and version metadata checked for this release.
 - Existing runtime evidence: 15 extension unit tests, the local ten-image direct-folder browser regression, multi-width render checks, and the detector and anchor tests passed before this documentation update.
-- The matcher snapshot records 75/75 correct proposals on 25 reviewed development images. This is not an independent accuracy benchmark; input19 remains review-required.
+- The matcher validation records 75/75 correct proposals on 25 reviewed development images. This is not an independent accuracy benchmark; input19 remains review-required.
 - Native folder-dialog behavior and live Midasbuy compatibility remain unverified.
 
 ## [v1.1.0] - 2026-11-19
 
-Initial whole-project Git import and annotated release tag. Includes source, datasets, diagnostics, development experiments, historical snapshots, and extension v1.0.7. Excludes dependencies, virtual environments, caches, generated output directories, and extension browser profiles.
+Initial whole-project Git import and annotated release tag. Includes source, datasets, diagnostics, development experiments, and extension v1.0.7. Excludes dependencies, virtual environments, caches, generated output directories, and extension browser profiles.
 
-### Matcher snapshot v1.1.0
+### Matcher v1.1.0
 
 - Added bounded recovery of fine colored strokes inside existing candidate boxes for weak, unverified-family matches.
 - Corrected the reviewed input19 proposal from D-C-E to D-A-E while retaining uncertainty flags.
@@ -55,13 +64,14 @@ Initial whole-project Git import and annotated release tag. Includes source, dat
 
 ## v1.0.0 - 2026-11-19
 
-Historical local matcher baseline; preserved as a checksummed snapshot rather than a Git tag.
+Historical local matcher baseline before the input19 correction.
 
 - Preserved five-candidate localization, ordered contour-point matching, the legacy matcher, reviewed fixtures, diagnostics, and launchers.
 - Recorded 74/75 correct reviewed proposals, no incorrect confident proposals, and 125/125 candidate-center checks before the input19 recovery change.
-- Added archive and per-file hash verification with previewable snapshot restore.
 
-See [snapshot instructions](versions/README.md) for archive scope and restore behavior, and [extension verification](captcha-data-extraction/VALIDATION.md) for component-level regression history.
+See [matcher validation](Format_B/diagnostics/v1.1.0-validation.json) and [extension verification](captcha-data-extraction/VALIDATION.md) for recorded regression results.
 
 [v1.1.1]: https://github.com/safin1337/midasbuy-captcha/compare/v1.1.0...v1.1.1
 [v1.1.0]: https://github.com/safin1337/midasbuy-captcha/tree/v1.1.0
+
+[v1.1.2]: https://github.com/safin1337/midasbuy-captcha/compare/v1.1.1...v1.1.2

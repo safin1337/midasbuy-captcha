@@ -1,6 +1,6 @@
 # RCA: input19, input21, input24
 
-Historical RCA from v1.0.0. Input19 was fixed in v1.1.0 through bounded local mask recovery; the current order is D-A-E. The historical evidence below is retained. The reviewed regression set now passes 75/75 targets; see ../../versions/v1.1.0/validation.json.
+Historical RCA from v1.0.0. Input19 was fixed in v1.1.0 through bounded local mask recovery; the current order is D-A-E. The historical evidence below is retained. The reviewed regression set now passes 75/75 targets; see v1.1.0-validation.json.
 
 The user confirmed current orders input19 D-A-E, input21 A-C-D, input24 E-D-C.
 Other batch outputs were confirmed. This investigation did not change the matcher.

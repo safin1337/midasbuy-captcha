@@ -1,6 +1,6 @@
 # Format_B - Click-in-order symbols
 
-Matcher version: **v1.1.0** (included in project release **v1.1.1**).
+Matcher version: **v1.1.0** (included in project release **v1.1.2**).
 For weak matches with unverified families, a bounded
 local color-mask recovery step preserves fine window strokes inside existing boxes.
 It does not move candidates or relax decision thresholds. `result.json` records
@@ -13,7 +13,7 @@ This is not unseen accuracy. Run `test_input19_regression.py` for the new failur
 case, or `evaluate_dots.py --saved-results --reviewed-only` to rescore reviewed
 outputs without processing newly added unlabelled images.
 
-The prior v1.0.0 snapshot and rollback instructions are in `../versions/README.md`.
+Validation details are in [the matcher report](diagnostics/v1.1.0-validation.json).
 
 Original screenshots live in `raw_data/`. Generated masks, previews, and reports stay in `output/` and `diagnostics/`.
 
