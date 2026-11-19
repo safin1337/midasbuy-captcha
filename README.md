@@ -12,6 +12,18 @@ Local screenshot collection and image analysis for two CAPTCHA formats. The proj
 
 Project and component versions are separate. v1.1.2 includes capture extension v1.0.7 and matcher v1.1.0.
 
+## Format B example
+
+![Format B CAPTCHA with three reference symbols in the header and five colored symbols in the scene](Format_B/examples/real/click-order-01.png)
+
+Format B asks you to select **three symbols in order** from the **five symbols** in the larger picture. The references appear beside **Click in this order**. The scene symbols can have different colors and rotations.
+
+1. Read the three reference symbols from left to right.
+2. Find the matching shape for each reference in the picture, including its internal lines and openings.
+3. Select the three matching symbols in the same order. Leave the other two unselected.
+
+The project's matcher produces a numbered preview and a JSON report for this format. Uncertain proposals stay marked for review; it does not click the symbols or submit an answer. See [Analyze a Format B image](#analyze-a-format-b-image) to try it on a saved screenshot.
+
 ## Collect screenshots
 
 Python and Node.js are not needed to use the bundled extension.
