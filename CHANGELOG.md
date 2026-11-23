@@ -2,6 +2,28 @@
 
 Dates use Asia/Dhaka time. Project release versions, matcher versions, and extension versions are tracked separately.
 
+## [v1.1.3] - 2026-11-23
+
+Data and documentation release. Matcher v1.1.0 and capture extension v1.0.7 are unchanged.
+
+### Added
+
+- Complete per-image contour diagnostics for inputs26-46, raw input46, contact sheets, and batch reports.
+- Hash-bound user-confirmed ordered labels for inputs26-46: 63/63 correct targets across 21 captures (20 unique images; input36 and input39 are identical).
+- Input46 localization RCA and trace: false background candidate D ranks fifth at 0.7433, while a partial gray-document hypothesis ranks twelfth at 0.6780.
+
+### Documentation and limits
+
+- Separated correct ordered selections from five-object localization quality. Input46 selects A -> C -> E correctly but misses the gray document and includes background as D; this defect remains unfixed.
+- Recorded the withdrawn input44 correction; D -> E -> B is confirmed correct.
+- Preserved runtime review flags on 18 targets across 13 new-batch images. User confirmations do not change confidence thresholds, runtime decisions, or the template library.
+- Clarified that reviewed saved outputs are not independent production accuracy or live verification. Live submission, bounded retries, and improved localization checks are not implemented by this release.
+
+### Verification
+
+- Rescored saved inference against all reviewed labels with raw-image hash validation; see the updated [evaluation report](Format_B/diagnostics/dot_evaluation/report.md).
+- Checked diagnostic completeness, source hashes, version consistency, and documentation links. Contour geometry/assignment and input19 recovery regressions passed; see the [release validation report](Format_B/diagnostics/v1.1.3-validation.json).
+
 ## [v1.1.2] - 2026-11-19
 
 ### Current features
@@ -75,3 +97,5 @@ See [matcher validation](Format_B/diagnostics/v1.1.0-validation.json) and [exten
 [v1.1.0]: https://github.com/safin1337/midasbuy-captcha/tree/v1.1.0
 
 [v1.1.2]: https://github.com/safin1337/midasbuy-captcha/compare/v1.1.1...v1.1.2
+
+[v1.1.3]: https://github.com/safin1337/midasbuy-captcha/compare/v1.1.2...v1.1.3

@@ -1,6 +1,6 @@
 # Format_B - Click-in-order symbols
 
-Matcher version: **v1.1.0** (included in project release **v1.1.2**).
+Matcher version: **v1.1.0** (included in project release **v1.1.3**).
 For weak matches with unverified families, a bounded
 local color-mask recovery step preserves fine window strokes inside existing boxes.
 It does not move candidates or relax decision thresholds. `result.json` records
@@ -14,6 +14,12 @@ case, or `evaluate_dots.py --saved-results --reviewed-only` to rescore reviewed
 outputs without processing newly added unlabelled images.
 
 Validation details are in [the matcher report](diagnostics/v1.1.0-validation.json).
+
+## Additional reviewed batch (project v1.1.3)
+
+[Inputs26-46](diagnostics/dot_evaluation/batch_26_46_user_review.md) have 63/63 user-confirmed ordered target proposals across 21 captures, including one duplicate pair (inputs36 and39). The 18 flagged target positions across 13 images remain flagged at runtime. Saved diagnostics for each image are under `diagnostics/dot_evaluation/inputN/`.
+
+Input46 has a known localization defect despite its correct A -> C -> E sequence: D covers background artwork, while the gray document on the left is missing. See the [RCA and proposed improvements](diagnostics/review_44_46/input46_rca.md). Matcher v1.1.0 is unchanged; this is an evaluation/documentation release, not a localization fix or unattended-live validation.
 
 Original screenshots live in `raw_data/`. Generated masks, previews, and reports stay in `output/` and `diagnostics/`.
 

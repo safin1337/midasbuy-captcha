@@ -4,8 +4,8 @@ Development and user-reviewed samples; current-image templates excluded. User re
 
 Evaluation mode: rescore_saved_inference_without_rerunning_matcher.
 
-Ordered target proposals: 75/75; complete images: 25/25.
-Resolved targets: 50; incorrect resolved targets: 0.
+Ordered target proposals: 138/138; complete images: 46/46.
+Resolved targets: 95; incorrect resolved targets: 0.
 
 | Image | Candidate order | Correct proposals | Unresolved prompt orders |
 | --- | --- | --- | --- |
@@ -27,8 +27,29 @@ Resolved targets: 50; incorrect resolved targets: 0.
 | input23.png | E -> D -> C | 3/3 | [1] |
 | input24.png | E -> D -> C | 3/3 | [] |
 | input25.png | C -> B -> E | 3/3 | [2, 3] |
+| input26.png | E -> D -> A | 3/3 | [2] |
+| input27.png | C -> B -> E | 3/3 | [2] |
+| input28.png | D -> C -> A | 3/3 | [] |
+| input29.png | B -> D -> A | 3/3 | [2] |
 | input3.png | D -> C -> B | 3/3 | [3] |
+| input30.png | D -> A -> B | 3/3 | [3] |
+| input31.png | B -> D -> A | 3/3 | [2] |
+| input32.png | E -> D -> C | 3/3 | [2, 3] |
+| input33.png | C -> A -> D | 3/3 | [1] |
+| input34.png | D -> E -> B | 3/3 | [1, 2] |
+| input35.png | B -> A -> E | 3/3 | [] |
+| input36.png | B -> E -> D | 3/3 | [1, 3] |
+| input37.png | E -> C -> B | 3/3 | [] |
+| input38.png | A -> D -> C | 3/3 | [1] |
+| input39.png | B -> E -> D | 3/3 | [1, 3] |
 | input4.png | D -> B -> A | 3/3 | [3] |
+| input40.png | A -> C -> B | 3/3 | [1, 3] |
+| input41.png | E -> A -> C | 3/3 | [2] |
+| input42.png | B -> E -> A | 3/3 | [] |
+| input43.png | A -> D -> B | 3/3 | [] |
+| input44.png | D -> E -> B | 3/3 | [] |
+| input45.png | D -> C -> B | 3/3 | [] |
+| input46.png | A -> C -> E | 3/3 | [] |
 | input5.png | C -> E -> A | 3/3 | [] |
 | input6.png | A -> C -> B | 3/3 | [3] |
 | input7.png | A -> C -> E | 3/3 | [3] |

@@ -2,7 +2,7 @@
 
 Local screenshot collection and image analysis for two CAPTCHA formats. The project includes a Chrome / Edge capture extension, a click-in-order symbol matcher, reviewed development images, and diagnostics.
 
-**Project release: v1.1.2** · [Changelog](CHANGELOG.md) · [GitHub releases](https://github.com/safin1337/midasbuy-captcha/releases)
+**Project release: v1.1.3** · [Changelog](CHANGELOG.md) · [GitHub releases](https://github.com/safin1337/midasbuy-captcha/releases)
 
 | Component | Current state |
 | --- | --- |
@@ -10,7 +10,7 @@ Local screenshot collection and image analysis for two CAPTCHA formats. The proj
 | Format B matcher | v1.1.0; five-candidate localization and three selections in prompt order |
 | Format A | Slider screenshots and examples; no slider detector implemented |
 
-Project and component versions are separate. v1.1.2 includes capture extension v1.0.7 and matcher v1.1.0.
+Project and component versions are separate. v1.1.3 includes capture extension v1.0.7 and matcher v1.1.0.
 
 ## Format B example
 
@@ -88,6 +88,14 @@ Other modes:
 ```
 
 See the [Format B guide](Format_B/README.md) for coordinate conventions, evaluation, and diagnostic outputs.
+
+## Reviewed inputs 26-46
+
+The user confirmed **63/63 ordered target proposals across 21 captures** (20 unique images; inputs36 and39 are identical). Runtime review flags remain on 18 targets across 13 images. See the [complete reviewed results](Format_B/diagnostics/dot_evaluation/batch_26_46_user_review.md).
+
+**Known localization defect:** input46 selects the correct A -> C -> E targets, but candidate D is background texture and the gray document on the left is missed. The [RCA](Format_B/diagnostics/review_44_46/input46_rca.md) includes ranking evidence and improvement criteria. The defect is documented, not fixed in v1.1.3.
+
+These are reviewed saved proposals, not independent production accuracy or website-verified outcomes. This release retains matcher v1.1.0 and extension v1.0.7; it adds no live submission, retry policy, or threshold changes. User confirmation of examples does not automatically clear runtime uncertainty flags.
 
 ## Validation and limits
 

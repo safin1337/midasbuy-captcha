@@ -1,11 +1,11 @@
 {
   "note": "Development and user-reviewed samples; current-image templates excluded. User reviewed proposed outputs, so these are not blind test results. Proposals and resolved results are separate.",
   "evaluation_mode": "rescore_saved_inference_without_rerunning_matcher",
-  "correct_targets": 75,
-  "total_targets": 75,
-  "correct_images": 25,
-  "total_labelled_images": 25,
-  "resolved_targets": 50,
+  "correct_targets": 138,
+  "total_targets": 138,
+  "correct_images": 46,
+  "total_labelled_images": 46,
+  "resolved_targets": 95,
   "incorrect_resolved_targets": 0,
   "unlabelled_images": [],
   "samples": [
@@ -921,6 +921,209 @@
       "validation_group": "user_reviewed"
     },
     {
+      "image": "input26.png",
+      "expected": [
+        [
+          267,
+          347
+        ],
+        [
+          92,
+          302
+        ],
+        [
+          136,
+          214
+        ]
+      ],
+      "actual": [
+        [
+          267,
+          347
+        ],
+        [
+          92,
+          302
+        ],
+        [
+          136,
+          214
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "candidate_order": [
+        "E",
+        "D",
+        "A"
+      ],
+      "status": "review_required",
+      "unresolved_orders": [
+        2
+      ],
+      "resolved_orders": [
+        1,
+        3
+      ],
+      "user_confirmed": true,
+      "validation_group": "user_reviewed"
+    },
+    {
+      "image": "input27.png",
+      "expected": [
+        [
+          399,
+          173
+        ],
+        [
+          269,
+          125
+        ],
+        [
+          358,
+          258
+        ]
+      ],
+      "actual": [
+        [
+          399,
+          173
+        ],
+        [
+          269,
+          125
+        ],
+        [
+          358,
+          258
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "candidate_order": [
+        "C",
+        "B",
+        "E"
+      ],
+      "status": "review_required",
+      "unresolved_orders": [
+        2
+      ],
+      "resolved_orders": [
+        1,
+        3
+      ],
+      "user_confirmed": true,
+      "validation_group": "user_reviewed"
+    },
+    {
+      "image": "input28.png",
+      "expected": [
+        [
+          137,
+          258
+        ],
+        [
+          92,
+          258
+        ],
+        [
+          356,
+          127
+        ]
+      ],
+      "actual": [
+        [
+          137,
+          258
+        ],
+        [
+          92,
+          258
+        ],
+        [
+          356,
+          127
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "candidate_order": [
+        "D",
+        "C",
+        "A"
+      ],
+      "status": "proposed_matches",
+      "unresolved_orders": [],
+      "resolved_orders": [
+        1,
+        2,
+        3
+      ],
+      "user_confirmed": true,
+      "validation_group": "user_reviewed"
+    },
+    {
+      "image": "input29.png",
+      "expected": [
+        [
+          403,
+          214
+        ],
+        [
+          92,
+          347
+        ],
+        [
+          400,
+          125
+        ]
+      ],
+      "actual": [
+        [
+          403,
+          214
+        ],
+        [
+          92,
+          347
+        ],
+        [
+          400,
+          125
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "candidate_order": [
+        "B",
+        "D",
+        "A"
+      ],
+      "status": "review_required",
+      "unresolved_orders": [
+        2
+      ],
+      "resolved_orders": [
+        1,
+        3
+      ],
+      "user_confirmed": true,
+      "validation_group": "user_reviewed"
+    },
+    {
       "image": "input3.png",
       "expected": [
         [
@@ -972,6 +1175,514 @@
       "validation_group": "development"
     },
     {
+      "image": "input30.png",
+      "expected": [
+        [
+          227,
+          307
+        ],
+        [
+          136,
+          125
+        ],
+        [
+          314,
+          125
+        ]
+      ],
+      "actual": [
+        [
+          227,
+          307
+        ],
+        [
+          136,
+          125
+        ],
+        [
+          314,
+          125
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "candidate_order": [
+        "D",
+        "A",
+        "B"
+      ],
+      "status": "review_required",
+      "unresolved_orders": [
+        3
+      ],
+      "resolved_orders": [
+        1,
+        2
+      ],
+      "user_confirmed": true,
+      "validation_group": "user_reviewed"
+    },
+    {
+      "image": "input31.png",
+      "expected": [
+        [
+          181,
+          259
+        ],
+        [
+          137,
+          347
+        ],
+        [
+          49,
+          258
+        ]
+      ],
+      "actual": [
+        [
+          181,
+          259
+        ],
+        [
+          137,
+          347
+        ],
+        [
+          49,
+          258
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "candidate_order": [
+        "B",
+        "D",
+        "A"
+      ],
+      "status": "review_required",
+      "unresolved_orders": [
+        2
+      ],
+      "resolved_orders": [
+        1,
+        3
+      ],
+      "user_confirmed": true,
+      "validation_group": "user_reviewed"
+    },
+    {
+      "image": "input32.png",
+      "expected": [
+        [
+          94,
+          305
+        ],
+        [
+          92,
+          258
+        ],
+        [
+          399,
+          172
+        ]
+      ],
+      "actual": [
+        [
+          94,
+          305
+        ],
+        [
+          92,
+          258
+        ],
+        [
+          399,
+          172
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "candidate_order": [
+        "E",
+        "D",
+        "C"
+      ],
+      "status": "review_required",
+      "unresolved_orders": [
+        2,
+        3
+      ],
+      "resolved_orders": [
+        1
+      ],
+      "user_confirmed": true,
+      "validation_group": "user_reviewed"
+    },
+    {
+      "image": "input33.png",
+      "expected": [
+        [
+          311,
+          214
+        ],
+        [
+          91,
+          172
+        ],
+        [
+          269,
+          258
+        ]
+      ],
+      "actual": [
+        [
+          311,
+          214
+        ],
+        [
+          91,
+          172
+        ],
+        [
+          269,
+          258
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "candidate_order": [
+        "C",
+        "A",
+        "D"
+      ],
+      "status": "review_required",
+      "unresolved_orders": [
+        1
+      ],
+      "resolved_orders": [
+        2,
+        3
+      ],
+      "user_confirmed": true,
+      "validation_group": "user_reviewed"
+    },
+    {
+      "image": "input34.png",
+      "expected": [
+        [
+          181,
+          302
+        ],
+        [
+          402,
+          302
+        ],
+        [
+          136,
+          215
+        ]
+      ],
+      "actual": [
+        [
+          181,
+          302
+        ],
+        [
+          402,
+          302
+        ],
+        [
+          136,
+          215
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "candidate_order": [
+        "D",
+        "E",
+        "B"
+      ],
+      "status": "review_required",
+      "unresolved_orders": [
+        1,
+        2
+      ],
+      "resolved_orders": [
+        3
+      ],
+      "user_confirmed": true,
+      "validation_group": "user_reviewed"
+    },
+    {
+      "image": "input35.png",
+      "expected": [
+        [
+          358,
+          170
+        ],
+        [
+          311,
+          172
+        ],
+        [
+          94,
+          350
+        ]
+      ],
+      "actual": [
+        [
+          358,
+          170
+        ],
+        [
+          311,
+          172
+        ],
+        [
+          94,
+          350
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "candidate_order": [
+        "B",
+        "A",
+        "E"
+      ],
+      "status": "proposed_matches",
+      "unresolved_orders": [],
+      "resolved_orders": [
+        1,
+        2,
+        3
+      ],
+      "user_confirmed": true,
+      "validation_group": "user_reviewed"
+    },
+    {
+      "image": "input36.png",
+      "expected": [
+        [
+          53,
+          260
+        ],
+        [
+          231,
+          348
+        ],
+        [
+          186,
+          348
+        ]
+      ],
+      "actual": [
+        [
+          53,
+          260
+        ],
+        [
+          231,
+          348
+        ],
+        [
+          186,
+          348
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "candidate_order": [
+        "B",
+        "E",
+        "D"
+      ],
+      "status": "review_required",
+      "unresolved_orders": [
+        1,
+        3
+      ],
+      "resolved_orders": [
+        2
+      ],
+      "user_confirmed": true,
+      "validation_group": "user_reviewed"
+    },
+    {
+      "image": "input37.png",
+      "expected": [
+        [
+          408,
+          304
+        ],
+        [
+          320,
+          172
+        ],
+        [
+          96,
+          171
+        ]
+      ],
+      "actual": [
+        [
+          408,
+          304
+        ],
+        [
+          320,
+          172
+        ],
+        [
+          96,
+          171
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "candidate_order": [
+        "E",
+        "C",
+        "B"
+      ],
+      "status": "proposed_matches",
+      "unresolved_orders": [],
+      "resolved_orders": [
+        1,
+        2,
+        3
+      ],
+      "user_confirmed": true,
+      "validation_group": "user_reviewed"
+    },
+    {
+      "image": "input38.png",
+      "expected": [
+        [
+          186,
+          171
+        ],
+        [
+          231,
+          304
+        ],
+        [
+          362,
+          261
+        ]
+      ],
+      "actual": [
+        [
+          186,
+          171
+        ],
+        [
+          231,
+          304
+        ],
+        [
+          362,
+          261
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "candidate_order": [
+        "A",
+        "D",
+        "C"
+      ],
+      "status": "review_required",
+      "unresolved_orders": [
+        1
+      ],
+      "resolved_orders": [
+        2,
+        3
+      ],
+      "user_confirmed": true,
+      "validation_group": "user_reviewed"
+    },
+    {
+      "image": "input39.png",
+      "expected": [
+        [
+          53,
+          260
+        ],
+        [
+          231,
+          348
+        ],
+        [
+          186,
+          348
+        ]
+      ],
+      "actual": [
+        [
+          53,
+          260
+        ],
+        [
+          231,
+          348
+        ],
+        [
+          186,
+          348
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "candidate_order": [
+        "B",
+        "E",
+        "D"
+      ],
+      "status": "review_required",
+      "unresolved_orders": [
+        1,
+        3
+      ],
+      "resolved_orders": [
+        2
+      ],
+      "user_confirmed": true,
+      "validation_group": "user_reviewed"
+    },
+    {
       "image": "input4.png",
       "expected": [
         [
@@ -1021,6 +1732,358 @@
       ],
       "user_confirmed": true,
       "validation_group": "development"
+    },
+    {
+      "image": "input40.png",
+      "expected": [
+        [
+          406,
+          127
+        ],
+        [
+          144,
+          220
+        ],
+        [
+          364,
+          171
+        ]
+      ],
+      "actual": [
+        [
+          406,
+          127
+        ],
+        [
+          144,
+          220
+        ],
+        [
+          364,
+          171
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "candidate_order": [
+        "A",
+        "C",
+        "B"
+      ],
+      "status": "review_required",
+      "unresolved_orders": [
+        1,
+        3
+      ],
+      "resolved_orders": [
+        2
+      ],
+      "user_confirmed": true,
+      "validation_group": "user_reviewed"
+    },
+    {
+      "image": "input41.png",
+      "expected": [
+        [
+          229,
+          262
+        ],
+        [
+          98,
+          127
+        ],
+        [
+          142,
+          171
+        ]
+      ],
+      "actual": [
+        [
+          229,
+          262
+        ],
+        [
+          98,
+          127
+        ],
+        [
+          142,
+          171
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "candidate_order": [
+        "E",
+        "A",
+        "C"
+      ],
+      "status": "review_required",
+      "unresolved_orders": [
+        2
+      ],
+      "resolved_orders": [
+        1,
+        3
+      ],
+      "user_confirmed": true,
+      "validation_group": "user_reviewed"
+    },
+    {
+      "image": "input42.png",
+      "expected": [
+        [
+          364,
+          215
+        ],
+        [
+          186,
+          349
+        ],
+        [
+          274,
+          215
+        ]
+      ],
+      "actual": [
+        [
+          364,
+          215
+        ],
+        [
+          186,
+          349
+        ],
+        [
+          274,
+          215
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "candidate_order": [
+        "B",
+        "E",
+        "A"
+      ],
+      "status": "proposed_matches",
+      "unresolved_orders": [],
+      "resolved_orders": [
+        1,
+        2,
+        3
+      ],
+      "user_confirmed": true,
+      "validation_group": "user_reviewed"
+    },
+    {
+      "image": "input43.png",
+      "expected": [
+        [
+          318,
+          127
+        ],
+        [
+          276,
+          349
+        ],
+        [
+          364,
+          304
+        ]
+      ],
+      "actual": [
+        [
+          318,
+          127
+        ],
+        [
+          276,
+          349
+        ],
+        [
+          364,
+          304
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "candidate_order": [
+        "A",
+        "D",
+        "B"
+      ],
+      "status": "proposed_matches",
+      "unresolved_orders": [],
+      "resolved_orders": [
+        1,
+        2,
+        3
+      ],
+      "user_confirmed": true,
+      "validation_group": "user_reviewed"
+    },
+    {
+      "image": "input44.png",
+      "expected": [
+        [
+          408,
+          260
+        ],
+        [
+          229,
+          307
+        ],
+        [
+          275,
+          260
+        ]
+      ],
+      "actual": [
+        [
+          408,
+          260
+        ],
+        [
+          229,
+          307
+        ],
+        [
+          275,
+          260
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "candidate_order": [
+        "D",
+        "E",
+        "B"
+      ],
+      "status": "proposed_matches",
+      "unresolved_orders": [],
+      "resolved_orders": [
+        1,
+        2,
+        3
+      ],
+      "user_confirmed": true,
+      "validation_group": "user_reviewed"
+    },
+    {
+      "image": "input45.png",
+      "expected": [
+        [
+          142,
+          216
+        ],
+        [
+          187,
+          171
+        ],
+        [
+          142,
+          171
+        ]
+      ],
+      "actual": [
+        [
+          142,
+          216
+        ],
+        [
+          187,
+          171
+        ],
+        [
+          142,
+          171
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "candidate_order": [
+        "D",
+        "C",
+        "B"
+      ],
+      "status": "proposed_matches",
+      "unresolved_orders": [],
+      "resolved_orders": [
+        1,
+        2,
+        3
+      ],
+      "user_confirmed": true,
+      "validation_group": "user_reviewed"
+    },
+    {
+      "image": "input46.png",
+      "expected": [
+        [
+          321,
+          161
+        ],
+        [
+          322,
+          208
+        ],
+        [
+          267,
+          263
+        ]
+      ],
+      "actual": [
+        [
+          321,
+          161
+        ],
+        [
+          322,
+          208
+        ],
+        [
+          267,
+          263
+        ]
+      ],
+      "correct": [
+        true,
+        true,
+        true
+      ],
+      "candidate_order": [
+        "A",
+        "C",
+        "E"
+      ],
+      "status": "proposed_matches",
+      "unresolved_orders": [],
+      "resolved_orders": [
+        1,
+        2,
+        3
+      ],
+      "user_confirmed": true,
+      "validation_group": "user_reviewed"
     },
     {
       "image": "input5.png",
@@ -1282,7 +2345,7 @@
     "total_targets": 30
   },
   "user_reviewed": {
-    "correct_targets": 45,
-    "total_targets": 45
+    "correct_targets": 108,
+    "total_targets": 108
   }
 }

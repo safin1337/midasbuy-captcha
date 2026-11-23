@@ -1,0 +1,1105 @@
+{
+  "note": "Offline matcher proposals. Confidence is uncalibrated and does not establish correctness on new samples.",
+  "evaluation_mode": "fresh_inference",
+  "start": 26,
+  "end": 45,
+  "samples": [
+    {
+      "image": "input26.png",
+      "status": "review_required",
+      "candidate_count": 5,
+      "candidate_order": [
+        "E",
+        "D",
+        "A"
+      ],
+      "confident_positions": [
+        1,
+        3
+      ],
+      "review_positions": [
+        2
+      ],
+      "matches": [
+        {
+          "order": 1,
+          "candidate": "E",
+          "center": [
+            267,
+            347
+          ],
+          "match_score": 0.8538,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 2,
+          "candidate": "D",
+          "center": [
+            92,
+            302
+          ],
+          "match_score": 0.8098,
+          "decision": "review_required",
+          "review_reasons": [
+            "ambiguous_reference_family"
+          ]
+        },
+        {
+          "order": 3,
+          "candidate": "A",
+          "center": [
+            136,
+            214
+          ],
+          "match_score": 0.9105,
+          "decision": "proposed",
+          "review_reasons": []
+        }
+      ],
+      "elapsed_seconds": 12.75
+    },
+    {
+      "image": "input27.png",
+      "status": "review_required",
+      "candidate_count": 5,
+      "candidate_order": [
+        "C",
+        "B",
+        "E"
+      ],
+      "confident_positions": [
+        1,
+        3
+      ],
+      "review_positions": [
+        2
+      ],
+      "matches": [
+        {
+          "order": 1,
+          "candidate": "C",
+          "center": [
+            399,
+            173
+          ],
+          "match_score": 0.8495,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 2,
+          "candidate": "B",
+          "center": [
+            269,
+            125
+          ],
+          "match_score": 0.8256,
+          "decision": "review_required",
+          "review_reasons": [
+            "ambiguous_reference_family"
+          ]
+        },
+        {
+          "order": 3,
+          "candidate": "E",
+          "center": [
+            358,
+            258
+          ],
+          "match_score": 0.8186,
+          "decision": "proposed",
+          "review_reasons": []
+        }
+      ],
+      "elapsed_seconds": 11.94
+    },
+    {
+      "image": "input28.png",
+      "status": "proposed_matches",
+      "candidate_count": 5,
+      "candidate_order": [
+        "D",
+        "C",
+        "A"
+      ],
+      "confident_positions": [
+        1,
+        2,
+        3
+      ],
+      "review_positions": [],
+      "matches": [
+        {
+          "order": 1,
+          "candidate": "D",
+          "center": [
+            137,
+            258
+          ],
+          "match_score": 0.8378,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 2,
+          "candidate": "C",
+          "center": [
+            92,
+            258
+          ],
+          "match_score": 0.8505,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 3,
+          "candidate": "A",
+          "center": [
+            356,
+            127
+          ],
+          "match_score": 0.892,
+          "decision": "proposed",
+          "review_reasons": []
+        }
+      ],
+      "elapsed_seconds": 8.95
+    },
+    {
+      "image": "input29.png",
+      "status": "review_required",
+      "candidate_count": 5,
+      "candidate_order": [
+        "B",
+        "D",
+        "A"
+      ],
+      "confident_positions": [
+        1,
+        3
+      ],
+      "review_positions": [
+        2
+      ],
+      "matches": [
+        {
+          "order": 1,
+          "candidate": "B",
+          "center": [
+            403,
+            214
+          ],
+          "match_score": 0.8813,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 2,
+          "candidate": "D",
+          "center": [
+            92,
+            347
+          ],
+          "match_score": 0.8432,
+          "decision": "review_required",
+          "review_reasons": [
+            "ambiguous_reference_family"
+          ]
+        },
+        {
+          "order": 3,
+          "candidate": "A",
+          "center": [
+            400,
+            125
+          ],
+          "match_score": 0.8947,
+          "decision": "proposed",
+          "review_reasons": []
+        }
+      ],
+      "elapsed_seconds": 11.76
+    },
+    {
+      "image": "input30.png",
+      "status": "review_required",
+      "candidate_count": 5,
+      "candidate_order": [
+        "D",
+        "A",
+        "B"
+      ],
+      "confident_positions": [
+        1,
+        2
+      ],
+      "review_positions": [
+        3
+      ],
+      "matches": [
+        {
+          "order": 1,
+          "candidate": "D",
+          "center": [
+            227,
+            307
+          ],
+          "match_score": 0.8606,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 2,
+          "candidate": "A",
+          "center": [
+            136,
+            125
+          ],
+          "match_score": 0.9061,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 3,
+          "candidate": "B",
+          "center": [
+            314,
+            125
+          ],
+          "match_score": 0.8284,
+          "decision": "review_required",
+          "review_reasons": [
+            "ambiguous_reference_family"
+          ]
+        }
+      ],
+      "elapsed_seconds": 12.25
+    },
+    {
+      "image": "input31.png",
+      "status": "review_required",
+      "candidate_count": 5,
+      "candidate_order": [
+        "B",
+        "D",
+        "A"
+      ],
+      "confident_positions": [
+        1,
+        3
+      ],
+      "review_positions": [
+        2
+      ],
+      "matches": [
+        {
+          "order": 1,
+          "candidate": "B",
+          "center": [
+            181,
+            259
+          ],
+          "match_score": 0.8956,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 2,
+          "candidate": "D",
+          "center": [
+            137,
+            347
+          ],
+          "match_score": 0.7757,
+          "decision": "review_required",
+          "review_reasons": [
+            "ambiguous_reference_family"
+          ]
+        },
+        {
+          "order": 3,
+          "candidate": "A",
+          "center": [
+            49,
+            258
+          ],
+          "match_score": 0.844,
+          "decision": "proposed",
+          "review_reasons": []
+        }
+      ],
+      "elapsed_seconds": 8.2
+    },
+    {
+      "image": "input32.png",
+      "status": "review_required",
+      "candidate_count": 5,
+      "candidate_order": [
+        "E",
+        "D",
+        "C"
+      ],
+      "confident_positions": [
+        1
+      ],
+      "review_positions": [
+        2,
+        3
+      ],
+      "matches": [
+        {
+          "order": 1,
+          "candidate": "E",
+          "center": [
+            94,
+            305
+          ],
+          "match_score": 0.9016,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 2,
+          "candidate": "D",
+          "center": [
+            92,
+            258
+          ],
+          "match_score": 0.8064,
+          "decision": "review_required",
+          "review_reasons": [
+            "ambiguous_reference_family"
+          ]
+        },
+        {
+          "order": 3,
+          "candidate": "C",
+          "center": [
+            399,
+            172
+          ],
+          "match_score": 0.7176,
+          "decision": "review_required",
+          "review_reasons": [
+            "close_or_better_alternative",
+            "ambiguous_assignment"
+          ]
+        }
+      ],
+      "elapsed_seconds": 12.16
+    },
+    {
+      "image": "input33.png",
+      "status": "review_required",
+      "candidate_count": 5,
+      "candidate_order": [
+        "C",
+        "A",
+        "D"
+      ],
+      "confident_positions": [
+        2,
+        3
+      ],
+      "review_positions": [
+        1
+      ],
+      "matches": [
+        {
+          "order": 1,
+          "candidate": "C",
+          "center": [
+            311,
+            214
+          ],
+          "match_score": 0.7004,
+          "decision": "review_required",
+          "review_reasons": [
+            "close_or_better_alternative",
+            "ambiguous_assignment"
+          ]
+        },
+        {
+          "order": 2,
+          "candidate": "A",
+          "center": [
+            91,
+            172
+          ],
+          "match_score": 0.9095,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 3,
+          "candidate": "D",
+          "center": [
+            269,
+            258
+          ],
+          "match_score": 0.8556,
+          "decision": "proposed",
+          "review_reasons": []
+        }
+      ],
+      "elapsed_seconds": 8.38
+    },
+    {
+      "image": "input34.png",
+      "status": "review_required",
+      "candidate_count": 5,
+      "candidate_order": [
+        "D",
+        "E",
+        "B"
+      ],
+      "confident_positions": [
+        3
+      ],
+      "review_positions": [
+        1,
+        2
+      ],
+      "matches": [
+        {
+          "order": 1,
+          "candidate": "D",
+          "center": [
+            181,
+            302
+          ],
+          "match_score": 0.8221,
+          "decision": "review_required",
+          "review_reasons": [
+            "close_or_better_alternative",
+            "ambiguous_assignment"
+          ]
+        },
+        {
+          "order": 2,
+          "candidate": "E",
+          "center": [
+            402,
+            302
+          ],
+          "match_score": 0.815,
+          "decision": "review_required",
+          "review_reasons": [
+            "ambiguous_reference_family"
+          ]
+        },
+        {
+          "order": 3,
+          "candidate": "B",
+          "center": [
+            136,
+            215
+          ],
+          "match_score": 0.8915,
+          "decision": "proposed",
+          "review_reasons": []
+        }
+      ],
+      "elapsed_seconds": 12.66
+    },
+    {
+      "image": "input35.png",
+      "status": "proposed_matches",
+      "candidate_count": 5,
+      "candidate_order": [
+        "B",
+        "A",
+        "E"
+      ],
+      "confident_positions": [
+        1,
+        2,
+        3
+      ],
+      "review_positions": [],
+      "matches": [
+        {
+          "order": 1,
+          "candidate": "B",
+          "center": [
+            358,
+            170
+          ],
+          "match_score": 0.9158,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 2,
+          "candidate": "A",
+          "center": [
+            311,
+            172
+          ],
+          "match_score": 0.8616,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 3,
+          "candidate": "E",
+          "center": [
+            94,
+            350
+          ],
+          "match_score": 0.8766,
+          "decision": "proposed",
+          "review_reasons": []
+        }
+      ],
+      "elapsed_seconds": 9.92
+    },
+    {
+      "image": "input36.png",
+      "status": "review_required",
+      "candidate_count": 5,
+      "candidate_order": [
+        "B",
+        "E",
+        "D"
+      ],
+      "confident_positions": [
+        2
+      ],
+      "review_positions": [
+        1,
+        3
+      ],
+      "matches": [
+        {
+          "order": 1,
+          "candidate": "B",
+          "center": [
+            53,
+            260
+          ],
+          "match_score": 0.8279,
+          "decision": "review_required",
+          "review_reasons": [
+            "close_or_better_alternative"
+          ]
+        },
+        {
+          "order": 2,
+          "candidate": "E",
+          "center": [
+            231,
+            348
+          ],
+          "match_score": 0.8781,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 3,
+          "candidate": "D",
+          "center": [
+            186,
+            348
+          ],
+          "match_score": 0.809,
+          "decision": "review_required",
+          "review_reasons": [
+            "ambiguous_reference_family"
+          ]
+        }
+      ],
+      "elapsed_seconds": 8.47
+    },
+    {
+      "image": "input37.png",
+      "status": "proposed_matches",
+      "candidate_count": 5,
+      "candidate_order": [
+        "E",
+        "C",
+        "B"
+      ],
+      "confident_positions": [
+        1,
+        2,
+        3
+      ],
+      "review_positions": [],
+      "matches": [
+        {
+          "order": 1,
+          "candidate": "E",
+          "center": [
+            408,
+            304
+          ],
+          "match_score": 0.8787,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 2,
+          "candidate": "C",
+          "center": [
+            320,
+            172
+          ],
+          "match_score": 0.8324,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 3,
+          "candidate": "B",
+          "center": [
+            96,
+            171
+          ],
+          "match_score": 0.9074,
+          "decision": "proposed",
+          "review_reasons": []
+        }
+      ],
+      "elapsed_seconds": 8.31
+    },
+    {
+      "image": "input38.png",
+      "status": "review_required",
+      "candidate_count": 5,
+      "candidate_order": [
+        "A",
+        "D",
+        "C"
+      ],
+      "confident_positions": [
+        2,
+        3
+      ],
+      "review_positions": [
+        1
+      ],
+      "matches": [
+        {
+          "order": 1,
+          "candidate": "A",
+          "center": [
+            186,
+            171
+          ],
+          "match_score": 0.7795,
+          "decision": "review_required",
+          "review_reasons": [
+            "ambiguous_reference_family",
+            "ambiguous_assignment"
+          ]
+        },
+        {
+          "order": 2,
+          "candidate": "D",
+          "center": [
+            231,
+            304
+          ],
+          "match_score": 0.8533,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 3,
+          "candidate": "C",
+          "center": [
+            362,
+            261
+          ],
+          "match_score": 0.8835,
+          "decision": "proposed",
+          "review_reasons": []
+        }
+      ],
+      "elapsed_seconds": 11.19
+    },
+    {
+      "image": "input39.png",
+      "status": "review_required",
+      "candidate_count": 5,
+      "candidate_order": [
+        "B",
+        "E",
+        "D"
+      ],
+      "confident_positions": [
+        2
+      ],
+      "review_positions": [
+        1,
+        3
+      ],
+      "matches": [
+        {
+          "order": 1,
+          "candidate": "B",
+          "center": [
+            53,
+            260
+          ],
+          "match_score": 0.8279,
+          "decision": "review_required",
+          "review_reasons": [
+            "close_or_better_alternative"
+          ]
+        },
+        {
+          "order": 2,
+          "candidate": "E",
+          "center": [
+            231,
+            348
+          ],
+          "match_score": 0.8781,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 3,
+          "candidate": "D",
+          "center": [
+            186,
+            348
+          ],
+          "match_score": 0.809,
+          "decision": "review_required",
+          "review_reasons": [
+            "ambiguous_reference_family"
+          ]
+        }
+      ],
+      "elapsed_seconds": 8.19
+    },
+    {
+      "image": "input40.png",
+      "status": "review_required",
+      "candidate_count": 5,
+      "candidate_order": [
+        "A",
+        "C",
+        "B"
+      ],
+      "confident_positions": [
+        2
+      ],
+      "review_positions": [
+        1,
+        3
+      ],
+      "matches": [
+        {
+          "order": 1,
+          "candidate": "A",
+          "center": [
+            406,
+            127
+          ],
+          "match_score": 0.8372,
+          "decision": "review_required",
+          "review_reasons": [
+            "ambiguous_reference_family"
+          ]
+        },
+        {
+          "order": 2,
+          "candidate": "C",
+          "center": [
+            144,
+            220
+          ],
+          "match_score": 0.7931,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 3,
+          "candidate": "B",
+          "center": [
+            364,
+            171
+          ],
+          "match_score": 0.8316,
+          "decision": "review_required",
+          "review_reasons": [
+            "ambiguous_reference_family",
+            "ambiguous_assignment"
+          ]
+        }
+      ],
+      "elapsed_seconds": 11.83
+    },
+    {
+      "image": "input41.png",
+      "status": "review_required",
+      "candidate_count": 5,
+      "candidate_order": [
+        "E",
+        "A",
+        "C"
+      ],
+      "confident_positions": [
+        1,
+        3
+      ],
+      "review_positions": [
+        2
+      ],
+      "matches": [
+        {
+          "order": 1,
+          "candidate": "E",
+          "center": [
+            229,
+            262
+          ],
+          "match_score": 0.8925,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 2,
+          "candidate": "A",
+          "center": [
+            98,
+            127
+          ],
+          "match_score": 0.8921,
+          "decision": "review_required",
+          "review_reasons": [
+            "ambiguous_reference_family"
+          ]
+        },
+        {
+          "order": 3,
+          "candidate": "C",
+          "center": [
+            142,
+            171
+          ],
+          "match_score": 0.8152,
+          "decision": "proposed",
+          "review_reasons": []
+        }
+      ],
+      "elapsed_seconds": 8.45
+    },
+    {
+      "image": "input42.png",
+      "status": "proposed_matches",
+      "candidate_count": 5,
+      "candidate_order": [
+        "B",
+        "E",
+        "A"
+      ],
+      "confident_positions": [
+        1,
+        2,
+        3
+      ],
+      "review_positions": [],
+      "matches": [
+        {
+          "order": 1,
+          "candidate": "B",
+          "center": [
+            364,
+            215
+          ],
+          "match_score": 0.8511,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 2,
+          "candidate": "E",
+          "center": [
+            186,
+            349
+          ],
+          "match_score": 0.8513,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 3,
+          "candidate": "A",
+          "center": [
+            274,
+            215
+          ],
+          "match_score": 0.8791,
+          "decision": "proposed",
+          "review_reasons": []
+        }
+      ],
+      "elapsed_seconds": 18.19
+    },
+    {
+      "image": "input43.png",
+      "status": "proposed_matches",
+      "candidate_count": 5,
+      "candidate_order": [
+        "A",
+        "D",
+        "B"
+      ],
+      "confident_positions": [
+        1,
+        2,
+        3
+      ],
+      "review_positions": [],
+      "matches": [
+        {
+          "order": 1,
+          "candidate": "A",
+          "center": [
+            318,
+            127
+          ],
+          "match_score": 0.8403,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 2,
+          "candidate": "D",
+          "center": [
+            276,
+            349
+          ],
+          "match_score": 0.8426,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 3,
+          "candidate": "B",
+          "center": [
+            364,
+            304
+          ],
+          "match_score": 0.8688,
+          "decision": "proposed",
+          "review_reasons": []
+        }
+      ],
+      "elapsed_seconds": 16.39
+    },
+    {
+      "image": "input44.png",
+      "status": "proposed_matches",
+      "candidate_count": 5,
+      "candidate_order": [
+        "D",
+        "E",
+        "B"
+      ],
+      "confident_positions": [
+        1,
+        2,
+        3
+      ],
+      "review_positions": [],
+      "matches": [
+        {
+          "order": 1,
+          "candidate": "D",
+          "center": [
+            408,
+            260
+          ],
+          "match_score": 0.872,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 2,
+          "candidate": "E",
+          "center": [
+            229,
+            307
+          ],
+          "match_score": 0.8287,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 3,
+          "candidate": "B",
+          "center": [
+            275,
+            260
+          ],
+          "match_score": 0.8256,
+          "decision": "proposed",
+          "review_reasons": []
+        }
+      ],
+      "elapsed_seconds": 14.83
+    },
+    {
+      "image": "input45.png",
+      "status": "proposed_matches",
+      "candidate_count": 5,
+      "candidate_order": [
+        "D",
+        "C",
+        "B"
+      ],
+      "confident_positions": [
+        1,
+        2,
+        3
+      ],
+      "review_positions": [],
+      "matches": [
+        {
+          "order": 1,
+          "candidate": "D",
+          "center": [
+            142,
+            216
+          ],
+          "match_score": 0.814,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 2,
+          "candidate": "C",
+          "center": [
+            187,
+            171
+          ],
+          "match_score": 0.8781,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 3,
+          "candidate": "B",
+          "center": [
+            142,
+            171
+          ],
+          "match_score": 0.8798,
+          "decision": "proposed",
+          "review_reasons": []
+        }
+      ],
+      "elapsed_seconds": 20.41
+    }
+  ],
+  "processed_images": 20,
+  "failed_images": 0,
+  "review_matches": 18
+}

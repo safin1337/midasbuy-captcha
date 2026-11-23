@@ -1,0 +1,63 @@
+{
+  "note": "Offline matcher proposals. Confidence is uncalibrated and does not establish correctness on new samples.",
+  "evaluation_mode": "fresh_inference",
+  "start": 46,
+  "end": 46,
+  "samples": [
+    {
+      "image": "input46.png",
+      "status": "proposed_matches",
+      "candidate_count": 5,
+      "candidate_order": [
+        "A",
+        "C",
+        "E"
+      ],
+      "confident_positions": [
+        1,
+        2,
+        3
+      ],
+      "review_positions": [],
+      "matches": [
+        {
+          "order": 1,
+          "candidate": "A",
+          "center": [
+            321,
+            161
+          ],
+          "match_score": 0.8777,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 2,
+          "candidate": "C",
+          "center": [
+            322,
+            208
+          ],
+          "match_score": 0.888,
+          "decision": "proposed",
+          "review_reasons": []
+        },
+        {
+          "order": 3,
+          "candidate": "E",
+          "center": [
+            267,
+            263
+          ],
+          "match_score": 0.8872,
+          "decision": "proposed",
+          "review_reasons": []
+        }
+      ],
+      "elapsed_seconds": 13.83
+    }
+  ],
+  "processed_images": 1,
+  "failed_images": 0,
+  "review_matches": 0
+}

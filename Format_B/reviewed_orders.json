@@ -522,6 +522,526 @@
         ]
       ],
       "review_notes": "User confirmed order or supplied correction after the localization fix. These are evaluation labels, not template-library additions."
+    },
+    "input26.png": {
+      "source_sha256": "fbd27d9629266ffbf2663b8a230aa1a030db38a986abd0f04a7c951f2fa30715",
+      "candidate_order": [
+        "E",
+        "D",
+        "A"
+      ],
+      "expected_centers": [
+        [
+          267,
+          347
+        ],
+        [
+          92,
+          302
+        ],
+        [
+          136,
+          214
+        ]
+      ],
+      "reviewed_on": "2026-11-23",
+      "review_notes": "User reviewed inputs26-46 and reported only corrections; input44 correction was subsequently withdrawn. Ordered targets confirmed; runtime uncertainty flags are preserved. Evaluation labels only, not template-library additions."
+    },
+    "input27.png": {
+      "source_sha256": "8b6e092823f5b4b8992cd39f93e826f79676a57a45033b51c5864c139e861631",
+      "candidate_order": [
+        "C",
+        "B",
+        "E"
+      ],
+      "expected_centers": [
+        [
+          399,
+          173
+        ],
+        [
+          269,
+          125
+        ],
+        [
+          358,
+          258
+        ]
+      ],
+      "reviewed_on": "2026-11-23",
+      "review_notes": "User reviewed inputs26-46 and reported only corrections; input44 correction was subsequently withdrawn. Ordered targets confirmed; runtime uncertainty flags are preserved. Evaluation labels only, not template-library additions."
+    },
+    "input28.png": {
+      "source_sha256": "bef1e4abe41803fa79fa5bd49a82b6c1f512db09150b746053d37f7d4312a354",
+      "candidate_order": [
+        "D",
+        "C",
+        "A"
+      ],
+      "expected_centers": [
+        [
+          137,
+          258
+        ],
+        [
+          92,
+          258
+        ],
+        [
+          356,
+          127
+        ]
+      ],
+      "reviewed_on": "2026-11-23",
+      "review_notes": "User reviewed inputs26-46 and reported only corrections; input44 correction was subsequently withdrawn. Ordered targets confirmed; runtime uncertainty flags are preserved. Evaluation labels only, not template-library additions."
+    },
+    "input29.png": {
+      "source_sha256": "0dcd7cb2c0c2c72158bd199ea0db8329ccdd431ebf4d8fc3388ba21458f4944c",
+      "candidate_order": [
+        "B",
+        "D",
+        "A"
+      ],
+      "expected_centers": [
+        [
+          403,
+          214
+        ],
+        [
+          92,
+          347
+        ],
+        [
+          400,
+          125
+        ]
+      ],
+      "reviewed_on": "2026-11-23",
+      "review_notes": "User reviewed inputs26-46 and reported only corrections; input44 correction was subsequently withdrawn. Ordered targets confirmed; runtime uncertainty flags are preserved. Evaluation labels only, not template-library additions."
+    },
+    "input30.png": {
+      "source_sha256": "fbc88be942c7ba232ff16d10aa06546df3f78dd52f277967c5c9634930968e49",
+      "candidate_order": [
+        "D",
+        "A",
+        "B"
+      ],
+      "expected_centers": [
+        [
+          227,
+          307
+        ],
+        [
+          136,
+          125
+        ],
+        [
+          314,
+          125
+        ]
+      ],
+      "reviewed_on": "2026-11-23",
+      "review_notes": "User reviewed inputs26-46 and reported only corrections; input44 correction was subsequently withdrawn. Ordered targets confirmed; runtime uncertainty flags are preserved. Evaluation labels only, not template-library additions."
+    },
+    "input31.png": {
+      "source_sha256": "0b8b589229b000b0b8e00bfaaca1e34774ac07d410ced1a54e44e8c41a70a9e4",
+      "candidate_order": [
+        "B",
+        "D",
+        "A"
+      ],
+      "expected_centers": [
+        [
+          181,
+          259
+        ],
+        [
+          137,
+          347
+        ],
+        [
+          49,
+          258
+        ]
+      ],
+      "reviewed_on": "2026-11-23",
+      "review_notes": "User reviewed inputs26-46 and reported only corrections; input44 correction was subsequently withdrawn. Ordered targets confirmed; runtime uncertainty flags are preserved. Evaluation labels only, not template-library additions."
+    },
+    "input32.png": {
+      "source_sha256": "7d0a55bb8ca86294e16cc8f4dbc096277d63e845053c3d708acb95dc54e22573",
+      "candidate_order": [
+        "E",
+        "D",
+        "C"
+      ],
+      "expected_centers": [
+        [
+          94,
+          305
+        ],
+        [
+          92,
+          258
+        ],
+        [
+          399,
+          172
+        ]
+      ],
+      "reviewed_on": "2026-11-23",
+      "review_notes": "User reviewed inputs26-46 and reported only corrections; input44 correction was subsequently withdrawn. Ordered targets confirmed; runtime uncertainty flags are preserved. Evaluation labels only, not template-library additions."
+    },
+    "input33.png": {
+      "source_sha256": "793ec67b4311824194a12ef737430a02800bcadb4d3eb0078a0c2116ed9858a4",
+      "candidate_order": [
+        "C",
+        "A",
+        "D"
+      ],
+      "expected_centers": [
+        [
+          311,
+          214
+        ],
+        [
+          91,
+          172
+        ],
+        [
+          269,
+          258
+        ]
+      ],
+      "reviewed_on": "2026-11-23",
+      "review_notes": "User reviewed inputs26-46 and reported only corrections; input44 correction was subsequently withdrawn. Ordered targets confirmed; runtime uncertainty flags are preserved. Evaluation labels only, not template-library additions."
+    },
+    "input34.png": {
+      "source_sha256": "fcb4ad8e13be015701f2ebc4512f847fc7f0495735a1015c1b0aa3e0c081b0c6",
+      "candidate_order": [
+        "D",
+        "E",
+        "B"
+      ],
+      "expected_centers": [
+        [
+          181,
+          302
+        ],
+        [
+          402,
+          302
+        ],
+        [
+          136,
+          215
+        ]
+      ],
+      "reviewed_on": "2026-11-23",
+      "review_notes": "User reviewed inputs26-46 and reported only corrections; input44 correction was subsequently withdrawn. Ordered targets confirmed; runtime uncertainty flags are preserved. Evaluation labels only, not template-library additions."
+    },
+    "input35.png": {
+      "source_sha256": "a194634a67c636d8e8d9ec9c85f76ed1522ab89597e16849fb6e07d46fd14032",
+      "candidate_order": [
+        "B",
+        "A",
+        "E"
+      ],
+      "expected_centers": [
+        [
+          358,
+          170
+        ],
+        [
+          311,
+          172
+        ],
+        [
+          94,
+          350
+        ]
+      ],
+      "reviewed_on": "2026-11-23",
+      "review_notes": "User reviewed inputs26-46 and reported only corrections; input44 correction was subsequently withdrawn. Ordered targets confirmed; runtime uncertainty flags are preserved. Evaluation labels only, not template-library additions."
+    },
+    "input36.png": {
+      "source_sha256": "f101904c5b5e338d13e0dcaf981ed49d7bf830535420b4504990b6b70e536e26",
+      "candidate_order": [
+        "B",
+        "E",
+        "D"
+      ],
+      "expected_centers": [
+        [
+          53,
+          260
+        ],
+        [
+          231,
+          348
+        ],
+        [
+          186,
+          348
+        ]
+      ],
+      "reviewed_on": "2026-11-23",
+      "review_notes": "User reviewed inputs26-46 and reported only corrections; input44 correction was subsequently withdrawn. Ordered targets confirmed; runtime uncertainty flags are preserved. Evaluation labels only, not template-library additions."
+    },
+    "input37.png": {
+      "source_sha256": "2b16b7c05fbbe800f5d66efecf6c51ebf9dd94a7263f242c8c6fed3cacd97f69",
+      "candidate_order": [
+        "E",
+        "C",
+        "B"
+      ],
+      "expected_centers": [
+        [
+          408,
+          304
+        ],
+        [
+          320,
+          172
+        ],
+        [
+          96,
+          171
+        ]
+      ],
+      "reviewed_on": "2026-11-23",
+      "review_notes": "User reviewed inputs26-46 and reported only corrections; input44 correction was subsequently withdrawn. Ordered targets confirmed; runtime uncertainty flags are preserved. Evaluation labels only, not template-library additions."
+    },
+    "input38.png": {
+      "source_sha256": "e797bf7fbf1ef9c2a608eefe53ff4ff454aa87da7f0454b36905f84af93a3c5a",
+      "candidate_order": [
+        "A",
+        "D",
+        "C"
+      ],
+      "expected_centers": [
+        [
+          186,
+          171
+        ],
+        [
+          231,
+          304
+        ],
+        [
+          362,
+          261
+        ]
+      ],
+      "reviewed_on": "2026-11-23",
+      "review_notes": "User reviewed inputs26-46 and reported only corrections; input44 correction was subsequently withdrawn. Ordered targets confirmed; runtime uncertainty flags are preserved. Evaluation labels only, not template-library additions."
+    },
+    "input39.png": {
+      "source_sha256": "f101904c5b5e338d13e0dcaf981ed49d7bf830535420b4504990b6b70e536e26",
+      "candidate_order": [
+        "B",
+        "E",
+        "D"
+      ],
+      "expected_centers": [
+        [
+          53,
+          260
+        ],
+        [
+          231,
+          348
+        ],
+        [
+          186,
+          348
+        ]
+      ],
+      "reviewed_on": "2026-11-23",
+      "review_notes": "User reviewed inputs26-46 and reported only corrections; input44 correction was subsequently withdrawn. Ordered targets confirmed; runtime uncertainty flags are preserved. Evaluation labels only, not template-library additions."
+    },
+    "input40.png": {
+      "source_sha256": "f0dec40512b14eaf1dbaddc2ca372db365d7391eec79eadd933e2eebb587ac4a",
+      "candidate_order": [
+        "A",
+        "C",
+        "B"
+      ],
+      "expected_centers": [
+        [
+          406,
+          127
+        ],
+        [
+          144,
+          220
+        ],
+        [
+          364,
+          171
+        ]
+      ],
+      "reviewed_on": "2026-11-23",
+      "review_notes": "User reviewed inputs26-46 and reported only corrections; input44 correction was subsequently withdrawn. Ordered targets confirmed; runtime uncertainty flags are preserved. Evaluation labels only, not template-library additions."
+    },
+    "input41.png": {
+      "source_sha256": "67cc66f1cf60ac1e8a7f84ebed0e276cdb112a866f7c599f4a627c64c6a927eb",
+      "candidate_order": [
+        "E",
+        "A",
+        "C"
+      ],
+      "expected_centers": [
+        [
+          229,
+          262
+        ],
+        [
+          98,
+          127
+        ],
+        [
+          142,
+          171
+        ]
+      ],
+      "reviewed_on": "2026-11-23",
+      "review_notes": "User reviewed inputs26-46 and reported only corrections; input44 correction was subsequently withdrawn. Ordered targets confirmed; runtime uncertainty flags are preserved. Evaluation labels only, not template-library additions."
+    },
+    "input42.png": {
+      "source_sha256": "e2a45024188a087af78a79fe481a178a0144f07722a88e139f374a02b90de9d0",
+      "candidate_order": [
+        "B",
+        "E",
+        "A"
+      ],
+      "expected_centers": [
+        [
+          364,
+          215
+        ],
+        [
+          186,
+          349
+        ],
+        [
+          274,
+          215
+        ]
+      ],
+      "reviewed_on": "2026-11-23",
+      "review_notes": "User reviewed inputs26-46 and reported only corrections; input44 correction was subsequently withdrawn. Ordered targets confirmed; runtime uncertainty flags are preserved. Evaluation labels only, not template-library additions."
+    },
+    "input43.png": {
+      "source_sha256": "f3c9092cf0d571d583945680bde3e71c1230053543760c93787ef351459015cd",
+      "candidate_order": [
+        "A",
+        "D",
+        "B"
+      ],
+      "expected_centers": [
+        [
+          318,
+          127
+        ],
+        [
+          276,
+          349
+        ],
+        [
+          364,
+          304
+        ]
+      ],
+      "reviewed_on": "2026-11-23",
+      "review_notes": "User reviewed inputs26-46 and reported only corrections; input44 correction was subsequently withdrawn. Ordered targets confirmed; runtime uncertainty flags are preserved. Evaluation labels only, not template-library additions."
+    },
+    "input44.png": {
+      "source_sha256": "43f91aeef20ee6e07e9304654457ef1d51aefb5a814fd8d785ec18d19bca23b5",
+      "candidate_order": [
+        "D",
+        "E",
+        "B"
+      ],
+      "expected_centers": [
+        [
+          408,
+          260
+        ],
+        [
+          229,
+          307
+        ],
+        [
+          275,
+          260
+        ]
+      ],
+      "reviewed_on": "2026-11-23",
+      "review_notes": "User reviewed inputs26-46 and reported only corrections; input44 correction was subsequently withdrawn. Ordered targets confirmed; runtime uncertainty flags are preserved. Evaluation labels only, not template-library additions."
+    },
+    "input45.png": {
+      "source_sha256": "a378614771877a4be40a6888074d4c93ad3e8a6cae73cd6317b8d9f7ba6eec6c",
+      "candidate_order": [
+        "D",
+        "C",
+        "B"
+      ],
+      "expected_centers": [
+        [
+          142,
+          216
+        ],
+        [
+          187,
+          171
+        ],
+        [
+          142,
+          171
+        ]
+      ],
+      "reviewed_on": "2026-11-23",
+      "review_notes": "User reviewed inputs26-46 and reported only corrections; input44 correction was subsequently withdrawn. Ordered targets confirmed; runtime uncertainty flags are preserved. Evaluation labels only, not template-library additions."
+    },
+    "input46.png": {
+      "source_sha256": "986c859d1c888ea0e81801730cb78aad319a865f811ba11c7801ca1cea0d5cf0",
+      "candidate_order": [
+        "A",
+        "C",
+        "E"
+      ],
+      "expected_centers": [
+        [
+          321,
+          161
+        ],
+        [
+          322,
+          208
+        ],
+        [
+          267,
+          263
+        ]
+      ],
+      "reviewed_on": "2026-11-23",
+      "review_notes": "User reviewed inputs26-46 and reported only corrections; input44 correction was subsequently withdrawn. Ordered targets confirmed; runtime uncertainty flags are preserved. Evaluation labels only, not template-library additions. User confirmed the selected targets but identified false background candidate D and the missing gray document; localization is not fully correct.",
+      "localization_review": {
+        "status": "incorrect_candidate_set",
+        "false_positive_candidate": "D",
+        "false_positive_box": [
+          508,
+          184,
+          25,
+          25
+        ],
+        "missing_symbol": "gray document with X",
+        "missing_symbol_approximate_center": [
+          214,
+          208
+        ]
+      }
     }
-  }
+  },
+  "updated_on": "2026-11-23"
 }

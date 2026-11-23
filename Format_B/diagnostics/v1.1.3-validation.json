@@ -1,0 +1,57 @@
+{
+  "project_version": "v1.1.3",
+  "validated_on": "2026-11-23",
+  "timezone": "Asia/Dhaka",
+  "matcher_version": "v1.1.0",
+  "extension_version": "v1.0.7",
+  "runtime_changed": false,
+  "checks": [
+    {
+      "command": ".venv/Scripts/python.exe Format_B/evaluate_dots.py --saved-results --reviewed-only",
+      "result": "passed",
+      "ordered_targets_correct": 138,
+      "ordered_targets_total": 138,
+      "reviewed_captures": 46,
+      "incorrect_resolved_targets": 0,
+      "mode": "rescore_saved_inference_with_raw_image_hash_validation"
+    },
+    {
+      "command": ".venv/Scripts/python.exe Format_B/test_contour_points.py",
+      "result": "passed"
+    },
+    {
+      "command": ".venv/Scripts/python.exe Format_B/test_input19_regression.py",
+      "result": "passed"
+    },
+    {
+      "check": "local_documentation_links",
+      "result": "passed",
+      "checked_links": 36
+    },
+    {
+      "check": "new_batch_required_diagnostics_and_source_hashes",
+      "result": "passed",
+      "checked_captures": 21
+    },
+    {
+      "check": "version_consistency",
+      "result": "passed"
+    }
+  ],
+  "new_batch": {
+    "ordered_targets_correct": 63,
+    "ordered_targets_total": 63,
+    "captures": 21,
+    "unique_image_hashes": 20,
+    "flagged_targets_retained": 18,
+    "flagged_captures": 13
+  },
+  "known_issues": [
+    "Input46 has a correct ordered sequence but a false background candidate D and a missing gray document. Localization fix is not included."
+  ],
+  "limits": [
+    "Reviewed development/saved proposals, not blind test accuracy.",
+    "No live website submission, automatic retry policy, or unattended production validation performed.",
+    "User review does not change runtime confidence thresholds or template training data."
+  ]
+}

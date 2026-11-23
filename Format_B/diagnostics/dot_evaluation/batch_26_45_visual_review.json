@@ -1,0 +1,905 @@
+{
+  "reviewed_on": "2026-11-20",
+  "reviewer": "assistant visual inspection of raw screenshots and candidate previews",
+  "note": "Fresh offline inference with current matcher; assistant visual review, not user-confirmed labels or website-verified outcomes. Visual centers are approximate manual annotations. Runtime review flags remain unchanged; no training data or reviewed_orders.json updates. Not independent production accuracy.",
+  "processed_images": 20,
+  "unique_image_hashes": 19,
+  "candidate_count_five_images": 20,
+  "visually_consistent_targets": 60,
+  "total_targets": 60,
+  "visually_consistent_images": 20,
+  "review_matches": 18,
+  "review_images": 13,
+  "confident_wrong_targets": 0,
+  "duplicate_images": [
+    [
+      "input36.png",
+      "input39.png"
+    ]
+  ],
+  "samples": [
+    {
+      "image": "input26.png",
+      "source_sha256": "fbd27d9629266ffbf2663b8a230aa1a030db38a986abd0f04a7c951f2fa30715",
+      "pipeline_order": [
+        "E",
+        "D",
+        "A"
+      ],
+      "visual_target_centers": [
+        [
+          267,
+          347
+        ],
+        [
+          92,
+          302
+        ],
+        [
+          136,
+          214
+        ]
+      ],
+      "visual_candidate_order": [
+        "E",
+        "D",
+        "A"
+      ],
+      "candidate_count": 5,
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": [
+        2
+      ],
+      "review_reasons": {
+        "2": [
+          "ambiguous_reference_family"
+        ]
+      },
+      "user_confirmed": false
+    },
+    {
+      "image": "input27.png",
+      "source_sha256": "8b6e092823f5b4b8992cd39f93e826f79676a57a45033b51c5864c139e861631",
+      "pipeline_order": [
+        "C",
+        "B",
+        "E"
+      ],
+      "visual_target_centers": [
+        [
+          399,
+          173
+        ],
+        [
+          269,
+          125
+        ],
+        [
+          358,
+          258
+        ]
+      ],
+      "visual_candidate_order": [
+        "C",
+        "B",
+        "E"
+      ],
+      "candidate_count": 5,
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": [
+        2
+      ],
+      "review_reasons": {
+        "2": [
+          "ambiguous_reference_family"
+        ]
+      },
+      "user_confirmed": false
+    },
+    {
+      "image": "input28.png",
+      "source_sha256": "bef1e4abe41803fa79fa5bd49a82b6c1f512db09150b746053d37f7d4312a354",
+      "pipeline_order": [
+        "D",
+        "C",
+        "A"
+      ],
+      "visual_target_centers": [
+        [
+          137,
+          258
+        ],
+        [
+          92,
+          258
+        ],
+        [
+          356,
+          127
+        ]
+      ],
+      "visual_candidate_order": [
+        "D",
+        "C",
+        "A"
+      ],
+      "candidate_count": 5,
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": [],
+      "review_reasons": {},
+      "user_confirmed": false
+    },
+    {
+      "image": "input29.png",
+      "source_sha256": "0dcd7cb2c0c2c72158bd199ea0db8329ccdd431ebf4d8fc3388ba21458f4944c",
+      "pipeline_order": [
+        "B",
+        "D",
+        "A"
+      ],
+      "visual_target_centers": [
+        [
+          403,
+          214
+        ],
+        [
+          92,
+          347
+        ],
+        [
+          400,
+          125
+        ]
+      ],
+      "visual_candidate_order": [
+        "B",
+        "D",
+        "A"
+      ],
+      "candidate_count": 5,
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": [
+        2
+      ],
+      "review_reasons": {
+        "2": [
+          "ambiguous_reference_family"
+        ]
+      },
+      "user_confirmed": false
+    },
+    {
+      "image": "input30.png",
+      "source_sha256": "fbc88be942c7ba232ff16d10aa06546df3f78dd52f277967c5c9634930968e49",
+      "pipeline_order": [
+        "D",
+        "A",
+        "B"
+      ],
+      "visual_target_centers": [
+        [
+          224,
+          303
+        ],
+        [
+          136,
+          125
+        ],
+        [
+          313,
+          125
+        ]
+      ],
+      "visual_candidate_order": [
+        "D",
+        "A",
+        "B"
+      ],
+      "candidate_count": 5,
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": [
+        3
+      ],
+      "review_reasons": {
+        "3": [
+          "ambiguous_reference_family"
+        ]
+      },
+      "user_confirmed": false
+    },
+    {
+      "image": "input31.png",
+      "source_sha256": "0b8b589229b000b0b8e00bfaaca1e34774ac07d410ced1a54e44e8c41a70a9e4",
+      "pipeline_order": [
+        "B",
+        "D",
+        "A"
+      ],
+      "visual_target_centers": [
+        [
+          181,
+          258
+        ],
+        [
+          136,
+          347
+        ],
+        [
+          48,
+          258
+        ]
+      ],
+      "visual_candidate_order": [
+        "B",
+        "D",
+        "A"
+      ],
+      "candidate_count": 5,
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": [
+        2
+      ],
+      "review_reasons": {
+        "2": [
+          "ambiguous_reference_family"
+        ]
+      },
+      "user_confirmed": false
+    },
+    {
+      "image": "input32.png",
+      "source_sha256": "7d0a55bb8ca86294e16cc8f4dbc096277d63e845053c3d708acb95dc54e22573",
+      "pipeline_order": [
+        "E",
+        "D",
+        "C"
+      ],
+      "visual_target_centers": [
+        [
+          92,
+          302
+        ],
+        [
+          92,
+          258
+        ],
+        [
+          400,
+          170
+        ]
+      ],
+      "visual_candidate_order": [
+        "E",
+        "D",
+        "C"
+      ],
+      "candidate_count": 5,
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": [
+        2,
+        3
+      ],
+      "review_reasons": {
+        "2": [
+          "ambiguous_reference_family"
+        ],
+        "3": [
+          "close_or_better_alternative",
+          "ambiguous_assignment"
+        ]
+      },
+      "user_confirmed": false
+    },
+    {
+      "image": "input33.png",
+      "source_sha256": "793ec67b4311824194a12ef737430a02800bcadb4d3eb0078a0c2116ed9858a4",
+      "pipeline_order": [
+        "C",
+        "A",
+        "D"
+      ],
+      "visual_target_centers": [
+        [
+          312,
+          214
+        ],
+        [
+          92,
+          170
+        ],
+        [
+          269,
+          258
+        ]
+      ],
+      "visual_candidate_order": [
+        "C",
+        "A",
+        "D"
+      ],
+      "candidate_count": 5,
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": [
+        1
+      ],
+      "review_reasons": {
+        "1": [
+          "close_or_better_alternative",
+          "ambiguous_assignment"
+        ]
+      },
+      "user_confirmed": false
+    },
+    {
+      "image": "input34.png",
+      "source_sha256": "fcb4ad8e13be015701f2ebc4512f847fc7f0495735a1015c1b0aa3e0c081b0c6",
+      "pipeline_order": [
+        "D",
+        "E",
+        "B"
+      ],
+      "visual_target_centers": [
+        [
+          181,
+          302
+        ],
+        [
+          400,
+          302
+        ],
+        [
+          136,
+          214
+        ]
+      ],
+      "visual_candidate_order": [
+        "D",
+        "E",
+        "B"
+      ],
+      "candidate_count": 5,
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": [
+        1,
+        2
+      ],
+      "review_reasons": {
+        "1": [
+          "close_or_better_alternative",
+          "ambiguous_assignment"
+        ],
+        "2": [
+          "ambiguous_reference_family"
+        ]
+      },
+      "user_confirmed": false
+    },
+    {
+      "image": "input35.png",
+      "source_sha256": "a194634a67c636d8e8d9ec9c85f76ed1522ab89597e16849fb6e07d46fd14032",
+      "pipeline_order": [
+        "B",
+        "A",
+        "E"
+      ],
+      "visual_target_centers": [
+        [
+          356,
+          170
+        ],
+        [
+          312,
+          170
+        ],
+        [
+          92,
+          347
+        ]
+      ],
+      "visual_candidate_order": [
+        "B",
+        "A",
+        "E"
+      ],
+      "candidate_count": 5,
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": [],
+      "review_reasons": {},
+      "user_confirmed": false
+    },
+    {
+      "image": "input36.png",
+      "source_sha256": "f101904c5b5e338d13e0dcaf981ed49d7bf830535420b4504990b6b70e536e26",
+      "pipeline_order": [
+        "B",
+        "E",
+        "D"
+      ],
+      "visual_target_centers": [
+        [
+          52,
+          260
+        ],
+        [
+          230,
+          348
+        ],
+        [
+          185,
+          348
+        ]
+      ],
+      "visual_candidate_order": [
+        "B",
+        "E",
+        "D"
+      ],
+      "candidate_count": 5,
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": [
+        1,
+        3
+      ],
+      "review_reasons": {
+        "1": [
+          "close_or_better_alternative"
+        ],
+        "3": [
+          "ambiguous_reference_family"
+        ]
+      },
+      "user_confirmed": false
+    },
+    {
+      "image": "input37.png",
+      "source_sha256": "2b16b7c05fbbe800f5d66efecf6c51ebf9dd94a7263f242c8c6fed3cacd97f69",
+      "pipeline_order": [
+        "E",
+        "C",
+        "B"
+      ],
+      "visual_target_centers": [
+        [
+          407,
+          303
+        ],
+        [
+          319,
+          171
+        ],
+        [
+          97,
+          171
+        ]
+      ],
+      "visual_candidate_order": [
+        "E",
+        "C",
+        "B"
+      ],
+      "candidate_count": 5,
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": [],
+      "review_reasons": {},
+      "user_confirmed": false
+    },
+    {
+      "image": "input38.png",
+      "source_sha256": "e797bf7fbf1ef9c2a608eefe53ff4ff454aa87da7f0454b36905f84af93a3c5a",
+      "pipeline_order": [
+        "A",
+        "D",
+        "C"
+      ],
+      "visual_target_centers": [
+        [
+          186,
+          171
+        ],
+        [
+          230,
+          303
+        ],
+        [
+          363,
+          260
+        ]
+      ],
+      "visual_candidate_order": [
+        "A",
+        "D",
+        "C"
+      ],
+      "candidate_count": 5,
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": [
+        1
+      ],
+      "review_reasons": {
+        "1": [
+          "ambiguous_reference_family",
+          "ambiguous_assignment"
+        ]
+      },
+      "user_confirmed": false
+    },
+    {
+      "image": "input39.png",
+      "source_sha256": "f101904c5b5e338d13e0dcaf981ed49d7bf830535420b4504990b6b70e536e26",
+      "pipeline_order": [
+        "B",
+        "E",
+        "D"
+      ],
+      "visual_target_centers": [
+        [
+          52,
+          260
+        ],
+        [
+          230,
+          348
+        ],
+        [
+          185,
+          348
+        ]
+      ],
+      "visual_candidate_order": [
+        "B",
+        "E",
+        "D"
+      ],
+      "candidate_count": 5,
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": [
+        1,
+        3
+      ],
+      "review_reasons": {
+        "1": [
+          "close_or_better_alternative"
+        ],
+        "3": [
+          "ambiguous_reference_family"
+        ]
+      },
+      "user_confirmed": false
+    },
+    {
+      "image": "input40.png",
+      "source_sha256": "f0dec40512b14eaf1dbaddc2ca372db365d7391eec79eadd933e2eebb587ac4a",
+      "pipeline_order": [
+        "A",
+        "C",
+        "B"
+      ],
+      "visual_target_centers": [
+        [
+          407,
+          126
+        ],
+        [
+          142,
+          216
+        ],
+        [
+          363,
+          170
+        ]
+      ],
+      "visual_candidate_order": [
+        "A",
+        "C",
+        "B"
+      ],
+      "candidate_count": 5,
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": [
+        1,
+        3
+      ],
+      "review_reasons": {
+        "1": [
+          "ambiguous_reference_family"
+        ],
+        "3": [
+          "ambiguous_reference_family",
+          "ambiguous_assignment"
+        ]
+      },
+      "user_confirmed": false
+    },
+    {
+      "image": "input41.png",
+      "source_sha256": "67cc66f1cf60ac1e8a7f84ebed0e276cdb112a866f7c599f4a627c64c6a927eb",
+      "pipeline_order": [
+        "E",
+        "A",
+        "C"
+      ],
+      "visual_target_centers": [
+        [
+          230,
+          260
+        ],
+        [
+          97,
+          126
+        ],
+        [
+          142,
+          170
+        ]
+      ],
+      "visual_candidate_order": [
+        "E",
+        "A",
+        "C"
+      ],
+      "candidate_count": 5,
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": [
+        2
+      ],
+      "review_reasons": {
+        "2": [
+          "ambiguous_reference_family"
+        ]
+      },
+      "user_confirmed": false
+    },
+    {
+      "image": "input42.png",
+      "source_sha256": "e2a45024188a087af78a79fe481a178a0144f07722a88e139f374a02b90de9d0",
+      "pipeline_order": [
+        "B",
+        "E",
+        "A"
+      ],
+      "visual_target_centers": [
+        [
+          363,
+          214
+        ],
+        [
+          187,
+          347
+        ],
+        [
+          274,
+          214
+        ]
+      ],
+      "visual_candidate_order": [
+        "B",
+        "E",
+        "A"
+      ],
+      "candidate_count": 5,
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": [],
+      "review_reasons": {},
+      "user_confirmed": false
+    },
+    {
+      "image": "input43.png",
+      "source_sha256": "f3c9092cf0d571d583945680bde3e71c1230053543760c93787ef351459015cd",
+      "pipeline_order": [
+        "A",
+        "D",
+        "B"
+      ],
+      "visual_target_centers": [
+        [
+          319,
+          126
+        ],
+        [
+          274,
+          347
+        ],
+        [
+          363,
+          303
+        ]
+      ],
+      "visual_candidate_order": [
+        "A",
+        "D",
+        "B"
+      ],
+      "candidate_count": 5,
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": [],
+      "review_reasons": {},
+      "user_confirmed": false
+    },
+    {
+      "image": "input44.png",
+      "source_sha256": "43f91aeef20ee6e07e9304654457ef1d51aefb5a814fd8d785ec18d19bca23b5",
+      "pipeline_order": [
+        "D",
+        "E",
+        "B"
+      ],
+      "visual_target_centers": [
+        [
+          407,
+          260
+        ],
+        [
+          230,
+          303
+        ],
+        [
+          274,
+          260
+        ]
+      ],
+      "visual_candidate_order": [
+        "D",
+        "E",
+        "B"
+      ],
+      "candidate_count": 5,
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": [],
+      "review_reasons": {},
+      "user_confirmed": false
+    },
+    {
+      "image": "input45.png",
+      "source_sha256": "a378614771877a4be40a6888074d4c93ad3e8a6cae73cd6317b8d9f7ba6eec6c",
+      "pipeline_order": [
+        "D",
+        "C",
+        "B"
+      ],
+      "visual_target_centers": [
+        [
+          142,
+          216
+        ],
+        [
+          187,
+          171
+        ],
+        [
+          142,
+          171
+        ]
+      ],
+      "visual_candidate_order": [
+        "D",
+        "C",
+        "B"
+      ],
+      "candidate_count": 5,
+      "visually_consistent_positions": [
+        1,
+        2,
+        3
+      ],
+      "suspected_wrong_positions": [],
+      "confident_wrong_positions": [],
+      "review_positions": [],
+      "review_reasons": {},
+      "user_confirmed": false
+    }
+  ]
+}
