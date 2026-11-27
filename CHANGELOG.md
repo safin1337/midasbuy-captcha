@@ -2,6 +2,40 @@
 
 Dates use Asia/Dhaka time. Project release versions, matcher versions, and extension versions are tracked separately.
 
+## [v1.2.0] - 2026-11-27
+
+Feature release: independent solver extension v1.1.0; capture extension v1.0.7 and
+Format B matcher v1.1.0 are unchanged.
+
+### Added
+
+- Standalone **Midasbuy Captcha Solver** Chrome/Edge extension, with a ready-to-load
+  build, authenticated loopback Python engine, review preview and single-attempt input.
+- Format B integration selects the three proposed symbols in order and clicks OK,
+  preserving matcher uncertainty and requiring acknowledgement for uncertain proposals.
+- Format A outline detection, colored-gap fallback, X-centered coordinates, equal
+  square overlays, paired-corner measurements, DOM guidance and optional origin-clean
+  sprite silhouettes with transparent-padding handling and grouped gap hypotheses.
+- Smooth three-stage held drag: 20%, half the measured remainder, then final correction.
+  Live DOM measurements update scale; a nine-second watchdog requests release before
+  the ten-second target. Local browser tests measure about 2.3 seconds per drag.
+- Manual piece/gap center correction with explicit manual provenance, distinct from
+  automatic confidence. Format switching clears incompatible logs without losing setup.
+- Independent Format A/B trial folders inside the solver directory, retaining initial
+  and final images, analysis, guidance, stage/click history and terminal status.
+- Multi-monitor Python drag diagnostics, synthetic/real-image regressions, local
+  cross-origin iframe browser tests and reproducible local Playwright tooling.
+
+### Preservation and limits
+
+- Data extractor source, settings and bundled build remain unchanged. Format B's
+  existing localization defect and runtime review flags are not claimed fixed.
+- Generated trial data, engine jobs, browser profiles, pairing codes, dependency
+  folders and temporary development snapshots are excluded from Git.
+- No claim of universal recognition or live provider acceptance. Protected sprites
+  fall back to image outlines; ambiguous cases still require review or manual points.
+- See [release validation and setup](docs/releases/v1.2.0.md).
+
 ## [v1.1.3] - 2026-11-23
 
 Data and documentation release. Matcher v1.1.0 and capture extension v1.0.7 are unchanged.

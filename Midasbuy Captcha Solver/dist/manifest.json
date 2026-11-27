@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Midasbuy Captcha Solver",
+  "version": "1.1.0",
+  "description": "Analyze Format A/B puzzles with a local Python engine, review proposals, and perform one solve attempt.",
+  "minimum_chrome_version": "125",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "debugger"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1/*"
+  ],
+  "action": {
+    "default_title": "Midasbuy Captcha Solver"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

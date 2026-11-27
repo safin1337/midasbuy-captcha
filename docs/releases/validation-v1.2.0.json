@@ -1,0 +1,97 @@
+{
+  "release": "v1.2.0",
+  "date": "2026-11-27",
+  "timezone": "Asia/Dhaka",
+  "components": {
+    "solver_extension": "1.1.0",
+    "capture_extension": "1.0.7",
+    "format_b_matcher": "1.1.0"
+  },
+  "unit_tests": {
+    "format_a": 26,
+    "engine_and_trials": 10,
+    "solver_node": 12,
+    "capture_node": 15,
+    "total": 63
+  },
+  "checks": {
+    "solver_build": "passed",
+    "solver_typecheck": "passed",
+    "solver_nested_frame_browser": "passed",
+    "solver_visual_390_1440_1728": "passed",
+    "capture_ten_image_browser": "passed",
+    "format_b_contour_regression": "passed",
+    "format_b_input19_regression": "passed",
+    "format_b_legacy_detector_regression": "passed",
+    "format_b_anchor_original_moved_scaled": "passed",
+    "staged_whitespace": "passed",
+    "staged_secret_pattern_scan": "no findings",
+    "unchanged_capture_and_format_b_source": "verified"
+  },
+  "browser_fixture_scope": "Local nested cross-origin iframe input/control tests; detector results known or recorded. Not live provider verification.",
+  "privacy": {
+    "generated_trials_excluded": true,
+    "browser_profiles_excluded": true,
+    "pairing_codes_excluded": true,
+    "secret_pattern_scan": "no findings"
+  },
+  "limits": [
+    "Live provider acceptance unverified",
+    "Format A may require review/manual centers",
+    "Known Format B input46 localization defect retained",
+    "Watchdogs cannot guarantee input delivery to frozen browsers"
+  ],
+  "artifacts": {
+    "dist/manifest.json": "9d14b277734f37adba567f2faca5ffb16a03326b2d973936ed2e79e561f2e236",
+    "dist/index.html": "8945fd6df4a11c7798d894fb2655e62dfb24b74833e3a30cbfcb0f4d3c544337",
+    "dist/background.js": "fe92dfa4169ae459f6cbbb2bd2dec16c26d37473631d5ec30b3e6270d426f1c5",
+    "package-lock.json": "112c90feef73203879d96ce4ff00cc3e9f024e5a9ccc44d415b67c391872397b"
+  },
+  "solver_browser_report": {
+    "pass": true,
+    "nestedCrossOrigin": true,
+    "dpr": 1.25,
+    "formatBClicks": [
+      {
+        "x": 315,
+        "y": 124,
+        "trusted": true
+      },
+      {
+        "x": 139,
+        "y": 301,
+        "trusted": true
+      },
+      {
+        "x": 357,
+        "y": 171,
+        "trusted": true
+      },
+      {
+        "x": 420,
+        "y": 429,
+        "trusted": true
+      }
+    ],
+    "slider": {
+      "piece": 180,
+      "active": false,
+      "events": [
+        {
+          "type": "down",
+          "trusted": true,
+          "time": 6023.29999999993
+        },
+        {
+          "type": "up",
+          "trusted": true,
+          "time": 8341.29999999993
+        }
+      ]
+    },
+    "trial": "trial25",
+    "stopReleased": true,
+    "closeReleased": true,
+    "scope": "Local fixtures; not provider verification"
+  }
+}

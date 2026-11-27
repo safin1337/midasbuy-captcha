@@ -8,3 +8,6 @@ captcha-data-extraction/evidence/
 .env
 .env.*
 !.env.example
+Midasbuy Captcha Solver/Format_A/trial/trial*/
+Midasbuy Captcha Solver/Format_B/trial/trial*/
+experiments/extension_solver_v1/

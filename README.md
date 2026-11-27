@@ -1,16 +1,23 @@
 # Midasbuy CAPTCHA tools
 
-Local screenshot collection and image analysis for two CAPTCHA formats. The project includes a Chrome / Edge capture extension, a click-in-order symbol matcher, reviewed development images, and diagnostics.
+Local screenshot collection, image analysis and reviewed single-attempt browser solving for two CAPTCHA formats. Capture and solving use separate Chrome / Edge extensions.
 
-**Project release: v1.1.3** · [Changelog](CHANGELOG.md) · [GitHub releases](https://github.com/safin1337/midasbuy-captcha/releases)
+**Project release: v1.2.0** · [Changelog](CHANGELOG.md) · [GitHub releases](https://github.com/safin1337/midasbuy-captcha/releases)
 
 | Component | Current state |
 | --- | --- |
-| Capture extension | v1.0.7; ready-to-load build in `captcha-data-extraction/dist` |
+| Capture extension | v1.0.7, unchanged; `captcha-data-extraction/dist` |
+| Solver extension | Separate **Midasbuy Captcha Solver** v1.1.0; `Midasbuy Captcha Solver/dist` |
 | Format B matcher | v1.1.0; five-candidate localization and three selections in prompt order |
-| Format A | Slider screenshots and examples; no slider detector implemented |
+| Format A | Experimental outline detector and three-stage drag with live DOM position feedback; trial logging |
 
-Project and component versions are separate. v1.1.3 includes capture extension v1.0.7 and matcher v1.1.0.
+Project and component versions are separate. v1.2.0 adds solver extension v1.1.0;
+capture extension v1.0.7 and Format B matcher v1.1.0 remain unchanged.
+
+See [solver setup](<Midasbuy Captcha Solver/README.md>) and the
+[v1.2.0 release notes](docs/releases/v1.2.0.md).
+Saved-image and local browser-control checks pass. Live provider acceptance remains
+unverified, and Format A's initial image recognition remains experimental.
 
 ## Format B example
 
@@ -95,7 +102,7 @@ The user confirmed **63/63 ordered target proposals across 21 captures** (20 uni
 
 **Known localization defect:** input46 selects the correct A -> C -> E targets, but candidate D is background texture and the gray document on the left is missed. The [RCA](Format_B/diagnostics/review_44_46/input46_rca.md) includes ranking evidence and improvement criteria. The defect is documented, not fixed in v1.1.3.
 
-These are reviewed saved proposals, not independent production accuracy or website-verified outcomes. This release retains matcher v1.1.0 and extension v1.0.7; it adds no live submission, retry policy, or threshold changes. User confirmation of examples does not automatically clear runtime uncertainty flags.
+These are reviewed saved proposals, not independent production accuracy or website-verified outcomes. The earlier v1.1.3 release retained matcher v1.1.0 and capture extension v1.0.7 without adding submission, retries, or threshold changes. The separate solver introduced in v1.2.0 is described above. User confirmation of examples does not automatically clear runtime uncertainty flags.
 
 ## Validation and limits
 
@@ -103,7 +110,7 @@ These are reviewed saved proposals, not independent production accuracy or websi
 - Extension v1.0.7 passed 15 unit tests, a ten-image local Chromium run with a cross-origin iframe and 125% display scale, folder persistence and direct-save checks, and rendering checks at 390, 460, 1440, and 1728 pixels.
 - The native folder-selection dialog and live Midasbuy compatibility remain unverified. Browser integration uses local fixtures and a stubbed picker with real directory handles.
 - Recognition scores are uncalibrated. Pixel stability cannot distinguish a valid challenge from a provider error graphic. Inspect the preview and review flags.
-- Analysis does not move the mouse or submit CAPTCHA answers. The extension clicks only the marked reload point and saves screenshots.
+- Offline analysis does not send input. The separate solver extension's explicit **Solve once** action sends the proposed clicks and OK for Format B, or one held three-stage drag for Format A. Capture runs still only reload and save screenshots.
 
 Detailed evidence: [matcher validation](Format_B/diagnostics/v1.1.0-validation.json) and [extension verification](captcha-data-extraction/VALIDATION.md).
 
@@ -133,6 +140,8 @@ The optional `tests/browser.cjs`, `tests/visual.cjs`, and root `inspect-midasbuy
 ```text
 Format_A/                 Slider samples and collection data
 Format_B/                 Symbol matcher, datasets, examples, and diagnostics
+Midasbuy Captcha Solver/   Independent solver extension, local engine, and trials
+docs/releases/            Release notes and validation
 captcha-data-extraction/   Extension source, tests, and loadable dist build
 experiments/              Development experiments and comparison results
 inspection/               Browser-inspection evidence
